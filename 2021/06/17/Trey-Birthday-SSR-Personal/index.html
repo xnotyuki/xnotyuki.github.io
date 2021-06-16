@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <meta name="keywords" content="hexo, autumn" />
+    <title>
+        yuki translates
+    </title>
+    <!-- favicon -->
+    
+    <link rel="icon" href="https://cdn.jsdelivr.net/gh/frontendsophie/hexo-theme-autumn@1.0.0/source/img/favicon.ico" />
+     
+<link rel="stylesheet" href="/css/style.css">
+
+
+    <!-- highlight -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/highlight.js/9.12.0/styles/github-gist.min.css" />
+    <script src="//cdn.bootcss.com/highlight.js/9.2.0/highlight.min.js"></script>
+    <script>
+        hljs.initHighlightingOnLoad()
+    </script>
+    <script src="https://cdn.jsdelivr.net/gh/frontendsophie/hexo-infinite-scroll@2.0.0/dist/main.js"></script>
+
+    <script>
+        infiniteScroll()
+
+        window.addEventListener('DOMContentLoaded', function () {
+            const [
+                mainTitle,
+                mobileMenu,
+                mobileMainTitle,
+                mobileMenuBtn,
+                ipadMenuBtn,
+                aside,
+                closeBtn,
+            ] = getEle(
+                '#main-title',
+                '.mobile-menu',
+                '.mobile-menu h3',
+                '.mobile-menu button',
+                '.ipad-menu',
+                'aside',
+                'aside .close',
+            )
+            const io = new IntersectionObserver(entries => {
+                if (entries[0].intersectionRatio <= 0) {
+                    mobileMainTitle.classList.remove('invisibile')
+                } else {
+                    mobileMainTitle.classList.add('invisibile')
+                }
+            })
+            io.observe(mainTitle)
+
+            clickToggleAside(mobileMenuBtn)
+            clickToggleAside(ipadMenuBtn)
+            clickToggleAside(closeBtn, false)
+
+            const isMenuVisible = window.getComputedStyle(mobileMenu).display !== 'none'
+            if (isMenuVisible) document.body.style.background = 'none'
+
+            function getEle(...args) {
+                return args.map(arg => document.querySelector(arg))
+            }
+
+            function clickToggleAside(btn, show = true) {
+                btn.addEventListener('click', function () {
+                    if (show) {
+                        aside.style.display = 'block'
+                    } else {
+                        aside.style.display = 'none'
+                    }
+                })
+            }
+        })
+    </script>
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+<body style="background: url(https://cdn.jsdelivr.net/gh/frontendsophie/hexo-theme-autumn@1.0.0/source/img/button-bg.png) #f3f3f3">
+    <div class="container">
+        <header class="header">
+    <nav class="mobile-menu" style="background: url(https://cdn.jsdelivr.net/gh/frontendsophie/hexo-theme-autumn@1.0.0/source/img/button-bg.png) #f3f3f3">
+        <h3 class="invisibile">
+            <a href="/" class="logo">
+                yuki translates
+            </a>
+        </h3>
+        <button class="menu">menu</button>
+    </nav>
+
+    <button class="ipad-menu menu">menu</button>
+
+    <h1 class="title" id="main-title">
+        <a href="/" class="logo">
+            yuki translates
+        </a>
+    </h1>
+    <h2 class="desc">
+        
+    </h2>
+
+    <div class="links">
+        <ul>
+            
+            <li>
+                <a target="_blank" rel="noopener" href="https://github.com/FrontendSophie">
+                    Github
+                </a>
+            </li>
+            
+            <li>
+                <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/frontendsophie/">
+                    LinkedIn
+                </a>
+            </li>
+            
+        </ul>
+    </div>
+</header>
+        <main class="main">
+            <article class="post">
+    
+    
+    <h4 class="post-cat">
+        <a href="/categories/Twisted-Wonderland/">
+            Twisted Wonderland
+        </a>
+    </h4>
+    
+    <h4 class="post-cat">
+        <a href="/categories/Twisted-Wonderland/Trey-Clover/">
+            Trey Clover
+        </a>
+    </h4>
+    
+    <h4 class="post-cat">
+        <a href="/categories/Twisted-Wonderland/Personal-Story/">
+            Personal Story
+        </a>
+    </h4>
+    
+    
+    <h2 class="post-title">
+        Trey Birthday SSR Personal
+    </h2>
+    <ul class="post-date">
+        <li>
+            2021-06-17
+        </li>
+        <li>
+            
+        </li>
+    </ul>
+    <div class="post-content">
+        <p>MC (Yuu)’s lines are italicised<br>Proofread by Kazy and Dani</p>
+<p><u>Part 1</u></p>
+
+
+<span id="more"></span>
+
+<p><b>NRC School Newsletter<br>Special Edition: Birthday Boy Interview<br>Trey</b></p>
+<p>Happy Birthday</p>
+<p>Trey: Oh, Yuu. Did you come all this way to celebrate? Thank you.</p>
+<p>Since it’s your birthday, how do you feel today?</p>
+<p>T: It’s the same as usual. I told them that they didn’t have to throw a huge party like this for the third year in a row, and yet…</p>
+<p>T: Once again, it became quite the lively birthday party.</p>
+<p>T: I’m sure there are some who only see this as an opportunity to mess around</p>
+<p>T: But well, I’m still grateful that they came by to celebrate regardless. I’ll try to have fun.</p>
+<p>Is there anything in particular that you would like?</p>
+<p>T: Are you getting something for me? In that case…</p>
+<p>T: I want 10,000 Madol per 100 grams worth of high-grade vanilla beans.</p>
+<p>S-so expensive…<br>I will think it over…</p>
+<p>T: Hahaha. I was just kidding.</p>
+<p>T: I was asked the same question by the rest of the dorm about a month ago.</p>
+<p>T: I answered them like I did just now but… I didn’t expect them to take it so seriously.</p>
+<p>How exactly did you answer them?</p>
+<p>T: For Cater, I told him to “Make the Unbirthday cakes in my place for half a year!”</p>
+<p>T: For Deuce, I asked him to “Grow the ingredients I need for making sweets in the botanical gardens for me.”</p>
+<p>T: As for Ace, “Help me to maintain my broom for Flying classes.” And finally for Riddle, I said that “I want concise revision notes for my next test.”</p>
+<p>T: …I pretty much answered them like that.</p>
+<p>How did everyone respond?</p>
+<p>T: Some protested, others were shocked, but eventually everyone simply nodded and said they “Got it”.</p>
+<p>T: I didn’t think they would take what I said to them so seriously.</p>
+<p>In other words… Everything you told them was simply made in jest?</p>
+<p>T: Well, of course. Why would it not be? I did tell them I was just joking, afterall.</p>
+<p><u>Part 2</u></p>
+<p>Aside from making sweets, are you good at cooking meals as well?</p>
+<p>T: Yeah, during times when my parents were busy tending to the cake shop, I would often be in charge of making dinner.</p>
+<p>T: I would try making a variety of different dishes so that we wouldn’t grow bored of eating the same few meals everyday. Thanks to that, I can pretty much cook anything I want.</p>
+<p>What would you say is your signature dish?</p>
+<p>T: Hm… It would probably be hamburg steak. My younger siblings would ask for it a lot, so I’d end up making it pretty regularly.</p>
+<p>T: My hamburg steak is pretty delicious, if I do say so myself.</p>
+<p>T: To bring out the best flavour, you can’t beat using Walrus brand oyster sauce as a secret ingredient, and…</p>
+<p>…You know you can’t fool me with that lie anymore, right?</p>
+<p>T: Haha! Sure, it may certainly have been a joke when we were making mont blanc, but it’s different this time.</p>
+<p>T: Oyster sauce is well known for being a seasoning to give meat dishes a richer flavour.</p>
+<p>T: Plus, adding an egg, sunny side up with a runny yolk on top is a Clover family specialty. If you mix the piping hot gravy together with the yolk…</p>
+<p>T: …Now, try to imagine it.</p>
+<p>Gulp…</p>
+<p>T: …You look like you’re starving. Okay, okay. I’ll make some for you too next time.</p>
+<p>By the way, have you ever failed at cooking?</p>
+<p>T: Of course I have. While I may have some talent at making sweets, I’m relatively bad in other areas of cooking.</p>
+<p>T: But thankfully for me, even if the end product comes out inedible, the rest of the dorm will still eat it without complaint.</p>
+<p>But, why?</p>
+<p>T: Fufu… Have you forgotten what my Unique Magic can do?</p>
+<p>Wait, don’t tell me, you used ‘Doodle Suit’ to change the flavour?</p>
+<p>T: I’m kidding, of course I wouldn’t do something like that… most of the time.</p>
+<p><u>Part 3</u></p>
+<p>What is your favourite food?</p>
+<p>T: It’s Candied Violets.</p>
+<p>How did you find out that you liked them?</p>
+<p>T: If I remember correctly, the first time I tried them was before I entered elementary school.</p>
+<p>T: I probably grew so attached to them because I was impressed that edible flowers existed.</p>
+<p>T: From that point onwards, I would try to eat any wild flowers I could find growing by the roadside. I can only imagine the amount of trouble I must have caused my parents.</p>
+<p>T: Although I personally can’t recall all that much…</p>
+<p>The Candied Violets must have been that good.</p>
+<p>T: Definitely. I liked the flavour a lot, but that’s not all…</p>
+<p>T: When I ate them, it would feel like I was lying in a field of flowers. I also really enjoyed how the floral taste of the violets would spread throughout my mouth.</p>
+<p>T: I would get so lost in their flavour, there were times where I would overeat because I’d lose track of how many I had eaten.</p>
+<p>T: Especially since my family stocked a lot of Candied Violets to use as cake ingredients,</p>
+<p>T: I would get scolded by my parents constantly because I’d often eat them between meals.</p>
+<p>T: However, despite all that, I never stopped eating them. So in the end, they’d set aside some Candied Violets for me to eat, if I recall correctly.</p>
+<p>T: Even now, my parents still occasionally send some over to me, so I often snack on them when taking a break from studying.</p>
+<p>T: By the way, did you know? There are other ways that Candied Violets can be used apart from as a snack. I’d personally recommend adding them to hot milk in place of sugar.</p>
+<p>T: If you do, the colour of the violets will mix in with the milk, turning its colour to a light blue. Isn’t that interesting?</p>
+<p>Is there any food that you dislike, then?</p>
+<p>T: Ah… that’d be Mustard.</p>
+<p>T: When we were little, to test our luck, Che’nya and I would set things up so that out of five cream puffs, one would be filled with mustard. Then, we would eat one of the five puffs.</p>
+<p>T: I’m sure you can imagine how things turned out. Of course, I ended up picking the one with mustard.</p>
+<p>T: There wasn’t even any water nearby, and Che’nya just laughed out loud…</p>
+<p>T: I was pretty much at the point of tears by the end of the whole ordeal.</p>
+<p>T: But hey, let’s not talk about such bitter memories anymore, since it’s my birthday and all.</p>
+<p>Thank you very much for letting me listen to your stories.</p>
+<p>Once again, I wish you a happy birthday.</p>
+
+    </div>
+</article>
+        </main>
+        <aside class="aside">
+            <div class="close"></div>
+            <section class="aside-section">
+                
+    <h1>Categories</h1>
+
+    <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Twisted-Wonderland/">Twisted Wonderland</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Twisted-Wonderland/Personal-Story/">Personal Story</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Twisted-Wonderland/Trey-Clover/">Trey Clover</a></li></ul></li></ul>
+
+            </section>
+            <section class="aside-section">
+                
+    <h1>Archives</h1>
+
+    <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/">2021</a></li></ul>
+
+
+            </section>
+            <section class="aside-section tag">
+                
+    <h1>Tags</h1>
+
+    <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/personal-story/" rel="tag">personal story</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/proofread/" rel="tag">proofread</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/ssr/" rel="tag">ssr</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/translation/" rel="tag">translation</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/trey-clover/" rel="tag">trey clover</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/twisted-wonderland/" rel="tag">twisted wonderland</a></li></ul>
+
+            </section>
+        </aside>
+    </div>
+</body>
+
+</html>
