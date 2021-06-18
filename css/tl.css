@@ -1,0 +1,245 @@
+/* Bubble background base is f7f1e4. Color based off the character's image  color's HUE */
+
+.name {
+  position: relative;
+  left: 5px;
+  top: 22px;
+  text-transform: uppercase;
+  font-size: 90%;
+  font-weight: bold;
+}
+
+.thought {
+  color: #3939a7;
+}
+
+.bubble > p {
+  margin-top: .55em;
+  margin-bottom: 0;
+}
+
+span.b {
+  display : inline-block;
+}
+
+.icon {
+  display: inline-block;
+  width: 95px;
+  height: 95px;
+  float: left;
+  clear: left;
+  margin: 0 !important;
+  border-radius: 50%;
+  background-image: var(--icon);
+  background-size: cover;
+}
+
+.arrow {
+  width: 0;
+  height: 0;
+  float: left;
+  margin: 67px 0 0 2px;
+  border-top: 10px solid transparent;
+  border-right: 25px solid var(--color, #f1f1f1);
+  border-bottom: 15px solid transparent;
+}
+
+.bubble {
+  margin-left: 120px;
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  background: var(--color, #f1f1f1);
+}
+
+.bubble:nth-of-type(n+4) {
+  margin-top: 5px;
+}
+
+.bubble:last-of-type {
+  margin-bottom: 25px;
+}
+
+@media (max-width: 650px) {
+  .icon {
+    width: 55px !important;
+    height: 55px !important;
+  }
+
+  .arrow {
+    border-top: 8px solid transparent !important;
+    border-bottom: 8px solid transparent !important;
+    border-right: 15px solid var(--color, #f1f1f1) !important;
+    margin: 30px 0 0 2px !important;
+  }
+
+  .bubble {
+    padding: .75em !important;
+    margin-left: 70px !important;
+  }
+
+  .bubble:last-of-type {
+    margin-bottom: 15px !important;
+  }
+}
+
+/* GENERAL UNKNOWN CHARACTER PORTRAIT */
+
+.mc {
+  --color: #bdbdbd;
+  --icon: url("/icons/common/mcdialogue.png");
+}
+
+/* TREY - BIRTHDAY */
+
+.trey-bd-1 {
+  --color: #98c99e;
+  --icon: url("/icons/trey birthday/treyface1.png");
+}
+
+.trey-bd-2 {
+  --color: #98c99e;
+  --icon: url("/icons/trey birthday/treyface2.png");
+}
+
+.trey-bd-3 {
+  --color: #98c99e;
+  --icon: url("/icons/trey birthday/treyface3.png");
+}
+
+.trey-bd-4 {
+  --color: #98c99e;
+  --icon: url("/icons/trey birthday/treyface4.png");
+}
+
+.trey-bd-5 {
+  --color: #98c99e;
+  --icon: url("/icons/trey birthday/treyface5.png");
+}
+
+.trey-bd-6 {
+  --color: #98c99e;
+  --icon: url("/icons/trey birthday/treyface6.png");
+}
+
+.trey-bd-7 {
+  --color: #98c99e;
+  --icon: url("/icons/trey birthday/treyface7.png");
+}
+
+.trey-bd-8 {
+  --color: #98c99e;
+  --icon: url("/icons/trey birthday/treyface8.png");
+}
+
+.trey-bd-9 {
+  --color: #98c99e;
+  --icon: url("/icons/trey birthday/treyface9.png");
+}
+
+/* RUI - WINTER UNIFORM */
+
+.rui-winter-8 {
+  --color: #dbc7e7;
+  --icon: url("/icons/common/ruiface8.png");
+}
+
+/* TSUKASA - WINTER UNIFORM */
+
+.tsukasa-winter-3 {
+  --color: #fff9e7;
+  --icon: url("/icons/common/tsukasaface3.png");
+}
+
+.hokuto {
+  --color: #e4eff7;
+  --icon: url("/tl/img/icon/enst/hokuto.png");
+}
+
+.mika {
+  --color: #e4f7f7;
+  --icon: url("/tl/img/icon/enst/mika.png");
+}
+
+.nazuna {
+  --color: #f7f5e4;
+  --icon: url("/tl/img/icon/enst/nazuna.png");
+}
+
+.nazuna_a {
+  --icon: url("/tl/img/icon/enst/nazuna_a.png");
+}
+
+.nazuna_b {
+  --color: #f7f5e4;
+  --icon: url("/tl/img/icon/enst/nazuna_b.png");
+}
+
+.hajime {
+  --color: #eee4f7;
+  --icon: url("/tl/img/icon/enst/hajime.png");
+}
+
+.mitsuru {
+  --color: #f7e9e4;
+  --icon: url("/tl/img/icon/enst/mitsuru.png");
+}
+
+.mayoi {
+  --color: #f2e4f7;
+  --icon: url("/tl/img/icon/enst/mayoi.png");
+}
+
+.mayoi_a {
+  --icon: url("/tl/img/icon/enst/mayoi_a.png");
+}
+
+.mayoi_b {
+  --color: #f2e4f7;
+  --icon: url("/tl/img/icon/enst/mayoi_b.png");
+}
+
+.shinobu {
+  --color: #f7f5e4;
+  --icon: url("/tl/img/icon/enst/shinobu.png");
+}
+
+.arashi {
+  --color: #f7f5e4;
+  --icon: url("/tl/img/icon/enst/arashi.png");
+}
+
+.keito {
+  --color: #e4f7eb;
+  --icon: url("/tl/img/icon/enst/keito.png");
+}
+
+.koga {
+  --color: #edf0f0;
+  --icon: url("/tl/img/icon/enst/koga.png");
+}
+
+.subaru {
+  --color: #f7efe4;
+  --icon: url("/tl/img/icon/enst/subaru.png");
+}
+
+.kanata {
+  --color: #e4f3f7;
+  --icon: url("/tl/img/icon/enst/kanata.png");
+}
+
+.izumi {
+  --color: #e4eff7;
+  --icon: url("/tl/img/icon/enst/izumi.png");
+}
+
+.kaoru {
+  --color: #f7f2e4;
+  --icon: url("/tl/img/icon/enst/kaoru.png");
+}
+
+.souma {
+  --color: #e4e4f7;
+  --icon: url("/tl/img/icon/enst/souma.png");
+}
