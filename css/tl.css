@@ -90,7 +90,7 @@ span.b {
   --icon: url("/icons/common/mcdialogue.png");
 }
 
-/* NENE - WONDERHOI */
+/* NENEROBO */
 
 .nenerobo-day {
   --color: #d6ddd8;
@@ -101,6 +101,52 @@ span.b {
   --color: #d6ddd8;
   --icon: url("/icons/common/prsk dusk/nenerobo.png");
 }
+
+/* CROWLEY */
+
+.crowley-1 {
+  --color: #e7e5ec;
+  --icon: url("/icons/common/twst/crow1.png");
+}
+
+.crowley-2 {
+  --color: #e7e5ec;
+  --icon: url("/icons/common/twst/crow2.png");
+}
+
+.crowley-3 {
+  --color: #e7e5ec;
+  --icon: url("/icons/common/twst/crow3.png");
+}
+
+.crowley-4 {
+  --color: #e7e5ec;
+  --icon: url("/icons/common/twst/crow4.png");
+}
+
+.crowley-5 {
+  --color: #e7e5ec;
+  --icon: url("/icons/common/twst/crow5.png");
+}
+
+.crowley-6 {
+  --color: #e7e5ec;
+  --icon: url("/icons/common/twst/crow6.png");
+}
+
+.crowley-7 {
+  --color: #e7e5ec;
+  --icon: url("/icons/common/twst/crow7.png");
+}
+
+/* GHOSTS */
+
+.ghost-chef {
+  --color: #e7e5ec;
+  --icon: url("/icons/master chef spicy/ghost1.png");
+}
+
+/************ TWST -> PRSK **************/
 
 /* TREY - BIRTHDAY */
 
@@ -147,6 +193,52 @@ span.b {
 .trey-bd-9 {
   --color: #98c99e;
   --icon: url("/icons/trey birthday/treyface9.png");
+}
+
+/* TREY - CHEF UNIFORM */
+
+.trey-chef-general {
+  --color: #98c99e;
+  --icon: url("/icons/master chef spicy/treygeneral.png");
+}
+
+.trey-chef-1 {
+  --color: #98c99e;
+  --icon: url("/icons/master chef spicy/treyface1.png");
+}
+
+.trey-chef-2 {
+  --color: #98c99e;
+  --icon: url("/icons/master chef spicy/treyface2.png");
+}
+
+/* KALIM - CHEF UNIFORM */
+
+.kalim-chef-general {
+  --color: #f5e1c7;
+  --icon: url("/icons/master chef spicy/kalimgeneral.png");
+}
+
+.kalim-chef-1 {
+  --color: #f5e1c7;
+  --icon: url("/icons/master chef spicy/kalimface1.png");
+}
+
+.kalim-chef-2 {
+  --color: #f5e1c7;
+  --icon: url("/icons/master chef spicy/kalimface2.png");
+}
+
+.kalim-chef-3 {
+  --color: #f5e1c7;
+  --icon: url("/icons/master chef spicy/kalimface3.png");
+}
+
+/* TREY & KALIM - CHEF UNIFORM */
+
+.treykalim-chef-general {
+  --color: #e5e6b0;
+  --icon: url("/icons/master chef spicy/kalimtreygeneral.png");
 }
 
 /* RUI - WINTER UNIFORM */
@@ -199,11 +291,6 @@ span.b {
 .emu-unit-day-1 {
   --color: #fce0fa;
   --icon: url("/icons/common/prsk day/emuunitface1.png");
-}
-
-.hajime {
-  --color: #eee4f7;
-  --icon: url("/tl/img/icon/enst/hajime.png");
 }
 
 .mitsuru {
