@@ -212,6 +212,16 @@ span.b {
   --icon: url("/icons/master chef spicy/treyface2.png");
 }
 
+.trey-chef-3 {
+  --color: #98c99e;
+  --icon: url("/icons/master chef spicy/treyface3.png");
+}
+
+.trey-chef-4 {
+  --color: #98c99e;
+  --icon: url("/icons/master chef spicy/treyface4.png");
+}
+
 /* KALIM - CHEF UNIFORM */
 
 .kalim-chef-general {
@@ -232,6 +242,16 @@ span.b {
 .kalim-chef-3 {
   --color: #f5e1c7;
   --icon: url("/icons/master chef spicy/kalimface3.png");
+}
+
+.kalim-chef-4 {
+  --color: #f5e1c7;
+  --icon: url("/icons/master chef spicy/kalimface4.png");
+}
+
+.kalim-chef-5 {
+  --color: #f5e1c7;
+  --icon: url("/icons/master chef spicy/kalimface5.png");
 }
 
 /* TREY & KALIM - CHEF UNIFORM */
