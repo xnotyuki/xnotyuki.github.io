@@ -85,10 +85,17 @@ span.b {
 
 /* GENERAL UNKNOWN CHARACTER PORTRAIT */
 
+/* e.g. mobs, unknown character, no image character*/
 .mc {
   --color: #bdbdbd;
   --icon: url("/icons/common/mcdialogue.png");
 }
+
+/* e.g. off screen character dialogue*/
+.voice {
+  --icon: url("/icons/common/mcdialogue.png");
+}
+
 
 /* NENEROBO */
 
@@ -146,233 +153,275 @@ span.b {
   --icon: url("/icons/master chef spicy/ghost1.png");
 }
 
-/************ TWST -> PRSK **************/
+/***** NAMED CHARACTER CLASSES *****/
+
+.trey {
+  --color: #b2dfb7;
+}
+
+.kalim {
+  --color: #f5e1c7;
+}
+
+.treykalim {
+  --color: #e5e6b0;
+}
+
+.rin {
+  --color: #fff4d4;
+}
+
+.rui {
+  --color: #dbc7e7;
+}
+
+.tsukasa {
+  --color: #fff9e7;
+}
+
+.emu {
+  --color: #fce0fa;
+}
+
+.nene {
+  --color: #d6ebd9;
+}
+
+.ichika {
+  --color: #bbdaf7;
+}
+
+.honami {
+  --color: #f5c9c9;
+}
+
+.saki {
+  --color: #ffe8c6;
+}
+
+.shiho {
+  --color: #bfffd1;
+}
+
+.ichikasaki {
+  --color: #b7fcf8;
+}
+
+.leoneed {
+  --color: #dad5eb;
+}
+
+
+/************ OUTFIT SUBCLASSES (TWST -> PRSK) **************/
 
 /* TREY - BIRTHDAY */
 
-.trey-bd-1 {
-  --color: #98c99e;
+.trey.bd-1 {
   --icon: url("/icons/trey birthday/treyface1.png");
 }
 
-.trey-bd-2 {
-  --color: #98c99e;
+.trey.bd-2 {
   --icon: url("/icons/trey birthday/treyface2.png");
 }
 
-.trey-bd-3 {
-  --color: #98c99e;
+.trey.bd-3 {
   --icon: url("/icons/trey birthday/treyface3.png");
 }
 
-.trey-bd-4 {
-  --color: #98c99e;
+.trey.bd-4 {
   --icon: url("/icons/trey birthday/treyface4.png");
 }
 
-.trey-bd-5 {
-  --color: #98c99e;
+.trey.bd-5 {
   --icon: url("/icons/trey birthday/treyface5.png");
 }
 
-.trey-bd-6 {
-  --color: #98c99e;
+.trey.bd-6 {
   --icon: url("/icons/trey birthday/treyface6.png");
 }
 
-.trey-bd-7 {
-  --color: #98c99e;
+.trey.bd-7 {
   --icon: url("/icons/trey birthday/treyface7.png");
 }
 
-.trey-bd-8 {
-  --color: #98c99e;
+.trey.bd-8 {
   --icon: url("/icons/trey birthday/treyface8.png");
 }
 
-.trey-bd-9 {
-  --color: #98c99e;
+.trey.bd-9 {
   --icon: url("/icons/trey birthday/treyface9.png");
 }
 
 /* TREY - CHEF UNIFORM */
 
-.trey-chef-general {
-  --color: #98c99e;
+.trey.chef-general {
   --icon: url("/icons/master chef spicy/treygeneral.png");
 }
 
-.trey-chef-1 {
-  --color: #98c99e;
+.trey.chef-1 {
   --icon: url("/icons/master chef spicy/treyface1.png");
 }
 
-.trey-chef-2 {
-  --color: #98c99e;
+.trey.chef-2 {
   --icon: url("/icons/master chef spicy/treyface2.png");
 }
 
-.trey-chef-3 {
-  --color: #98c99e;
+.trey.chef-3 {
   --icon: url("/icons/master chef spicy/treyface3.png");
 }
 
-.trey-chef-4 {
-  --color: #98c99e;
+.trey.chef-4 {
   --icon: url("/icons/master chef spicy/treyface4.png");
 }
 
 /* KALIM - CHEF UNIFORM */
 
-.kalim-chef-general {
-  --color: #f5e1c7;
+.kalim.chef-general {
   --icon: url("/icons/master chef spicy/kalimgeneral.png");
 }
 
-.kalim-chef-1 {
-  --color: #f5e1c7;
+.kalim.chef-1 {
   --icon: url("/icons/master chef spicy/kalimface1.png");
 }
 
-.kalim-chef-2 {
-  --color: #f5e1c7;
+.kalim.chef-2 {
   --icon: url("/icons/master chef spicy/kalimface2.png");
 }
 
-.kalim-chef-3 {
-  --color: #f5e1c7;
+.kalim.chef-3 {
   --icon: url("/icons/master chef spicy/kalimface3.png");
 }
 
-.kalim-chef-4 {
-  --color: #f5e1c7;
+.kalim.chef-4 {
   --icon: url("/icons/master chef spicy/kalimface4.png");
 }
 
-.kalim-chef-5 {
-  --color: #f5e1c7;
+.kalim.chef-5 {
   --icon: url("/icons/master chef spicy/kalimface5.png");
 }
 
 /* TREY & KALIM - CHEF UNIFORM */
 
-.treykalim-chef-general {
-  --color: #e5e6b0;
+.treykalim.chef-general {
   --icon: url("/icons/master chef spicy/kalimtreygeneral.png");
 }
 
 /* RUI - WINTER UNIFORM */
 
-.rui-winter-day-8 {
-  --color: #dbc7e7;
+.rui.winter-day-8 {
   --icon: url("/icons/common/prsk day/ruiface8.png");
 }
 
-.rui-winter-dusk-1 {
-  --color: #dbc7e7;
+.rui.winter-dusk-1 {
   --icon: url("/icons/common/prsk dusk/ruiface1.png");
 }
 
 /* RUI - WONDERHOI */
 
-.rui-unit-day-1 {
-  --color: #dbc7e7;
+.rui.unit-day-1 {
   --icon: url("/icons/common/prsk day/ruiunitface1.png");
+}
+
+/* RUI - CASUAL */
+
+.rui.casual-day-1 {
+  --icon: url("/icons/common/prsk day/ruicasualface1.png");
 }
 
 /* TSUKASA - WINTER UNIFORM */
 
-.tsukasa-winter-day-3 {
-  --color: #fff9e7;
+.tsukasa.winter-day-3 {
   --icon: url("/icons/common/prsk day/tsukasaface3.png");
+}
+
+.tsukasa.winter-dusk-1 {
+  --icon: url("/icons/common/prsk dusk/tsukasaface1.png");
+}
+
+/* TSUKASA - CASUAL */
+
+.tsukasa.casual-day-1 {
+  --icon: url("/icons/common/prsk day/tsukasacasualface1.png");
 }
 
 /* TSUKASA - WONDERHOI */
 
-.tsukasa-unit-day-1 {
-  --color: #fff9e7;
+.tsukasa.unit-day-1 {
   --icon: url("/icons/common/prsk day/tsukasaunitface1.png");
 }
 
 /* NENE - WONDERHOI */
 
-.nene-unit-day-1 {
-  --color: #d6ebd9;
+.nene.unit-day-1 {
   --icon: url("/icons/common/prsk day/neneunitface1.png");
 }
 
-.nene-unit-dusk-1 {
-  --color: #d6ebd9;
+.nene.unit-dusk-1 {
   --icon: url("/icons/common/prsk dusk/neneunitface1.png");
+}
+
+/* NENE - WINTER UNIFORM */
+
+.nene.winter-dusk-1 {
+  --icon: url("/icons/common/prsk dusk/neneface1.png");
+}
+
+/* NENE - CASUAL */
+
+.nene.casual-day-1 {
+  --icon: url("/icons/common/prsk day/nenecasualface1.png");
 }
 
 /* EMU - WONDERHOI */
 
-.emu-unit-day-1 {
-  --color: #fce0fa;
+.emu.unit-day-1 {
   --icon: url("/icons/common/prsk day/emuunitface1.png");
 }
 
-.mitsuru {
-  --color: #f7e9e4;
-  --icon: url("/tl/img/icon/enst/mitsuru.png");
+/* EMU - CASUAL */
+
+.emu.casual-day-1 {
+  --icon: url("/icons/common/prsk day/emucasualface1.png");
 }
 
-.mayoi {
-  --color: #f2e4f7;
-  --icon: url("/tl/img/icon/enst/mayoi.png");
+/* EMU - WINTER UNIFORM */
+
+.emu.winter-dusk-1 {
+  --icon: url("/icons/common/prsk dusk/emuface1.png");
 }
 
-.mayoi_a {
-  --icon: url("/tl/img/icon/enst/mayoi_a.png");
+/* HONAMI - CASUAL */
+
+.honami.casual-day-1 {
+  --icon: url("/icons/common/prsk day/honamicasualface1.png");
 }
 
-.mayoi_b {
-  --color: #f2e4f7;
-  --icon: url("/tl/img/icon/enst/mayoi_b.png");
+/* ICHIKA - CASUAL */
+
+.ichika.casual-day-1 {
+  --icon: url("/icons/common/prsk day/ichikacasualface1.png");
 }
 
-.shinobu {
-  --color: #f7f5e4;
-  --icon: url("/tl/img/icon/enst/shinobu.png");
+/* SAKI - CASUAL */
+
+.saki.casual-day-1 {
+  --icon: url("/icons/common/prsk day/sakicasualface1.png");
 }
 
-.arashi {
-  --color: #f7f5e4;
-  --icon: url("/tl/img/icon/enst/arashi.png");
+/* SHIHO - CASUAL */
+
+.shiho.casual-day-1 {
+  --icon: url("/icons/common/prsk day/shihocasualface1.png");
 }
 
-.keito {
-  --color: #e4f7eb;
-  --icon: url("/tl/img/icon/enst/keito.png");
+/* ICHIKA & SAKI - CASUAL */
+
+.ichikasaki.casual-day-1 {
+  --icon: url("/icons/common/prsk day/ichikasakicasualface.png");
 }
 
-.koga {
-  --color: #edf0f0;
-  --icon: url("/tl/img/icon/enst/koga.png");
-}
+/* LEO/NEED - CASUAL */
 
-.subaru {
-  --color: #f7efe4;
-  --icon: url("/tl/img/icon/enst/subaru.png");
-}
-
-.kanata {
-  --color: #e4f3f7;
-  --icon: url("/tl/img/icon/enst/kanata.png");
-}
-
-.izumi {
-  --color: #e4eff7;
-  --icon: url("/tl/img/icon/enst/izumi.png");
-}
-
-.kaoru {
-  --color: #f7f2e4;
-  --icon: url("/tl/img/icon/enst/kaoru.png");
-}
-
-.souma {
-  --color: #e4e4f7;
-  --icon: url("/tl/img/icon/enst/souma.png");
+.leoneed.casual-day-1 {
+  --icon: url("/icons/common/prsk day/leoneedcasual.png");
 }
