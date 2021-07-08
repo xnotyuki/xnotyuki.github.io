@@ -163,6 +163,10 @@ span.b {
   --color: #f5e1c7;
 }
 
+.leona {
+  --color: #f5edc9;
+}
+
 .treykalim {
   --color: #e5e6b0;
 }
@@ -272,6 +276,28 @@ span.b {
 
 .trey.chef-4 {
   --icon: url("/icons/master chef spicy/treyface4.png");
+}
+
+/* LEONA - OUTDOOR */
+
+.leona.outdoor-general {
+  --icon: url("/icons/outdoor/leonafacegeneral.png");
+}
+
+.leona.outdoor-1 {
+  --icon: url("/icons/outdoor/leonaface1.png");
+}
+
+.leona.outdoor-2 {
+  --icon: url("/icons/outdoor/leonaface2.png");
+}
+
+.leona.outdoor-3 {
+  --icon: url("/icons/outdoor/leonaface3.png");
+}
+
+.leona.outdoor-4 {
+  --icon: url("/icons/outdoor/leonaface4.png");
 }
 
 /* KALIM - CHEF UNIFORM */
