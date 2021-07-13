@@ -109,6 +109,14 @@ span.b {
   --icon: url("/icons/common/prsk dusk/nenerobo.png");
 }
 
+/* KIGURUMI */
+
+.mascot-day {
+  --color: #f3d2c5;
+  --icon: url("/icons/common/prsk day/kigurumi.png");
+}
+
+
 /* CROWLEY */
 
 .crowley-1 {
