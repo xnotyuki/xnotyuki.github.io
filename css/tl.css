@@ -167,6 +167,14 @@ span.b {
   --color: #f5edc9;
 }
 
+.ruggie {
+  --color: #eed8b0;
+}
+
+.floyd {
+  --color: #c1fff5;
+}
+
 .treykalim {
   --color: #e5e6b0;
 }
@@ -298,6 +306,50 @@ span.b {
 
 .leona.outdoor-4 {
   --icon: url("/icons/outdoor/leonaface4.png");
+}
+
+/* RUGGIE - OUTDOOR */
+
+.ruggie.outdoor-general {
+  --icon: url("/icons/outdoor/ruggiegeneral.png");
+}
+
+.ruggie.outdoor-1 {
+  --icon: url("/icons/outdoor/ruggieface1.png");
+}
+
+.ruggie.outdoor-2 {
+  --icon: url("/icons/outdoor/ruggieface2.png");
+}
+
+.ruggie.outdoor-3 {
+  --icon: url("/icons/outdoor/ruggieface3.png");
+}
+
+.ruggie.outdoor-4 {
+  --icon: url("/icons/outdoor/ruggieface4.png");
+}
+
+.ruggie.outdoor-5 {
+  --icon: url("/icons/outdoor/ruggieface5.png");
+}
+
+.ruggie.outdoor-6 {
+  --icon: url("/icons/outdoor/ruggieface6.png");
+}
+
+.ruggie.outdoor-7 {
+  --icon: url("/icons/outdoor/ruggieface7.png");
+}
+
+.ruggie.outdoor-8 {
+  --icon: url("/icons/outdoor/ruggieface8.png");
+}
+
+/* FLOYD - OUTDOOR */
+
+.floyd.outdoor-general {
+  --icon: url("/icons/outdoor/floydgeneral.png");
 }
 
 /* KALIM - CHEF UNIFORM */
