@@ -60,7 +60,7 @@ span.b {
   margin-bottom: 25px;
 }
 
-@media (max-width: 650px) {
+@media only screen and (max-device-width: 650px) {
   .icon {
     width: 55px !important;
     height: 55px !important;
@@ -76,7 +76,7 @@ span.b {
   .bubble {
     padding: .75em !important;
     margin-left: 70px !important;
-    margin-top: 20px !important;
+    margin-top: 0px !important;
   }
 
   .bubble:last-of-type {
