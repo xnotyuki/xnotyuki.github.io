@@ -168,8 +168,16 @@ span.b {
   --color: #b2dfb7;
 }
 
+.jamil {
+  --color: #eec4a8;
+}
+
 .kalim {
   --color: #f5e1c7;
+}
+
+.silver {
+  --color: #d5e4e6;
 }
 
 .leona {
@@ -235,7 +243,7 @@ span.b {
 
 /************ OUTFIT SUBCLASSES (TWST -> PRSK) **************/
 
-/* TREY - BIRTHDAY */
+/* TREY - BIRTHDAY SUIT UP */
 
 .trey.bd-1 {
   --icon: url("/icons/trey birthday/treyface1.png");
@@ -392,6 +400,75 @@ span.b {
 .treykalim.chef-general {
   --icon: url("/icons/master chef spicy/kalimtreygeneral.png");
 }
+
+/* JAMIL - BIRTHDAY SUIT UP */
+
+.jamil.bd-1 {
+  --icon: url("/icons/jamil birthday/jamilface1.png");
+}
+
+.jamil.bd-2 {
+  --icon: url("/icons/jamil birthday/jamilface2.png");
+}
+
+.jamil.bd-3 {
+  --icon: url("/icons/jamil birthday/jamilface3.png");
+}
+
+.jamil.bd-4 {
+  --icon: url("/icons/jamil birthday/jamilface4.png");
+}
+
+.jamil.bd-5 {
+  --icon: url("/icons/jamil birthday/jamilface5.png");
+}
+
+.jamil.bd-6 {
+  --icon: url("/icons/jamil birthday/jamilface6.png");
+}
+
+.jamil.bd-7 {
+  --icon: url("/icons/jamil birthday/jamilface7.png");
+}
+
+.jamil.bd-8 {
+  --icon: url("/icons/jamil birthday/jamilface8.png");
+}
+
+/* SILVER - BIRTHDAY SUIT UP */
+
+.silver.bd-1 {
+  --icon: url("/icons/silver birthday/silver1.png");
+}
+
+.silver.bd-2 {
+  --icon: url("/icons/silver birthday/silver2.png");
+}
+
+.silver.bd-3 {
+  --icon: url("/icons/silver birthday/silver3.png");
+}
+
+.silver.bd-4 {
+  --icon: url("/icons/silver birthday/silver4.png");
+}
+
+.silver.bd-5 {
+  --icon: url("/icons/silver birthday/silver5.png");
+}
+
+.silver.bd-6 {
+  --icon: url("/icons/silver birthday/silver6.png");
+}
+
+.silver.bd-7 {
+  --icon: url("/icons/silver birthday/silver7.png");
+}
+
+.silver.bd-8 {
+  --icon: url("/icons/silver birthday/silver8.png");
+}
+
 
 /* RUI - WINTER UNIFORM */
 
