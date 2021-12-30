@@ -14,8 +14,8 @@
 }
 
 .bubble > p {
-  margin-top: .55em;
-  margin-bottom: 0;
+  margin-top: .4em;
+  margin-bottom: .4em;
 }
 
 span.b {
@@ -53,7 +53,7 @@ span.b {
 }
 
 .bubble:nth-of-type(n+4) {
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 .bubble:last-of-type {
@@ -86,86 +86,57 @@ span.b {
 
 /* GENERAL UNKNOWN CHARACTER PORTRAIT */
 
-/* e.g. mobs, unknown character, no image character*/
+/* e.g. unknown character, no image character*/
 .mc {
   --color: #bdbdbd;
   --icon: url("/icons/common/mcdialogue.png");
 }
 
-/* e.g. off screen character dialogue*/
-.voice {
-  --icon: url("/icons/common/mcdialogue.png");
-}
-
-
 /* NENEROBO */
 
-.nenerobo-day {
+.nenerobo {
   --color: #d6ddd8;
-  --icon: url("/icons/common/prsk day/nenerobo.png");
+  --icon: url("/icons/common/prsk/nenerobo.png");
 }
 
-.nenerobo-dusk {
-  --color: #d6ddd8;
-  --icon: url("/icons/common/prsk dusk/nenerobo.png");
-}
 
 /* KIGURUMI */
 
-.mascot-day {
+.mascot {
   --color: #f3d2c5;
-  --icon: url("/icons/common/prsk day/kigurumi.png");
+  --icon: url("/icons/common/prsk/kigurumi.png");
 }
 
-
-/* CROWLEY */
-
-.crowley-1 {
-  --color: #e7e5ec;
-  --icon: url("/icons/common/twst/crow1.png");
-}
-
-.crowley-2 {
-  --color: #e7e5ec;
-  --icon: url("/icons/common/twst/crow2.png");
-}
-
-.crowley-3 {
-  --color: #e7e5ec;
-  --icon: url("/icons/common/twst/crow3.png");
-}
-
-.crowley-4 {
-  --color: #e7e5ec;
-  --icon: url("/icons/common/twst/crow4.png");
-}
-
-.crowley-5 {
-  --color: #e7e5ec;
-  --icon: url("/icons/common/twst/crow5.png");
-}
-
-.crowley-6 {
-  --color: #e7e5ec;
-  --icon: url("/icons/common/twst/crow6.png");
-}
-
-.crowley-7 {
-  --color: #e7e5ec;
-  --icon: url("/icons/common/twst/crow7.png");
-}
-
-/* GHOSTS */
-
-.ghost-chef {
-  --color: #e7e5ec;
-  --icon: url("/icons/master chef spicy/ghost1.png");
-}
 
 /***** NAMED CHARACTER CLASSES *****/
 
+
+.ghost {
+  --color: #e7e5ec;
+}
+
+.crowley {
+  --color: #e7e5ec;
+}
+
 .trey {
   --color: #b2dfb7;
+}
+
+.sebek {
+  --color: #ddf1d2;
+}
+
+.malleus {
+  --color: #bbd8c1;
+}
+
+.lilia {
+  --color: #dfabd6;
+}
+
+.riddle {
+  --color: #eca1ab;
 }
 
 .jamil {
@@ -202,86 +173,133 @@ span.b {
 
 .rui {
   --color: #dbc7e7;
+  --icon: url("/icons/common/prsk/rui.png");
 }
 
 .tsukasa {
   --color: #fff9e7;
+  --icon: url("/icons/common/prsk/tsukasa.png");
 }
 
 .emu {
   --color: #fce0fa;
+  --icon: url("/icons/common/prsk/emu.png");
 }
 
 .nene {
   --color: #d6ebd9;
+  --icon: url("/icons/common/prsk/nene.png");
 }
 
 .ichika {
   --color: #bbdaf7;
+  --icon: url("/icons/common/prsk/ichika.png");
 }
 
 .honami {
   --color: #f5c9c9;
+  --icon: url("/icons/common/prsk/honami.png");
 }
 
 .saki {
   --color: #ffe8c6;
+  --icon: url("/icons/common/prsk/saki.png");
 }
 
 .shiho {
   --color: #bfffd1;
+  --icon: url("/icons/common/prsk/shiho.png");
 }
 
 .ichikasaki {
   --color: #b7fcf8;
+  --icon: url("/icons/common/prsk/ichikasaki.png");
 }
 
 .leoneed {
   --color: #dad5eb;
+  --icon: url("/icons/common/prsk/leoneed.png");
 }
 
 
 /************ OUTFIT SUBCLASSES (TWST -> PRSK) **************/
 
-/* TREY - BIRTHDAY SUIT UP */
+/* GHOSTS */
+
+.ghost.chef {
+  --icon: url("/icons/master chef spicy/ghost1.png");
+}
+
+/* CROWLEY */
+
+.crowley.principal-1 {
+  --icon: url("/icons/common/twst/crow1.png");
+}
+
+.crowley.principal-2 {
+  --icon: url("/icons/common/twst/crow2.png");
+}
+
+.crowley.principal-3 {
+  --icon: url("/icons/common/twst/crow3.png");
+}
+
+.crowley.principal-4 {
+  --icon: url("/icons/common/twst/crow4.png");
+}
+
+.crowley.principal-5 {
+  --icon: url("/icons/common/twst/crow5.png");
+}
+
+.crowley.principal-6 {
+  --icon: url("/icons/common/twst/crow6.png");
+}
+
+.crowley.principal-7 {
+  --icon: url("/icons/common/twst/crow7.png");
+}
+
+/* TREY */
+
+/* birthday suit up */
 
 .trey.bd-1 {
-  --icon: url("/icons/trey birthday/treyface1.png");
+  --icon: url("/icons/birthday suit up/treyface1.png");
 }
 
 .trey.bd-2 {
-  --icon: url("/icons/trey birthday/treyface2.png");
+  --icon: url("/icons/birthday suit up/treyface2.png");
 }
 
 .trey.bd-3 {
-  --icon: url("/icons/trey birthday/treyface3.png");
+  --icon: url("/icons/birthday suit up/treyface3.png");
 }
 
 .trey.bd-4 {
-  --icon: url("/icons/trey birthday/treyface4.png");
+  --icon: url("/icons/birthday suit up/treyface4.png");
 }
 
 .trey.bd-5 {
-  --icon: url("/icons/trey birthday/treyface5.png");
+  --icon: url("/icons/birthday suit up/treyface5.png");
 }
 
 .trey.bd-6 {
-  --icon: url("/icons/trey birthday/treyface6.png");
+  --icon: url("/icons/birthday suit up/treyface6.png");
 }
 
 .trey.bd-7 {
-  --icon: url("/icons/trey birthday/treyface7.png");
+  --icon: url("/icons/birthday suit up/treyface7.png");
 }
 
 .trey.bd-8 {
-  --icon: url("/icons/trey birthday/treyface8.png");
+  --icon: url("/icons/birthday suit up/treyface8.png");
 }
 
 .trey.bd-9 {
-  --icon: url("/icons/trey birthday/treyface9.png");
+  --icon: url("/icons/birthday suit up/treyface9.png");
 }
 
-/* TREY - CHEF UNIFORM */
 
 .trey.chef-general {
   --icon: url("/icons/master chef spicy/treygeneral.png");
@@ -303,7 +321,42 @@ span.b {
   --icon: url("/icons/master chef spicy/treyface4.png");
 }
 
-/* LEONA - OUTDOOR */
+/* LILIA - SCHOOL */
+
+.lilia.school-general {
+  --icon: url("/icons/common/twst/school/liliageneral.png");
+}
+
+/* MALLEUS - SCHOOL */
+
+.malleus.school-general {
+  --icon: url("/icons/common/twst/school/malleusgeneral.png");
+}
+
+/* SEBEK */
+
+.sebek.school-general {
+  --icon: url("/icons/common/twst/school/sebekgeneral.png");
+}
+
+
+.sebek.outdoor-general {
+  --icon: url("/icons/outdoor/sebekgeneral.png");
+}
+
+
+/* RIDDLE - GYM */
+
+.riddle.gym-general {
+  --icon: url("/icons/common/twst/gym/riddlegeneral.png");
+}
+
+/* LEONA */
+
+.leona.school-general {
+  --icon: url("/icons/common/twst/school/leonageneral.png");
+}
+
 
 .leona.outdoor-general {
   --icon: url("/icons/outdoor/leonafacegeneral.png");
@@ -369,7 +422,27 @@ span.b {
   --icon: url("/icons/outdoor/floydgeneral.png");
 }
 
-/* KALIM - CHEF UNIFORM */
+
+/* KALIM */
+
+/* birthday suit up */
+
+.kalim.bd-general {
+  --icon: url("/icons/birthday suit up/kalimgeneral.png");
+}
+
+.kalim.bd-1 {
+  --icon: url("/icons/birthday suit up/kalimface1.png");
+}
+
+.kalim.bd-2 {
+  --icon: url("/icons/birthday suit up/kalimface2.png");
+}
+
+.kalim.bd-3 {
+  --icon: url("/icons/birthday suit up/kalimface3.png");
+}
+
 
 .kalim.chef-general {
   --icon: url("/icons/master chef spicy/kalimgeneral.png");
@@ -401,191 +474,92 @@ span.b {
   --icon: url("/icons/master chef spicy/kalimtreygeneral.png");
 }
 
-/* JAMIL - BIRTHDAY SUIT UP */
+/* JAMIL -
+
+BIRTHDAY SUIT UP */
 
 .jamil.bd-1 {
-  --icon: url("/icons/jamil birthday/jamilface1.png");
+  --icon: url("/icons/birthday suit up/jamilface1.png");
 }
 
 .jamil.bd-2 {
-  --icon: url("/icons/jamil birthday/jamilface2.png");
+  --icon: url("/icons/birthday suit up/jamilface2.png");
 }
 
 .jamil.bd-3 {
-  --icon: url("/icons/jamil birthday/jamilface3.png");
+  --icon: url("/icons/birthday suit up/jamilface3.png");
 }
 
 .jamil.bd-4 {
-  --icon: url("/icons/jamil birthday/jamilface4.png");
+  --icon: url("/icons/birthday suit up/jamilface4.png");
 }
 
 .jamil.bd-5 {
-  --icon: url("/icons/jamil birthday/jamilface5.png");
+  --icon: url("/icons/birthday suit up/jamilface5.png");
 }
 
 .jamil.bd-6 {
-  --icon: url("/icons/jamil birthday/jamilface6.png");
+  --icon: url("/icons/birthday suit up/jamilface6.png");
 }
 
 .jamil.bd-7 {
-  --icon: url("/icons/jamil birthday/jamilface7.png");
+  --icon: url("/icons/birthday suit up/jamilface7.png");
 }
 
 .jamil.bd-8 {
-  --icon: url("/icons/jamil birthday/jamilface8.png");
+  --icon: url("/icons/birthday suit up/jamilface8.png");
 }
 
-/* SILVER - BIRTHDAY SUIT UP */
+/* SILVER */
+
+.silver.gym-general {
+  --icon: url("/icons/common/twst/gym/silvergeneral.png");
+}
+
+.silver.school-general {
+  --icon: url("/icons/common/twst/school/silvergeneral.png");
+}
+
+/* birthday suit up  */
+
+.silver.bd-general {
+  --icon: url("/icons/birthday suit up/silvergeneral.png");
+}
 
 .silver.bd-1 {
-  --icon: url("/icons/silver birthday/silver1.png");
+  --icon: url("/icons/birthday suit up/silver1.png");
 }
 
 .silver.bd-2 {
-  --icon: url("/icons/silver birthday/silver2.png");
+  --icon: url("/icons/birthday suit up/silver2.png");
 }
 
 .silver.bd-3 {
-  --icon: url("/icons/silver birthday/silver3.png");
+  --icon: url("/icons/birthday suit up/silver3.png");
 }
 
 .silver.bd-4 {
-  --icon: url("/icons/silver birthday/silver4.png");
+  --icon: url("/icons/birthday suit up/silver4.png");
 }
 
 .silver.bd-5 {
-  --icon: url("/icons/silver birthday/silver5.png");
+  --icon: url("/icons/birthday suit up/silver5.png");
 }
 
 .silver.bd-6 {
-  --icon: url("/icons/silver birthday/silver6.png");
+  --icon: url("/icons/birthday suit up/silver6.png");
 }
 
 .silver.bd-7 {
-  --icon: url("/icons/silver birthday/silver7.png");
+  --icon: url("/icons/birthday suit up/silver7.png");
 }
 
 .silver.bd-8 {
-  --icon: url("/icons/silver birthday/silver8.png");
+  --icon: url("/icons/birthday suit up/silver8.png");
 }
 
+/* VIRTUAL SINGER VARIATIONS */
 
-/* RUI - WINTER UNIFORM */
-
-.rui.winter-day-8 {
-  --icon: url("/icons/common/prsk day/ruiface8.png");
-}
-
-.rui.winter-dusk-1 {
-  --icon: url("/icons/common/prsk dusk/ruiface1.png");
-}
-
-/* RUI - WONDERHOI */
-
-.rui.unit-day-1 {
-  --icon: url("/icons/common/prsk day/ruiunitface1.png");
-}
-
-/* RUI - CASUAL */
-
-.rui.casual-day-1 {
-  --icon: url("/icons/common/prsk day/ruicasualface1.png");
-}
-
-/* TSUKASA - WINTER UNIFORM */
-
-.tsukasa.winter-day-3 {
-  --icon: url("/icons/common/prsk day/tsukasaface3.png");
-}
-
-.tsukasa.winter-dusk-1 {
-  --icon: url("/icons/common/prsk dusk/tsukasaface1.png");
-}
-
-/* TSUKASA - CASUAL */
-
-.tsukasa.casual-day-1 {
-  --icon: url("/icons/common/prsk day/tsukasacasualface1.png");
-}
-
-/* TSUKASA - WONDERHOI */
-
-.tsukasa.unit-day-1 {
-  --icon: url("/icons/common/prsk day/tsukasaunitface1.png");
-}
-
-/* NENE - WONDERHOI */
-
-.nene.unit-day-1 {
-  --icon: url("/icons/common/prsk day/neneunitface1.png");
-}
-
-.nene.unit-dusk-1 {
-  --icon: url("/icons/common/prsk dusk/neneunitface1.png");
-}
-
-/* NENE - WINTER UNIFORM */
-
-.nene.winter-dusk-1 {
-  --icon: url("/icons/common/prsk dusk/neneface1.png");
-}
-
-/* NENE - CASUAL */
-
-.nene.casual-day-1 {
-  --icon: url("/icons/common/prsk day/nenecasualface1.png");
-}
-
-/* EMU - WONDERHOI */
-
-.emu.unit-day-1 {
-  --icon: url("/icons/common/prsk day/emuunitface1.png");
-}
-
-/* EMU - CASUAL */
-
-.emu.casual-day-1 {
-  --icon: url("/icons/common/prsk day/emucasualface1.png");
-}
-
-/* EMU - WINTER UNIFORM */
-
-.emu.winter-dusk-1 {
-  --icon: url("/icons/common/prsk dusk/emuface1.png");
-}
-
-/* HONAMI - CASUAL */
-
-.honami.casual-day-1 {
-  --icon: url("/icons/common/prsk day/honamicasualface1.png");
-}
-
-/* ICHIKA - CASUAL */
-
-.ichika.casual-day-1 {
-  --icon: url("/icons/common/prsk day/ichikacasualface1.png");
-}
-
-/* SAKI - CASUAL */
-
-.saki.casual-day-1 {
-  --icon: url("/icons/common/prsk day/sakicasualface1.png");
-}
-
-/* SHIHO - CASUAL */
-
-.shiho.casual-day-1 {
-  --icon: url("/icons/common/prsk day/shihocasualface1.png");
-}
-
-/* ICHIKA & SAKI - CASUAL */
-
-.ichikasaki.casual-day-1 {
-  --icon: url("/icons/common/prsk day/ichikasakicasualface.png");
-}
-
-/* LEO/NEED - CASUAL */
-
-.leoneed.casual-day-1 {
-  --icon: url("/icons/common/prsk day/leoneedcasual.png");
+.rin.wonderhoi {
+  --icon: url("/icons/common/prsk/rin1.png");
 }
