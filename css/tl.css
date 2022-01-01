@@ -175,8 +175,16 @@ span.b {
   --color: #fff4d4;
 }
 
+.riliane {
+  --icon: url("/icons/common/prsk/riliane.png");
+}
+
 .len {
   --color: #ffe9d4;
+}
+
+.allen {
+  --icon: url("/icons/common/prsk/allen.png");
 }
 
 .kaito {
