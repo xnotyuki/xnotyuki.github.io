@@ -96,6 +96,11 @@ span.b {
   --icon: url("/icons/common/mcdialogue.png");
 }
 
+/* i need to like. explain this to myself better*/
+.voice {
+  --icon: url("/icons/common/mcdialogue.png");
+}
+
 .nenerobo {
   --color: #d6ddd8;
   --icon: url("/icons/common/prsk/nenerobo.png");
@@ -172,6 +177,10 @@ span.b {
 
 .kaito {
   --color: #bdd6f3;
+}
+
+.meiko {
+  --color: #f3bcb5;
 }
 
 .rui {
@@ -569,4 +578,16 @@ BIRTHDAY SUIT UP */
 
 .kaito.gallerian {
   --icon: url("/icons/common/prsk/gallerian.png");
+}
+
+.meiko.banica {
+  --icon: url("/icons/common/prsk/banica.png");
+}
+
+.meiko.banica-glow {
+  --icon: url("/icons/common/prsk/banica2.png");
+}
+
+.meiko.banica-eats {
+  --icon: url("/icons/common/prsk/banica3.png");
 }
