@@ -175,8 +175,20 @@ span.b {
   --color: #fff4d4;
 }
 
+.len {
+  --color: #ffe9d4;
+}
+
 .kaito {
   --color: #bdd6f3;
+}
+
+.luka {
+  --color: #eed9f0;
+}
+
+.miku {
+  --color: #c0f3e2;
 }
 
 .meiko {
@@ -590,4 +602,8 @@ BIRTHDAY SUIT UP */
 
 .meiko.banica-eats {
   --icon: url("/icons/common/prsk/banica3.png");
+}
+
+.luka.kayo {
+  --icon: url("/icons/common/prsk/kayo.png");
 }
