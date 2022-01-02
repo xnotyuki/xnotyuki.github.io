@@ -220,7 +220,6 @@ span.b {
 
 .nene {
   --color: #d6ebd9;
-  --icon: url("/icons/common/prsk/nene.png");
 }
 
 .ichika {
@@ -590,6 +589,12 @@ BIRTHDAY SUIT UP */
   --icon: url("/icons/birthday suit up/silver8.png");
 }
 
+/* GG WANDAHOI */
+
+.nene.wonderhoi {
+--icon: url("/icons/common/prsk/nene.png");
+}
+
 /* VIRTUAL SINGER VARIATIONS */
 
 .rin.wonderhoi {
@@ -615,3 +620,4 @@ BIRTHDAY SUIT UP */
 .luka.kayo {
   --icon: url("/icons/common/prsk/kayo.png");
 }
+
