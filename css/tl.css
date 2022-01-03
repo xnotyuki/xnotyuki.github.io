@@ -88,12 +88,22 @@ span.b {
   }
 
   .buttons {
-    padding: 10px 10px;
+    padding: 5px 5px;
     text-align: center;
     margin: auto;
     cursor: pointer;
     width: 49%;
-    transition-duration: 0.5s
+    transition-duration: 0.5s;
+  }
+
+  .negabutton {
+    padding: 5px 5px;
+    text-align: center;
+    margin: auto;
+    width: 49%;
+    transition-duration: 0.5s;
+    cursor: not-allowed;
+    pointer-events: none;
   }
 }
 
@@ -103,12 +113,21 @@ span.b {
   margin-bottom: 15px;
   cursor: pointer;
   width: 49%;
-  transition-duration: 0.5s
+  transition-duration: 0.5s;
+}
+
+.negabutton {
+  padding: 20px 20px;
+  text-align: center;
+  margin-bottom: 15px;
+  width: 49%;
+  transition-duration: 0.5s;
+  pointer-events: none;
 }
 
 .buttons:hover {
   background-color: #b8b8b8;
-  color: #000000
+  color: #000000;
 }
 
 .highlight {
