@@ -70,7 +70,7 @@ span.b {
     border-top: 3px solid transparent !important;
     border-bottom: 8px solid transparent !important;
     border-right: 15px solid var(--color, #f1f1f1) !important;
-    margin: 50px 0 0 2px !important;
+    margin: 52px 0 0 2px !important;
   }
 
   .bubble {
@@ -204,7 +204,7 @@ span.b {
 }
 
 .jamil {
-  --color: #eec4a8;
+  --color: #e7bcb9;
 }
 
 .kalim {
@@ -225,6 +225,10 @@ span.b {
 
 .floyd {
   --color: #c1fff5;
+}
+
+.cater {
+  --color: #ffd7bd;
 }
 
 .treykalim {
@@ -349,6 +353,12 @@ span.b {
 
 .crowley.principal-7 {
   --icon: url("/icons/common/twst/crow7.png");
+}
+
+/* CATER */
+
+.cater.school-general {
+  --icon: url("/icons/common/twst/school/catergeneral.png");
 }
 
 /* TREY */
