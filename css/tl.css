@@ -100,7 +100,7 @@ span.b {
 .buttons {
   padding: 20px 20px;
   text-align: center;
-  margin: auto;
+  margin-bottom: 15px;
   cursor: pointer;
   width: 49%;
   transition-duration: 0.5s
@@ -140,6 +140,11 @@ span.b {
 .nenerobo {
   --color: #d6ddd8;
   --icon: url("/icons/common/prsk/nenerobo.png");
+}
+
+.grim {
+  --color: #bdbdbd;
+  --icon: url("/icons/common/twst/grim.png");
 }
 
 .mascot {
@@ -492,6 +497,10 @@ span.b {
 
 /* KALIM */
 
+.kalim.school-general {
+  --icon: url("/icons/common/twst/school/kalimgeneral.png");
+}
+
 /* birthday suit up */
 
 .kalim.bd-general {
@@ -541,9 +550,14 @@ span.b {
   --icon: url("/icons/master chef spicy/kalimtreygeneral.png");
 }
 
-/* JAMIL -
+/* JAMIL */
 
-BIRTHDAY SUIT UP */
+.jamil.school-general {
+  --icon: url("/icons/common/twst/school/jamilgeneral.png");
+}
+
+
+/* BIRTHDAY SUIT UP */
 
 .jamil.bd-1 {
   --icon: url("/icons/birthday suit up/jamilface1.png");
