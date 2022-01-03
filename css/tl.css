@@ -86,7 +86,43 @@ span.b {
   .bubble:last-of-type {
     margin-bottom: 15px !important;
   }
+
+  .buttons {
+    padding: 10px 10px;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+    width: 49%;
+    transition-duration: 0.5s
+  }
 }
+
+.buttons {
+  padding: 20px 20px;
+  text-align: center;
+  margin: auto;
+  cursor: pointer;
+  width: 49%;
+  transition-duration: 0.5s
+}
+
+.buttons:hover {
+  background-color: #b8b8b8;
+  color: #000000
+}
+
+.highlight {
+  background-color: #d5f3d7;
+}
+
+.tab-contents .tab {
+  display: none;
+}
+
+.tab-contents .tab.active {
+  display: block;
+}
+
 
 /* GENERAL UNKNOWN CHARACTER PORTRAIT */
 
