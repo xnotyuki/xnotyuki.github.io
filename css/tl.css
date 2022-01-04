@@ -89,7 +89,7 @@ span.b {
 
   .buttons {
     padding: 5px 5px;
-    text-align: center;
+    text-align: left;
     margin: auto;
     cursor: pointer;
     width: 49%;
@@ -98,7 +98,7 @@ span.b {
 
   .negabutton {
     padding: 5px 5px;
-    text-align: center;
+    text-align: left;
     margin: auto;
     width: 49%;
     transition-duration: 0.5s;
@@ -164,6 +164,11 @@ span.b {
 .grim {
   --color: #bdbdbd;
   --icon: url("/icons/common/twst/grim.png");
+}
+
+.caterjamilgrimtrey {
+  --color: #ffedeb;
+  --icon: url("/icons/common/twst/school/caterjamilgrimtrey.png");
 }
 
 .mascot {
