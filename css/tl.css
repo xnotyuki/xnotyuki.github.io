@@ -70,7 +70,7 @@ span.b {
     border-top: 3px solid transparent !important;
     border-bottom: 8px solid transparent !important;
     border-right: 15px solid var(--color, #f1f1f1) !important;
-    margin: 60px 0 0 2px !important;
+    margin: 45px 0 0 2px !important;
   }
 
   .bubble {
