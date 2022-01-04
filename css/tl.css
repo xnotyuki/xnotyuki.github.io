@@ -70,7 +70,7 @@ span.b {
     border-top: 3px solid transparent !important;
     border-bottom: 8px solid transparent !important;
     border-right: 15px solid var(--color, #f1f1f1) !important;
-    margin: 52px 0 0 2px !important;
+    margin: 60px 0 0 2px !important;
   }
 
   .bubble {
@@ -88,7 +88,7 @@ span.b {
   }
 
   .buttons {
-    padding: 5px 5px;
+    padding: 3px 3px;
     text-align: left;
     margin: auto;
     cursor: pointer;
@@ -97,7 +97,7 @@ span.b {
   }
 
   .negabutton {
-    padding: 5px 5px;
+    padding: 3px 3px;
     text-align: left;
     margin: auto;
     width: 49%;
