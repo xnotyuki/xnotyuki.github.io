@@ -363,6 +363,10 @@ span.b {
 
 /* TREY */
 
+.trey.school-general {
+  --icon: url("/icons/common/twst/school/treygeneral.png");
+}
+
 /* birthday suit up */
 
 .trey.bd-1 {
