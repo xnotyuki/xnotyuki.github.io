@@ -171,9 +171,19 @@ span.b {
   --icon: url("/icons/common/twst/school/caterjamilgrimtrey.png");
 }
 
+.jamilkalimtreygrimcater {
+  --color: #e4e4e4;
+  --icon: url("/icons/common/twst/school/jamilkalimtreygrimcater.png");
+}
+
 .treycatergrim {
   --color: #a4aa78;
   --icon: url("/icons/common/twst/school/treycatergrim.png");
+}
+
+.treyjamilcater {
+  --color: #d1c998;
+  --icon: url("/icons/common/twst/school/treyjamilcater.png");
 }
 
 .mascot {
@@ -205,6 +215,10 @@ span.b {
   --color: #bbd8c1;
 }
 
+.treycater {
+  --color: #bec494;
+}
+
 .lilia {
   --color: #dfabd6;
 }
@@ -219,6 +233,10 @@ span.b {
 
 .kalim {
   --color: #f5e1c7;
+}
+
+.jamilkalim {
+  --color: #eeae9e;
 }
 
 .silver {
@@ -680,6 +698,18 @@ span.b {
 
 .silver.bd-8 {
   --icon: url("/icons/birthday suit up/silver8.png");
+}
+
+/* JAMILKALIM SCHOOL */
+
+.jamilkalim.school-general {
+  --icon: url("/icons/common/twst/school/jamilkalim.png");
+}
+
+/* TREYCATER SCHOOL */
+
+.treycater.school-general {
+  --icon: url("/icons/common/twst/school/treycater.png");
 }
 
 /* GG WANDAHOI */
