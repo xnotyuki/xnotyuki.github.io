@@ -171,6 +171,11 @@ span.b {
   --icon: url("/icons/common/twst/school/caterjamilgrimtrey.png");
 }
 
+.treycatergrim {
+  --color: #a4aa78;
+  --icon: url("/icons/common/twst/school/treycatergrim.png");
+}
+
 .mascot {
   --color: #f3d2c5;
   --icon: url("/icons/common/prsk/kigurumi.png");
