@@ -177,8 +177,13 @@ span.b {
 }
 
 .treycatergrim {
-  --color: #a4aa78;
+  --color: #b8be88;
   --icon: url("/icons/common/twst/school/treycatergrim.png");
+}
+
+.treycatermalleus {
+  --color: #c3d4a3;
+  --icon: url("/icons/common/twst/school/treycatermalleus.png");
 }
 
 .treyjamilcater {
