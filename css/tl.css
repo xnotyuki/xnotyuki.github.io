@@ -183,7 +183,6 @@ span.b {
 
 .treycatermalleus {
   --color: #c3d4a3;
-  --icon: url("/icons/common/twst/school/treycatermalleus.png");
 }
 
 .treyjamilcater {
@@ -388,16 +387,34 @@ span.b {
   --icon: url("/icons/common/twst/crow7.png");
 }
 
+/* GROUPS */
+
+.treycatermalleus.school {
+  --icon: url("/icons/common/twst/school/treycatermalleus.png");
+}
+
+.treycatermalleus.silk {
+  --icon: url("/icons/silk/treycatermalleus.png");
+}
+
 /* CATER */
 
 .cater.school-general {
   --icon: url("/icons/common/twst/school/catergeneral.png");
 }
 
+.cater.silk-general {
+  --icon: url("/icons/silk/catergeneral.png");
+}
+
 /* TREY */
 
 .trey.school-general {
   --icon: url("/icons/common/twst/school/treygeneral.png");
+}
+
+.trey.silk-general {
+  --icon: url("/icons/silk/treygeneral.png");
 }
 
 /* birthday suit up */
@@ -469,6 +486,10 @@ span.b {
 
 .malleus.school-general {
   --icon: url("/icons/common/twst/school/malleusgeneral.png");
+}
+
+.malleus.silk-general {
+  --icon: url("/icons/silk/malleusgeneral.png");
 }
 
 /* SEBEK */
@@ -567,6 +588,10 @@ span.b {
   --icon: url("/icons/common/twst/school/kalimgeneral.png");
 }
 
+.kalim.dorm-general {
+  --icon: url("/icons/common/twst/dorm/kalimgeneral.png");
+}
+
 /* birthday suit up */
 
 .kalim.bd-general {
@@ -622,6 +647,9 @@ span.b {
   --icon: url("/icons/common/twst/school/jamilgeneral.png");
 }
 
+.jamil.silk-general {
+  --icon: url("/icons/silk/jamilgeneral.png");
+}
 
 /* BIRTHDAY SUIT UP */
 
