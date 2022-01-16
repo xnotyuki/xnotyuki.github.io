@@ -178,7 +178,6 @@ span.b {
 
 .treycatergrim {
   --color: #b8be88;
-  --icon: url("/icons/common/twst/school/treycatergrim.png");
 }
 
 .treycatermalleus {
@@ -395,6 +394,14 @@ span.b {
 
 .treycatermalleus.silk {
   --icon: url("/icons/silk/treycatermalleus.png");
+}
+
+.treycatergrim.school {
+  --icon: url("/icons/common/twst/school/treycatergrim.png");
+}
+
+.treycatergrim.silk {
+  --icon: url("/icons/silk/treygrimcater.png");
 }
 
 /* CATER */
