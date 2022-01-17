@@ -690,6 +690,7 @@ pre .javascript .function {
 .tabs-comment ul.nav-tabs li.tab.active a {
   color: var(--link-color);
   cursor: default;
+  font-weight: bold;
 }
 .post-body .tabs .tab-content .tab-pane,
 .tabs-comment .tab-content .tab-pane {
@@ -1171,7 +1172,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ffeba7;
+  background: #a663ff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
