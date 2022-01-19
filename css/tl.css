@@ -46,6 +46,7 @@ span.b {
 
 .bubble {
   margin-left: 115px;
+  margin-right: 8px;
   margin-bottom: 0px;
   padding: 15px;
   border-radius: 10px;
