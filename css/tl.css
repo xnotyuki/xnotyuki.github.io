@@ -191,7 +191,14 @@ span.b {
 
 .treycatergrimmalleus {
   --color: #bacf89;
+}
+
+.treycatergrimmalleus.first {
   --icon: url("/icons/silk/treycatergrimmalleus.png");
+}
+
+.treycatergrimmalleus.second {
+  --icon: url("/icons/silk/malleustreygrimcater.png");
 }
 
 .treycatermalleus {
