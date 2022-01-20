@@ -177,8 +177,21 @@ span.b {
   --icon: url("/icons/common/twst/school/jamilkalimtreygrimcater.png");
 }
 
+.najma {
+  --color: #f7c5c2;
+}
+
+.najma.yeah {
+  --icon: url("/icons/common/twst/najma.png");
+}
+
 .treycatergrim {
   --color: #b8be88;
+}
+
+.treycatergrimmalleus {
+  --color: #bacf89;
+  --icon: url("/icons/silk/treycatergrimmalleus.png");
 }
 
 .treycatermalleus {
