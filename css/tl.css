@@ -225,6 +225,10 @@ span.b {
   --icon: url("/icons/common/prsk/kigurumi.png");
 }
 
+.kalimjamiltreycater {
+  --color: #e6c798;
+  --icon: url("/icons/silk/kalimdormjamiltreycater.png");
+}
 
 /***** NAMED CHARACTER CLASSES *****/
 
@@ -781,6 +785,10 @@ span.b {
 
 .treycater.school-general {
   --icon: url("/icons/common/twst/school/treycater.png");
+}
+
+.treycater.silk-general {
+  --icon: url("/icons/silk/treycater.png");
 }
 
 /* GG WANDAHOI */
