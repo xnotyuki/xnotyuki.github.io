@@ -177,6 +177,11 @@ span.b {
   --icon: url("/icons/common/twst/school/jamilkalimtreygrimcater.png");
 }
 
+.kalimcater {
+  --color: #f3c4ae;
+  --icon: url("/icons/common/twst/kalimdormcatersilk.png");
+}
+
 .najma {
   --color: #f7c5c2;
 }
@@ -208,6 +213,11 @@ span.b {
 .treyjamilcater {
   --color: #d1c998;
   --icon: url("/icons/common/twst/school/treyjamilcater.png");
+}
+
+.treyjamil {
+  --color: #ccceb8;
+  --icon: url("/icons/silk/treyjamil.png");
 }
 
 .mascot {
