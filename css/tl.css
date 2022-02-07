@@ -167,6 +167,39 @@ span.b {
   --icon: url("/icons/common/twst/grim.png");
 }
 
+.najma {
+  --color: #f7c5c2;
+}
+
+.najma.yeah {
+  --icon: url("/icons/common/twst/najma.png");
+}
+
+.mascot {
+  --color: #f3d2c5;
+  --icon: url("/icons/common/prsk/kigurumi.png");
+}
+
+/* GROUPS - APPLE */
+
+.grimsebekjade {
+  --color: #a4e6bf;
+}
+
+/* GROUPS - SILK */
+
+.treycatergrim {
+  --color: #b8be88;
+}
+
+.treycatergrimmalleus {
+  --color: #bacf89;
+}
+
+.treycatermalleus {
+  --color: #c3d4a3;
+}
+
 .caterjamilgrimtrey {
   --color: #ffedeb;
   --icon: url("/icons/common/twst/school/caterjamilgrimtrey.png");
@@ -182,22 +215,6 @@ span.b {
   --icon: url("/icons/common/twst/kalimdormcatersilk.png");
 }
 
-.najma {
-  --color: #f7c5c2;
-}
-
-.najma.yeah {
-  --icon: url("/icons/common/twst/najma.png");
-}
-
-.treycatergrim {
-  --color: #b8be88;
-}
-
-.treycatergrimmalleus {
-  --color: #bacf89;
-}
-
 .treycatergrimmalleus.first {
   --icon: url("/icons/silk/treycatergrimmalleus.png");
 }
@@ -205,11 +222,6 @@ span.b {
 .treycatergrimmalleus.second {
   --icon: url("/icons/silk/malleustreygrimcater.png");
 }
-
-.treycatermalleus {
-  --color: #c3d4a3;
-}
-
 .treyjamilcater {
   --color: #d1c998;
   --icon: url("/icons/common/twst/school/treyjamilcater.png");
@@ -218,11 +230,6 @@ span.b {
 .treyjamil {
   --color: #ccceb8;
   --icon: url("/icons/silk/treyjamil.png");
-}
-
-.mascot {
-  --color: #f3d2c5;
-  --icon: url("/icons/common/prsk/kigurumi.png");
 }
 
 .kalimjamiltreycater {
@@ -290,7 +297,19 @@ span.b {
 }
 
 .floyd {
-  --color: #c1fff5;
+  --color: #c1edff;
+}
+
+.jade {
+  --color: #c1ffe5;
+}
+
+.epel {
+  --color: #d9e3ff;
+}
+
+.idia {
+  --color: #76e4ff;
 }
 
 .cater {
@@ -540,11 +559,47 @@ span.b {
   --icon: url("/icons/common/twst/school/sebekgeneral.png");
 }
 
+.sebek.apple-general {
+  --icon: url("/icons/apple/sebek.png");
+}
 
 .sebek.outdoor-general {
   --icon: url("/icons/outdoor/sebekgeneral.png");
 }
 
+/* JADE */
+
+.jade.apple-general {
+  --icon: url("/icons/apple/jade.png");
+}
+
+.jade.school-general {
+  --icon: url("/icons/common/twst/school/jadegeneral.png");
+}
+
+/* IDIA */
+
+.idia.apple-general {
+  --icon: url("/icons/apple/idia.png");
+}
+
+.idia.school-general {
+  --icon: url("/icons/common/twst/school/idiageneral.png");
+}
+
+.idia.tablet {
+  --icon: url("/icons/common/twst/tablet.png");
+}
+
+/* EPEL */
+
+.epel.apple-general {
+  --icon: url("/icons/apple/epel.png");
+}
+
+.epel.school-general {
+  --icon: url("/icons/common/twst/school/epelgeneral.png");
+}
 
 /* RIDDLE - GYM */
 
@@ -779,6 +834,12 @@ span.b {
 
 .jamilkalim.school-general {
   --icon: url("/icons/common/twst/school/jamilkalim.png");
+}
+
+/* GRIM SEBEK JADE SCHOOL */
+
+.grimsebekjade.school-general {
+  --icon: url("/icons/common/twst/school/grimsebekjade.png");
 }
 
 /* TREYCATER SCHOOL */
