@@ -186,6 +186,10 @@ span.b {
   --color: #a4e6bf;
 }
 
+.grimsebekjade.school {
+  --icon: url("/icons/common/twst/school/grimsebekjade.png");
+}
+
 /* GROUPS - SILK */
 
 .treycatergrim {
@@ -310,6 +314,10 @@ span.b {
 
 .idia {
   --color: #76e4ff;
+}
+
+.ortho {
+  --color: #b6faff;
 }
 
 .cater {
@@ -575,6 +583,13 @@ span.b {
 
 .jade.school-general {
   --icon: url("/icons/common/twst/school/jadegeneral.png");
+}
+
+/* ORTHO */
+
+.ortho.school-general {
+  --color: #b6faff;
+  --icon: url("/icons/common/twst/school/orthogeneral.png");
 }
 
 /* IDIA */
