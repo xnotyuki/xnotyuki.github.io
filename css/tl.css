@@ -186,6 +186,10 @@ span.b {
   --color: #a4e6bf;
 }
 
+.jadeidia {
+  --color: #bbf3e2;
+}
+
 .grimsebekjade.school {
   --icon: url("/icons/common/twst/school/grimsebekjade.png");
 }
@@ -865,6 +869,12 @@ span.b {
 
 .treycater.silk-general {
   --icon: url("/icons/silk/treycater.png");
+}
+
+/* JADEIDIA SCHOOL */
+
+.jadeidia.school-general {
+  --icon: url("/icons/common/twst/school/jadeidia.png");
 }
 
 /* GG WANDAHOI */
