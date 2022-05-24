@@ -201,6 +201,10 @@ span.b {
   --icon: url("/icons/common/twst/school/grimsebekjade.png");
 }
 
+.jadegrimidiasebek {
+  --color: #adeeeb;
+}
+
 /* GROUPS - SILK */
 
 .treycatergrim {
@@ -866,6 +870,12 @@ span.b {
 
 .grimsebekjade.school-general {
   --icon: url("/icons/common/twst/school/grimsebekjade.png");
+}
+
+/* JADE GRIM IDIA SEBEK SCHOOL */
+
+.jadegrimidiasebek.school-general {
+  --icon: url("/icons/common/twst/school/jadegrimidiasebek.png");
 }
 
 /* TREYCATER SCHOOL */
