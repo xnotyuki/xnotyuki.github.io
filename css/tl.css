@@ -196,6 +196,14 @@ span.b {
   --icon: url("/icons/common/twst/najma.png");
 }
 
+/* MARJA */
+.marja {
+  --color: #bbc9f0;
+}
+
+.marja.yeah {
+  --icon: url("/icons/common/twst/marja.png");
+}
 
 /* COLOUR GROUPS - APPLE */
 
