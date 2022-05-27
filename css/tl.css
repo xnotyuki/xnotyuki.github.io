@@ -211,6 +211,10 @@ span.b {
   --color: #a4e6bf;
 }
 
+.jadesebek {
+  --color: #b8ffd6;
+}
+
 .jadeidia {
   --color: #bbf3e2;
 }
@@ -511,6 +515,10 @@ span.b {
 
 .grimsebekjade.school-general {
   --icon: url("/icons/common/twst/school/grimsebekjade.png");
+}
+
+.jadesebek.apple {
+  --icon: url("/icons/apple/jadesebek.png");
 }
 
 .jadegrimidiasebek.school-general {
