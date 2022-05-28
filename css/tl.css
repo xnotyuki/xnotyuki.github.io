@@ -577,6 +577,10 @@ span.b {
   --icon: url("/icons/apple/idiajadesebek.png");
 }
 
+.idiajadesebek.apple2 {
+  --icon: url("/icons/apple/jadesebekidia.png");
+}
+
 /* CATER */
 
 .cater.school-general {
