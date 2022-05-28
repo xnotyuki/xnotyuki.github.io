@@ -215,6 +215,10 @@ span.b {
   --color: #b8ffd6;
 }
 
+.epelmc {
+  --color: #bcc2d3;
+}
+
 .jadeidia {
   --color: #bbf3e2;
 }
@@ -225,6 +229,10 @@ span.b {
 
 .jadeepelidiagrimsebek {
   --color: #aeddf3;
+}
+
+.jadegrimsebek {
+  --color: #ade9c6;
 }
 
 .idiajadesebek {
@@ -525,12 +533,24 @@ span.b {
   --icon: url("/icons/apple/jadesebek.png");
 }
 
+.epelmc.applechief {
+  --icon: url("/icons/apple/epelchief.png");
+}
+
+.jadegrimsebek.apple {
+  --icon: url("/icons/apple/jadegrimsebek.png");
+}
+
 .jadegrimidiasebek.school-general {
   --icon: url("/icons/common/twst/school/jadegrimidiasebek.png");
 }
 
 .jadegrimidiasebek.apple-general {
   --icon: url("/icons/apple/jadesebekgrimidia.png");
+}
+
+.jadegrimidiasebek.apple2 {
+  --icon: url("/icons/apple/idiagrimjadesebek.png");
 }
 
 .jadeepelidiagrimsebek.apple-general {
