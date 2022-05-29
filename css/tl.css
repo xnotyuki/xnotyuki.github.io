@@ -355,6 +355,34 @@ span.b {
   --color: #d9e3ff;
 }
 
+.dominic {
+  --color: #dbe0d0;
+}
+
+.hop {
+  --color: #fff4df;
+}
+
+.timmy {
+  --color: #c0d7fa;
+}
+
+.shelpy {
+  --color: #c1e7db;
+}
+
+.gran {
+  --color: #f89eb4;
+}
+
+.snick {
+  --color: #fdd2cc;
+}
+
+.toby {
+  --color: #f7cfe5;
+}
+
 .idia {
   --color: #76e4ff;
 }
@@ -547,6 +575,10 @@ span.b {
 
 .jadegrimidiasebek.apple-general {
   --icon: url("/icons/apple/jadesebekgrimidia.png");
+}
+
+.jadegrimidiasebek.apple-general-2 {
+  --icon: url("/icons/apple/grimsebekidiajade.png");
 }
 
 .jadegrimidiasebek.apple2 {
@@ -948,6 +980,36 @@ span.b {
 
 .silver.bd-8 {
   --icon: url("/icons/birthday suit up/silver8.png");
+}
+
+/* DWARVES */
+
+.dominic.harveston {
+  --icon: url("/icons/apple/dominic.png");
+}
+
+.hop.harveston {
+  --icon: url("/icons/apple/hop.png");
+}
+
+.timmy.harveston {
+  --icon: url("/icons/apple/timmy.png");
+}
+
+.shelpy.harveston {
+  --icon: url("/icons/apple/shelpy.png");
+}
+
+.gran.harveston {
+  --icon: url("/icons/apple/gran.png");
+}
+
+.snick.harveston {
+  --icon: url("/icons/apple/snick.png");
+}
+
+.toby.harveston {
+  --icon: url("/icons/apple/toby.png");
 }
 
 /* GG WANDAHOI */
