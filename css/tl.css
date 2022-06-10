@@ -215,6 +215,10 @@ span.b {
   --color: #b8ffd6;
 }
 
+.sebekepel {
+  --color: #abf3f8;
+}
+
 .epelmc {
   --color: #bcc2d3;
 }
@@ -227,8 +231,16 @@ span.b {
   --color: #adeeeb;
 }
 
+.jadegrimsebekepel {
+  --color: #abd2f1;
+}
+
 .jadeepelidiagrimsebek {
   --color: #aeddf3;
+}
+
+.sebekepelidiajade {
+  --color: #b4e7ff;
 }
 
 .jadegrimsebek {
@@ -237,6 +249,10 @@ span.b {
 
 .idiajadesebek {
   --color: #b1f8f5;
+}
+
+.idiaepelsebek {
+  --color: #b1e2f8;
 }
 
 /* COLOUR GROUPS - SILK */
@@ -381,6 +397,10 @@ span.b {
 
 .toby {
   --color: #f7cfe5;
+}
+
+.dwarves {
+  --color: #f7eecf;
 }
 
 .idia {
@@ -569,6 +589,11 @@ span.b {
   --icon: url("/icons/apple/jadegrimsebek.png");
 }
 
+.jadegrimsebekepel.apple {
+  --icon: url("/icons/apple/jadegrimsebekepel.png");
+}
+
+
 .jadegrimidiasebek.school-general {
   --icon: url("/icons/common/twst/school/jadegrimidiasebek.png");
 }
@@ -579,6 +604,10 @@ span.b {
 
 .jadegrimidiasebek.apple-general-2 {
   --icon: url("/icons/apple/grimsebekidiajade.png");
+}
+
+.jadegrimidiasebek.apple-general-3 {
+  --icon: url("/icons/apple/idiajadesebekgrim.png");
 }
 
 .jadegrimidiasebek.apple2 {
@@ -601,8 +630,20 @@ span.b {
   --icon: url("/icons/common/twst/school/jadeidia.png");
 }
 
+.jadeidia.apple-general {
+  --icon: url("/icons/apple/idiajade.png");
+}
+
+.sebekepel.apple {
+  --icon: url("/icons/apple/sebekepel.png");
+}
+
 .grimsebekjade.school {
   --icon: url("/icons/common/twst/school/grimsebekjade.png");
+}
+
+.idiaepelsebek.apple {
+  --icon: url("/icons/apple/idiaepelsebek.png");
 }
 
 .idiajadesebek.apple {
@@ -611,6 +652,22 @@ span.b {
 
 .idiajadesebek.apple2 {
   --icon: url("/icons/apple/jadesebekidia.png");
+}
+
+.idiajadesebek.apple3 {
+  --icon: url("/icons/apple/idiasebekjade.png");
+}
+
+.sebekepelidiajade.apple {
+  --icon: url("/icons/apple/sebekepelidiajade.png");
+}
+
+.sebekepelidiajade.apple2 {
+  --icon: url("/icons/apple/idiajadesebekepel.png");
+}
+
+.sebekepelidiajade.apple3 {
+  --icon: url("/icons/apple/epelsebekidiajade.png");
 }
 
 /* CATER */
@@ -1010,6 +1067,10 @@ span.b {
 
 .toby.harveston {
   --icon: url("/icons/apple/toby.png");
+}
+
+.dwarves.harveston {
+  --icon: url("/icons/apple/dwarves.png");
 }
 
 /* GG WANDAHOI */
