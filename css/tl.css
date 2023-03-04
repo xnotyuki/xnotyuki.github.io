@@ -1,3 +1,41 @@
+/* for masterlist page event stories */
+summary {
+  text-align: center;
+  background-color: #e4e4e4;
+  padding: 0.3em 0;
+  border: 1.2px solid #5d5d5d;
+  transition-duration: 0.8s;
+}
+
+summary:hover {
+  background-color: #ffffd8;
+  color: #000000;
+  transition-duration: 0.8s;
+  cursor: pointer;
+}
+
+details {
+  padding: 0 4.0em 2px 4.0em;
+}
+/*
+details summary {
+  list-style: none;
+}
+*/
+
+details summary::marker, /* Latest Chrome, Edge, Firefox */ 
+details summary::-webkit-details-marker /* Safari */ {
+  content: '\f07b' '  ';
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 500;
+  /*display: none;*/
+}
+
+details[open] summary::marker,
+details[open] summary::-webkit-details-marker {
+  content: '\f07c' ' ';
+}
+
 /* Bubble background base is f7f1e4. Color based off the character's image  color's HUE */
 
 .name {
@@ -61,6 +99,11 @@ span.b {
 }
 
 @media only screen and (max-device-width: 650px) {
+
+  details {
+    padding: 0 2.0em 1px 2.0em;
+  }
+  
   .icon {
     width: 55px !important;
     height: 55px !important;
@@ -241,10 +284,6 @@ span.b {
 
 .sebekepelidiajade {
   --color: #b4e7ff;
-}
-
-.jadegrimsebek {
-  --color: #ade9c6;
 }
 
 .idiajadesebek {
@@ -585,8 +624,12 @@ span.b {
   --icon: url("/icons/apple/epelchief.png");
 }
 
-.jadegrimsebek.apple {
+.grimsebekjade.apple {
   --icon: url("/icons/apple/jadegrimsebek.png");
+}
+
+.grimsebekjade.apple2 {
+  --icon: url("/icons/apple/sebekgrimjade.png");
 }
 
 .jadegrimsebekepel.apple {
