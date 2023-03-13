@@ -404,6 +404,22 @@ span.b {
   --color: #f7eecf;
 }
 
+.dwarvesminusdominic {
+  --color: #f9ecdc;
+}
+
+.granhoptimmydominic {
+  --color: #c0e1f2;
+}
+
+.granhop {
+  --color: #f8d4b1;
+}
+
+.granepel {
+  --color: #f8bfe5;
+}
+
 .idia {
   --color: #76e4ff;
 }
@@ -598,7 +614,6 @@ span.b {
   --icon: url("/icons/apple/jadegrimsebekepel.png");
 }
 
-
 .jadegrimidiasebek.school-general {
   --icon: url("/icons/common/twst/school/jadegrimidiasebek.png");
 }
@@ -639,8 +654,16 @@ span.b {
   --icon: url("/icons/apple/idiajade.png");
 }
 
+.jadeidia.apple-general2 {
+  --icon: url("/icons/apple/jadeidia.png");
+}
+
 .sebekepel.apple {
   --icon: url("/icons/apple/sebekepel.png");
+}
+
+.sebekepel.apple2 {
+  --icon: url("/icons/apple/epelsebek.png");
 }
 
 .grimsebekjade.school {
@@ -673,6 +696,18 @@ span.b {
 
 .sebekepelidiajade.apple3 {
   --icon: url("/icons/apple/epelsebekidiajade.png");
+}
+
+.sebekepelidiajade.apple4 {
+  --icon: url("/icons/apple/jadesebekidiaepel.png");
+}
+
+.sebekepelidiajade.apple5 {
+  --icon: url("/icons/apple/idiasebekjadeepel.png");
+}
+
+.sebekepelidiajade.apple6 {
+  --icon: url("/icons/apple/epelidiasebekjade.png");
 }
 
 /* CATER */
@@ -1074,8 +1109,32 @@ span.b {
   --icon: url("/icons/apple/toby.png");
 }
 
+.granhoptimmydominic.harveston {
+  --icon: url("/icons/apple/granhoptimmydominic.png");
+}
+
+.granhoptimmydominic.harveston2 {
+  --icon: url("/icons/apple/grandominictimmyhop.png");
+}
+
+.granepel.crossjoin {
+  --icon: url("/icons/apple/granepel.png");
+}
+
+.granhop.harveston {
+  --icon: url("/icons/apple/granhop.png");
+}
+
 .dwarves.harveston {
   --icon: url("/icons/apple/dwarves.png");
+}
+
+.dwarves.harveston-2 {
+  --icon: url("/icons/apple/grandominicshelpy.png");
+}
+
+.dwarvesminusdominic.harveston {
+  --icon: url("/icons/apple/minusdominic.png");
 }
 
 /* GG WANDAHOI */
