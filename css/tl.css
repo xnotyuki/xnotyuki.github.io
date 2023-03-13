@@ -1034,6 +1034,18 @@ span.b {
 
 /* SILVER */
 
+.silver.history {
+  --icon: url("/icons/lesson/silverschool.png");
+}
+
+.silver.flight {
+  --icon: url("/icons/lesson/silverpe.png");
+}
+
+.silver.alchemy {
+  --icon: url("/icons/lesson/silverlab.png");
+}
+
 .silver.gym-general {
   --icon: url("/icons/common/twst/gym/silvergeneral.png");
 }
