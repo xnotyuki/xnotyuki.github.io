@@ -340,6 +340,10 @@ span.b {
   --color: #eca1ab;
 }
 
+.deuce {
+  --color: #dee2f2;
+}
+
 .jamil {
   --color: #e7bcb9;
 }
@@ -368,8 +372,16 @@ span.b {
   --color: #c1ffe5;
 }
 
+.vil {
+  --color: #f2ddff;
+}
+
 .epel {
   --color: #d9e3ff;
+}
+
+.rook {
+  --color: #fbffe6;
 }
 
 .dominic {
@@ -532,6 +544,10 @@ span.b {
 
 .ghost.chef {
   --icon: url("/icons/master chef spicy/ghost1.png");
+}
+
+.ghost.endless-c {
+  --icon: url("/icons/halloween/ghostc.png");
 }
 
 /* CROWLEY */
@@ -726,6 +742,14 @@ span.b {
   --icon: url("/icons/common/twst/school/treygeneral.png");
 }
 
+.trey.dorm-general {
+  --icon: url("/icons/common/twst/dorm/treygeneral.png");
+}
+
+.trey.scary-general {
+  --icon: url("/icons/halloween/treygeneral.png");
+}
+
 .trey.silk-general {
   --icon: url("/icons/silk/treygeneral.png");
 }
@@ -794,6 +818,11 @@ span.b {
   --icon: url("/icons/common/twst/school/liliageneral.png");
 }
 
+.lilia.ubd-general {
+  --icon: url("/icons/union birthday/liliageneral.png");
+}
+
+
 /* MALLEUS */
 
 .malleus.school-general {
@@ -814,6 +843,10 @@ span.b {
   --icon: url("/icons/apple/sebek.png");
 }
 
+.sebek.scary-general {
+  --icon: url("/icons/halloween/sebekgeneral.png");
+}
+
 .sebek.outdoor-general {
   --icon: url("/icons/outdoor/sebekgeneral.png");
 }
@@ -831,7 +864,6 @@ span.b {
 /* ORTHO */
 
 .ortho.school-general {
-  --color: #b6faff;
   --icon: url("/icons/common/twst/school/orthogeneral.png");
 }
 
@@ -859,10 +891,40 @@ span.b {
   --icon: url("/icons/common/twst/school/epelgeneral.png");
 }
 
+/* VIL */
+
+.vil.school-general {
+  --icon: url("/icons/common/twst/school/vilgeneral.png");
+}
+
+.vil.scary-general {
+  --icon: url("/icons/halloween/vilgeneral.png");
+}
+
+/* ROOK */
+
+.rook.scary-general {
+  --icon: url("/icons/halloween/rookgeneral.png");
+}
+
 /* RIDDLE */
 
 .riddle.gym-general {
   --icon: url("/icons/common/twst/gym/riddlegeneral.png");
+}
+
+.riddle.dorm-general {
+  --icon: url("/icons/common/twst/dorm/riddlegeneral.png");
+}
+
+.riddle.scary-general {
+  --icon: url("/icons/halloween/riddlegeneral.png");
+}
+
+/* DEUCE */
+
+.deuce.scary-general {
+  --icon: url("/icons/halloween/deucegeneral.png");
 }
 
 /* LEONA */
@@ -945,6 +1007,35 @@ span.b {
 
 .kalim.dorm-general {
   --icon: url("/icons/common/twst/dorm/kalimgeneral.png");
+}
+
+/* union birthday */
+.kalim.ubd-general {
+  --icon: url("/icons/union birthday/kalimgeneral.png");
+}
+
+.kalim.ubd-1 {
+  --icon: url("/icons/union birthday/kalimface1.png");
+}
+
+.kalim.ubd-2 {
+  --icon: url("/icons/union birthday/kalimface2.png");
+}
+
+.kalim.ubd-3 {
+  --icon: url("/icons/union birthday/kalimface3.png");
+}
+
+.kalim.ubd-4 {
+  --icon: url("/icons/union birthday/kalimface4.png");
+}
+
+.kalim.ubd-5 {
+  --icon: url("/icons/union birthday/kalimface5.png");
+}
+
+.kalim.ubd-6 {
+  --icon: url("/icons/union birthday/kalimface6.png");
 }
 
 /* birthday suit up */
