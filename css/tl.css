@@ -456,6 +456,10 @@ span.b {
   --color: #bec494;
 }
 
+.liliamalleussilver {
+  --color: #b6d2ce;
+}
+
 .rin {
   --color: #fff4d4;
 }
@@ -600,6 +604,10 @@ span.b {
 
 .treycatergrim.silk {
   --icon: url("/icons/silk/treygrimcater.png");
+}
+
+.liliamalleussilver.school-general {
+  --icon: url("/icons/common/twst/school/liliamalleussilver.png");
 }
 
 .jamilkalim.school-general {
