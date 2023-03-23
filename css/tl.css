@@ -919,6 +919,10 @@ span.b {
   --icon: url("/icons/outdoor/sebekgeneral.png");
 }
 
+.sebek.broomquet-general {
+  --icon: url("/icons/broom birthday/sebekgeneral.png");
+}
+
 /* JADE */
 
 .jade.apple-general {
