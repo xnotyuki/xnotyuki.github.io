@@ -878,6 +878,9 @@ span.b {
   --icon: url("/icons/union birthday/liliageneral.png");
 }
 
+.lilia.gym-general {
+  --icon: url("/icons/common/twst/gym/liliageneral.png");
+}
 
 /* MALLEUS */
 
@@ -1160,6 +1163,10 @@ span.b {
 
 .jamil.silk-general {
   --icon: url("/icons/silk/jamilgeneral.png");
+}
+
+.jamil.beans-general {
+  --icon: url("/icons/beans/jamilgeneral.png");
 }
 
 /* birthday suitup */
