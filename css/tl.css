@@ -936,6 +936,10 @@ span.b {
   --icon: url("/icons/common/twst/school/jadegeneral.png");
 }
 
+.jade.broomquet-general {
+  --icon: url("/icons/broom birthday/jadegeneral.png");
+}
+
 /* ORTHO */
 
 .ortho.school-general {
