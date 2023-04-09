@@ -168,6 +168,11 @@ span.b {
   --icon: url("/icons/common/mcdialogue.png");
 }
 
+/* too many fucking colours */
+.toocolourful {
+  --color: #d0dedf;
+}
+
 /* GENERAL - PRSK */
 .nenerobo {
   --color: #d6ddd8;
@@ -340,6 +345,10 @@ span.b {
   --color: #eca1ab;
 }
 
+.ace {
+  --color: #f2d4d0;
+}
+
 .deuce {
   --color: #dee2f2;
 }
@@ -362,6 +371,10 @@ span.b {
 
 .ruggie {
   --color: #eed8b0;
+}
+
+.azul {
+  --color: #e6def5;
 }
 
 .floyd {
@@ -604,6 +617,10 @@ span.b {
 
 /* CROWLEY */
 
+.crowley.principal-general {
+  --icon: url("/icons/common/twst/crowgeneral.png");
+}
+
 .crowley.principal-1 {
   --icon: url("/icons/common/twst/crow1.png");
 }
@@ -633,6 +650,10 @@ span.b {
 }
 
 /* GROUPS */
+
+.toocolourful.tsum2group-school {
+  --icon: url("/icons/common/twst/school/kalimazulrookortholiliajadedeuce.png");
+}
 
 .treykalim.chef-general {
   --icon: url("/icons/master chef spicy/kalimtreygeneral.png");
@@ -946,6 +967,10 @@ span.b {
   --icon: url("/icons/common/twst/school/orthogeneral.png");
 }
 
+.ortho.college-general {
+  --icon: url("/icons/common/twst/school/orthonewgeneral.png");
+}
+
 /* IDIA */
 
 .idia.apple-general {
@@ -982,6 +1007,10 @@ span.b {
 
 /* ROOK */
 
+.rook.school-general {
+  --icon: url("/icons/common/twst/school/rookgeneral.png");
+}
+
 .rook.scary-general {
   --icon: url("/icons/halloween/rookgeneral.png");
 }
@@ -1000,7 +1029,17 @@ span.b {
   --icon: url("/icons/halloween/riddlegeneral.png");
 }
 
+/* ACE */
+
+.ace.school-general {
+  --icon: url("/icons/common/twst/school/acegeneral.png");
+}
+
 /* DEUCE */
+
+.deuce.school-general {
+  --icon: url("/icons/common/twst/school/deucegeneral.png");
+}
 
 .deuce.scary-general {
   --icon: url("/icons/halloween/deucegeneral.png");
@@ -1071,10 +1110,20 @@ span.b {
   --icon: url("/icons/outdoor/ruggieface8.png");
 }
 
-/* FLOYD - OUTDOOR */
+/* FLOYD */
+
+.floyd.school-general {
+  --icon: url("/icons/common/twst/school/floydgeneral.png");
+}
 
 .floyd.outdoor-general {
   --icon: url("/icons/outdoor/floydgeneral.png");
+}
+
+/* AZUL */
+
+.azul.school-general {
+  --icon: url("/icons/common/twst/school/azulgeneral.png");
 }
 
 
