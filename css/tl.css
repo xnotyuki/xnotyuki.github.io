@@ -50,6 +50,7 @@ span.b {
   padding: 14px;
   border-radius: 10px;
   background: var(--color, #f1f1f1);
+  box-shadow: 1px 1px 2px #373737;
 }
 
 .bubble:nth-of-type(n+4) {
@@ -82,6 +83,7 @@ span.b {
     padding: .75em !important;
     margin-left: 70px !important;
     margin-top: 0px !important;
+    box-shadow: 1px 1px 2px #373737;
   }
 
   .bubble:nth-of-type(n+4) {
@@ -337,8 +339,12 @@ span.b {
   --color: #bbd8c1;
 }
 
+.silversebek {
+  --color: #d7efe2;
+}
+
 .lilia {
-  --color: #dfabd6;
+  --color: #f3c7eb;
 }
 
 .riddle {
@@ -651,6 +657,10 @@ span.b {
 
 /* GROUPS */
 
+.silversebek.dorm-general {
+  --icon: url("/icons/common/twst/dorm/silversebek.png");
+}
+
 .toocolourful.tsum2group-school {
   --icon: url("/icons/common/twst/school/kalimazulrookortholiliajadedeuce.png");
 }
@@ -931,6 +941,10 @@ span.b {
   --icon: url("/icons/common/twst/school/sebekgeneral.png");
 }
 
+.sebek.dorm-general {
+  --icon: url("/icons/common/twst/dorm/sebekgeneral.png");
+}
+
 .sebek.apple-general {
   --icon: url("/icons/apple/sebek.png");
 }
@@ -971,6 +985,10 @@ span.b {
   --icon: url("/icons/common/twst/school/orthonewgeneral.png");
 }
 
+.ortho.dorm-general {
+  --icon: url("/icons/common/twst/dorm/orthogeneral.png");
+}
+
 /* IDIA */
 
 .idia.apple-general {
@@ -983,6 +1001,10 @@ span.b {
 
 .idia.tablet {
   --icon: url("/icons/common/twst/tablet.png");
+}
+
+.idia.dorm-general {
+  --icon: url("/icons/common/twst/dorm/idiageneral.png");
 }
 
 /* EPEL */
@@ -1275,6 +1297,10 @@ span.b {
 
 .silver.school-general {
   --icon: url("/icons/common/twst/school/silvergeneral.png");
+}
+
+.silver.dorm-general {
+  --icon: url("/icons/common/twst/dorm/silvergeneral.png");
 }
 
 /* birthday suit up  */
