@@ -17,7 +17,7 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"xnotyuki.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":30,"offset":10,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":false,"color":"#f17e39","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+    var CONFIG = {"hostname":"xnotyuki.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":30,"offset":10,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":false,"color":"#f17e39","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
   <meta name="description" content="Title: I Won’t Let Him Say “Who’re You?” Or The Like Characters: Sebek, Riddle, Leona, Malleus, Silver, Lilia, Magift Club members, Equestrian Club members JP Proofreader: amplified EN Proofreader: Pa">
@@ -27,13 +27,13 @@
 <meta property="og:site_name" content="yuki translates">
 <meta property="og:description" content="Title: I Won’t Let Him Say “Who’re You?” Or The Like Characters: Sebek, Riddle, Leona, Malleus, Silver, Lilia, Magift Club members, Equestrian Club members JP Proofreader: amplified EN Proofreader: Pa">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="https://xnotyuki.github.io/sebek-outdoor-wear/bg1.png">
-<meta property="og:image" content="https://xnotyuki.github.io/sebek-outdoor-wear/bg2.png">
-<meta property="og:image" content="https://xnotyuki.github.io/sebek-outdoor-wear/bg3.png">
-<meta property="og:image" content="https://xnotyuki.github.io/sebek-outdoor-wear/bg4.png">
-<meta property="og:image" content="https://xnotyuki.github.io/sebek-outdoor-wear/sebekoutdoorweargroovy.png">
+<meta property="og:image" content="https://xnotyuki.github.io/backgrounds/61221.png">
+<meta property="og:image" content="https://xnotyuki.github.io/backgrounds/64201.png">
+<meta property="og:image" content="https://xnotyuki.github.io/backgrounds/64191.png">
+<meta property="og:image" content="https://xnotyuki.github.io/backgrounds/blackout.png">
+<meta property="og:image" content="https://xnotyuki.github.io/backgrounds/groovies/sebekoutdoorweargroovy.png">
 <meta property="article:published_time" content="2021-12-28T17:58:07.000Z">
-<meta property="article:modified_time" content="2023-03-01T16:28:57.715Z">
+<meta property="article:modified_time" content="2023-12-12T05:47:26.549Z">
 <meta property="article:author" content="xnotyuki">
 <meta property="article:tag" content="twisted wonderland">
 <meta property="article:tag" content="lilia vanrouge">
@@ -48,7 +48,7 @@
 <meta property="article:tag" content="magift club">
 <meta property="article:tag" content="equestrian club">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://xnotyuki.github.io/sebek-outdoor-wear/bg1.png">
+<meta name="twitter:image" content="https://xnotyuki.github.io/backgrounds/61221.png">
 
 <link rel="canonical" href="https://xnotyuki.github.io/sebek-outdoor-wear/">
 
@@ -122,6 +122,7 @@
 
   <div class="site-nav-right">
     <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
     </div>
   </div>
 </div>
@@ -166,11 +167,38 @@
     <a href="/archives/" rel="section"><i class="fa fa-bars fa-fw"></i>Archives</a>
 
   </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
+        </a>
+      </li>
   </ul>
 </nav>
 
 
 
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="Searching..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
 
 </div>
     </header>
@@ -221,7 +249,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2nd Mar 2023 (Thursday) 00:28" itemprop="dateModified" datetime="2023-03-02T00:28:57+08:00">2nd Mar 2023 (Thursday)</time>
+                <time title="Modified: 12th Dec 2023 (Tuesday) 13:47" itemprop="dateModified" datetime="2023-12-12T13:47:26+08:00">12th Dec 2023 (Tuesday)</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -259,9 +287,9 @@
 <span id="more"></span>
 <link href="/css/tl.css" rel="stylesheet">
 <h1 id="part-1" id="Part-1-16">Part 1</h1>
-<img src="/sebek-outdoor-wear/bg1.png" class="" title="Main Street">
-<p style="text-align:center; font-size:1.1em;">Main Street</p>
-<p style="text-align:center;">Morning, a few days before Vargas Camp</p>
+<p><img src="/backgrounds/61221.png" alt="Main Street (Day)" title="Main Street"></p>
+<p class="bg">Main Street</p>
+<p class="notbg">Morning, a few days before Vargas Camp</p>
 <div class="sebek school-general">
     <div class="icon"></div>
     <span class="name">Sebek</span><div class="arrow"></div>
@@ -401,7 +429,7 @@
     <div class="icon"></div>
     <span class="name">Sebek</span><div class="arrow"></div>
     <div class="bubble">
-        <p style="font-size:1.2em">Eh!!!!????</p>
+        <p class="bigtext">Eh!!!!????</p>
     </div>
     <div class="bubble">
         U-us fae… bowing our heads in concession to members of other species…!?
@@ -447,9 +475,9 @@
         U-understood. Within the next few days, I will apologise to Leona… Kingscholar.
     </div>
 </div>
-<img src="/sebek-outdoor-wear/bg2.png" class="" title="Dwarfs" alt="Mine - Campsite">
-<p style="text-align:center; font-size:1.1em;">Dwarfs' Mine - Campsite</p>
-<p style="text-align:center;">-First day of Camp</p>
+<p><img src="/backgrounds/64201.png" alt="Dwarfs' Mine - Campsite (Day)" title="Dwarfs' Mine - Campsite"></p>
+<p class="bg">Dwarfs' Mine - Campsite</p>
+<p class="notbg">-First day of Camp</p>
 <div class="sebek outdoor-general">
     <div class="icon"></div>
     <span class="name">Sebek</span><div class="arrow"></div>
@@ -490,7 +518,7 @@
     <div class="icon"></div>
     <span class="name">Sebek</span><div class="arrow"></div>
     <div class="bubble">
-        <p style="font-size:1.2em">I SINCERELY APOLOGISE FOR WHAT I DID A FEW DAYS EARLIER!!!!!!</p>
+        <p class="bigtext">I SINCERELY APOLOGISE FOR WHAT I DID A FEW DAYS EARLIER!!!!!!</p>
     </div>
 </div>
 <div class="leona outdoor-general">
@@ -546,9 +574,9 @@
     </div>
 </div>
 <h1 id="part-2" id="Part-2-16">Part 2</h1>
-<img src="/sebek-outdoor-wear/bg3.png" class="" title="Dwarfs’ Mine – Forest Road">
-<p style="text-align:center; font-size:1.1em;">Dwarfs’ Mine – Forest Road</p>
-<p style="text-align:center;">2nd day of Vargas Camp</p>
+<p><img src="/backgrounds/64191.png" alt="Dwarfs' Mine - Forest Road (Day)" title="Dwarfs' Mine - Forest Road"></p>
+<p class="bg">Dwarfs’ Mine – Forest Road</p>
+<p class="notbg">2nd day of Vargas Camp</p>
 <div class="sebek outdoor-general">
     <div class="icon"></div>
     <span class="name">Sebek</span><div class="arrow"></div>
@@ -556,7 +584,7 @@
         Just where……
     </div>
     <div class="bubble">
-        <p style="font-size:1.2em">IS THAT LAMP BLOSSOM!!</p>
+        <p class="bigtext">IS THAT LAMP BLOSSOM!!</p>
     </div>
 </div>
 <div class="silver gym-general">
@@ -772,7 +800,7 @@
     <div class="icon"></div>
     <span class="name">???</span><div class="arrow"></div>
     <div class="bubble">
-        <p style="font-size:1.2em">WHOAAAAA!!!</p>
+        <p class="bigtext">WHOAAAAA!!!</p>
     </div>
 </div>
 <div class="leona outdoor-general">
@@ -789,7 +817,7 @@
         It seems to be coming from where the Equestrian Club was at earlier. Since we have to go through that path to reach the lake anyway, why don’t we take a look what’s up?
     </div>
 </div>
-<img src="/sebek-outdoor-wear/bg4.png" class="" title="???">
+<p><img src="/backgrounds/blackout.png" alt="Fade to black" title="???"></p>
 <div class="sebek outdoor-general">
     <div class="icon"></div>
     <span class="name">Sebek</span><div class="arrow"></div>
@@ -814,7 +842,7 @@
         As an escort to the Young Master, if I don’t easily overcome a hardship of this level…… Whoa!
     </div>
 </div>
-<img src="/sebek-outdoor-wear/sebekoutdoorweargroovy.png" class="" title="Sebek Outdoor Wear - Groovy">
+<p><img src="/backgrounds/groovies/sebekoutdoorweargroovy.png" alt="Sebek Outdoor Wear Groovy" title="Sebek Outdoor Wear - Groovy"></p>
 <div class="sebek outdoor-general">
     <div class="icon"></div>
     <span class="name">Sebek</span><div class="arrow"></div>
@@ -1001,13 +1029,13 @@
         I will keep this up…… And one day make him realise that he is no match for us fae!
     </div>
     <div class="bubble">
-        <p style="font-size:1.2em">HAAAAAHAHAHAHA!!</p>
+        <p class="bigtext">HAAAAAHAHAHAHA!!</p>
     </div>
 </div>
 <h1 id="notes" id="Notes-56">Notes</h1>
 <p id="note1"></p>
 <ol>
-<li>Here, Leona calls Malleus ツノ野郎 (tsuno yarou) which looks like an obvious dig at the nickname MC/Yuu gives him (ツノ太郎 tsuno tarou)　<a href="#tiny1" style="font-size:0.8em">(Return to text)</a></li>
+<li>Here, Leona calls Malleus ツノ野郎 (tsuno yarou) which looks like an obvious dig at the nickname MC/Yuu gives him (ツノ太郎 tsuno tarou)　<a href="#tiny1" class="returnup">(Return to text)</a></li>
 </ol>
 
     </div>
@@ -1188,6 +1216,10 @@
   
 
 
+
+
+  
+<script src="/js/local-search.js"></script>
 
 
 

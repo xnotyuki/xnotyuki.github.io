@@ -17,7 +17,7 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"xnotyuki.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":30,"offset":10,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":false,"color":"#f17e39","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+    var CONFIG = {"hostname":"xnotyuki.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":30,"offset":10,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":false,"color":"#f17e39","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
   <meta name="description" content="The name origin story is really something that can’t be translated one for one without somehow creating a new English word to make it work, so I’m just gonna pretend none of that happened and just lea">
@@ -27,11 +27,11 @@
 <meta property="og:site_name" content="yuki translates">
 <meta property="og:description" content="The name origin story is really something that can’t be translated one for one without somehow creating a new English word to make it work, so I’m just gonna pretend none of that happened and just lea">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="https://xnotyuki.github.io/tsum2-ep3/bg1.png">
-<meta property="og:image" content="https://xnotyuki.github.io/tsum2-ep3/bg2.png">
-<meta property="og:image" content="https://xnotyuki.github.io/tsum2-ep3/tsums.jpg">
+<meta property="og:image" content="https://xnotyuki.github.io/backgrounds/61383.png">
+<meta property="og:image" content="https://xnotyuki.github.io/backgrounds/61181.png">
+<meta property="og:image" content="https://xnotyuki.github.io/backgrounds/61181tsum2ep3.jpg">
 <meta property="article:published_time" content="2023-04-09T13:16:19.000Z">
-<meta property="article:modified_time" content="2023-07-06T02:34:31.184Z">
+<meta property="article:modified_time" content="2023-12-27T06:58:47.198Z">
 <meta property="article:author" content="xnotyuki">
 <meta property="article:tag" content="kalim al-asim">
 <meta property="article:tag" content="event story">
@@ -45,7 +45,7 @@
 <meta property="article:tag" content="post book 6 ortho shroud">
 <meta property="article:tag" content="azul ashengrotto">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://xnotyuki.github.io/tsum2-ep3/bg1.png">
+<meta name="twitter:image" content="https://xnotyuki.github.io/backgrounds/61383.png">
 
 <link rel="canonical" href="https://xnotyuki.github.io/tsum2-ep3/">
 
@@ -119,6 +119,7 @@
 
   <div class="site-nav-right">
     <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
     </div>
   </div>
 </div>
@@ -163,11 +164,38 @@
     <a href="/archives/" rel="section"><i class="fa fa-bars fa-fw"></i>Archives</a>
 
   </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
+        </a>
+      </li>
   </ul>
 </nav>
 
 
 
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="Searching..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
 
 </div>
     </header>
@@ -218,7 +246,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 6th Jul 2023 (Thursday) 10:34" itemprop="dateModified" datetime="2023-07-06T10:34:31+08:00">6th Jul 2023 (Thursday)</time>
+                <time title="Modified: 27th Dec 2023 (Wednesday) 14:58" itemprop="dateModified" datetime="2023-12-27T14:58:47+08:00">27th Dec 2023 (Wednesday)</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -257,22 +285,22 @@
 <p><strong>Title:</strong> The Tsums Invade! III<br>
 <strong>Node:</strong> Map 1-3<br>
 <strong>Characters:</strong> Deuce, Azul, Jade, Kalim, Rook, Ortho, Lilia, Crowley</p>
+<link href="/css/tl.css" rel="stylesheet">
 <h1 id="event-story-navigation" id="Event-Story-Navigation-81">Event Story Navigation</h1>
 <table>
   <tr>
-    <td style="text-align:center">Map 1<br/>(The Tsums Invade!)</td>
-    <td style="text-align:center"><a href="/tsum2-ep1/" title="Episode 1">Episode 1</a> ・ <a href="/tsum2-ep2/" title="Episode 2">Episode 2</a> ・ <a href="/tsum2-ep3/" title="Episode 3">Episode 3</a></td>
+    <td>Map 1<br/>(The Tsums Invade!)</td>
+    <td><a href="/tsum2-ep1/" title="Episode 1">Episode 1</a> ・ <a href="/tsum2-ep2/" title="Episode 2">Episode 2</a> ・ <a href="/tsum2-ep3/" title="Episode 3">Episode 3</a></td>
   </tr>
   <tr>
-    <td style="text-align:center">Maps 2-8<br/>(Interactions with Tsums)</td>
-    <td style="text-align:center"><a href="/tsum2-ep4/" title="Episode 4">Episode 4</a> ・ <a href="/tsum2-ep5/" title="Episode 5">Episode 5</a> ・ <a href="/tsum2-ep6/" title="Episode 6">Episode 6</a> ・ Episode 7 ・ Episode 8 ・ Episode 9 ・ Episode 10</td>
+    <td>Maps 2-8<br/>(Interactions with Tsums)</td>
+    <td><a href="/tsum2-ep4/" title="Episode 4">Episode 4</a> ・ <a href="/tsum2-ep5/" title="Episode 5">Episode 5</a> ・ <a href="/tsum2-ep6/" title="Episode 6">Episode 6</a> ・ <a href="/tsum2-ep7/" title="Episode 7">Episode 7</a> ・ <a href="/tsum2-ep8/" title="Episode 8">Episode 8</a> ・ <a href="/tsum2-ep9/" title="Episode 9">Episode 9</a> ・ Episode 10</td>
   </tr>
 </table>
 <span id="more"></span>
-<link href="/css/tl.css" rel="stylesheet">
 <h1 id="the-tsums-invade-iii" id="The-Tsums-Invade-III">The Tsums Invade! III</h1>
-<img src="/tsum2-ep3/bg1.png" class="" title="Exterior Hallway 2F">
-<p style="text-align:center; font-size:1.1em;">Exterior Hallway 2F</p>
+<p><img src="/backgrounds/61383.png" alt="Exterior Hallway 2F (Night)" title="Exterior Hallway 2F"></p>
+<p class="bg">Exterior Hallway 2F</p>
 <div class="azul school-general">
     <div class="icon"></div>
     <span class="name">Azul</span><div class="arrow"></div>
@@ -359,9 +387,9 @@
     </div>
 </div>
 <hr>
-<img src="/tsum2-ep3/bg2.png" class="" title="Headmaster" alt="s Office">
-<p style="text-align:center; font-size:1.1em;">Headmaster's Office</p>
-<p style="text-align:center; font-size:1.15em"><i>*Footsteps*</i></p>
+<p><img src="/backgrounds/61181.png" alt="Headmaster's Office" title="Headmaster's Office"></p>
+<p class="bg">Headmaster's Office</p>
+<p class="sfx">*Footsteps*</p>
 <div class="azul school-general">
     <div class="icon"></div>
     <span class="name">Azul</span><div class="arrow"></div>
@@ -383,7 +411,7 @@
         Yes yes, this is about the Tsums, correct?
     </div>
     <div class="bubble">
-        <p style="font-size:0.85em">Sigh… Really now. Just how many of them have arrived this time? It's not as if I have time for this either, and yet…</p>
+        <p class="smalltext">Sigh… Really now. Just how many of them have arrived this time? It's not as if I have time for this either, and yet…</p>
     </div>
 </div>
 <div class="ortho college-general">
@@ -483,7 +511,7 @@
         They climb so skilfully~ Take care not to fall over, okay!
     </div>
 </div>
-<img src="/tsum2-ep3/tsums.jpg" class="" title="stacc">
+<p><img src="/backgrounds/61181tsum2ep3.jpg" alt="Tsum stacks)" title="Tsum stack"></p>
 <div class="lilia school-general">
     <div class="icon"></div>
     <span class="name">Lilia</span><div class="arrow"></div>
@@ -523,7 +551,7 @@
     <div class="icon"></div>
     <span class="name">Kalim, Azul, Rook, Ortho, Lilia, Jade & Deuce</span><div class="arrow"></div>
     <div class="bubble">
-        <p style="font-size:1.15em">TSUM TSUMS!!!!!</p>
+        <p class="bigtext">TSUM TSUMS!!!!!</p>
     </div>
 </div>
 <div class="crowley principal-general">
@@ -654,19 +682,19 @@
 <p>Very long ramble about Tsum pun below. I’m not interested in making this believable in the English language, that’s for the EN localisation team to figure out lmao</p>
 <p id="note1"></p>
 <ol>
-<li>Tsum Tsum is literally “Tsumu Tsumu” (ツムツム) in Japanese, with ツム being the Japanese verb for piling/stacking - 積む . From Lilia to Azul, the boys will keep making remarks about the Tsums’ stacking behaviour, and realising for themselves why they are called Tsums.<br/>In Lilia’s case, he says <code>見事に積み上がったのう</code> (migoto ni <strong>tsumi</strong>agatta nou, lit. a fine piling they have done).　<a href="#tiny1" style="font-size:0.8em">(Return to text)</a></li>
+<li>Tsum Tsum is literally “Tsumu Tsumu” (ツムツム) in Japanese, with ツム being the Japanese verb for piling/stacking - 積む . From Lilia to Azul, the boys will keep making remarks about the Tsums’ stacking behaviour, and realising for themselves why they are called Tsums.<br/>In Lilia’s case, he says <code>見事に積み上がったのう</code> (migoto ni <strong>tsumi</strong>agatta nou, lit. a fine piling they have done).　<a href="#tiny1" class="returnup">(Return to text)</a></li>
 </ol>
 <p id="note2"></p>
 <ol start="2">
-<li>Rook says <code>石積みの道しるべのよう</code> (ishi<strong>dzumi</strong> no michishirube no you, lit. like a signpost made via masonry). I tried to do some searches and the stone signposts that appear in images don’t exactly have this stacky quality to it (they are just. carved out of a single block of stone or something.), but what I did find is that monument signs that are made using stone (think, signs for hotels or buildings in suburbs or something) do tend to have stones stacked together in the craft, so I went with that instead of the literal signpost. Another possibility is that I just don’t understand Rook speak, afaik this is my first time doing a proper translation of his dialogue anyways.　<a href="#tiny2" style="font-size:0.8em">(Return to text)</a></li>
+<li>Rook says <code>石積みの道しるべのよう</code> (ishi<strong>dzumi</strong> no michishirube no you, lit. like a signpost made via masonry). I tried to do some searches and the stone signposts that appear in images don’t exactly have this stacky quality to it (they are just. carved out of a single block of stone or something.), but what I did find is that monument signs that are made using stone (think, signs for hotels or buildings in suburbs or something) do tend to have stones stacked together in the craft, so I went with that instead of the literal signpost. Another possibility is that I just don’t understand Rook speak, afaik this is my first time doing a proper translation of his dialogue anyways.　<a href="#tiny2" class="returnup">(Return to text)</a></li>
 </ol>
 <p id="note3"></p>
 <ol start="3">
-<li>Ortho says <code>他の個体の上に＂積む＂習性</code> (hoka no kotai no ue ni <strong>tsumu</strong> shuusei, lit. habit of piling up on other individuals)　<a href="#tiny3" style="font-size:0.8em">(Return to text)</a></li>
+<li>Ortho says <code>他の個体の上に＂積む＂習性</code> (hoka no kotai no ue ni <strong>tsumu</strong> shuusei, lit. habit of piling up on other individuals)　<a href="#tiny3" class="returnup">(Return to text)</a></li>
 </ol>
 <p id="note4"></p>
 <ol start="4">
-<li>Like Ortho, Azul says “tsumu” directly <code>自分たちを＂積む＂</code> (jibuntachi wo <strong>tsumu</strong>, lit. stack themselves)　<a href="#tiny4" style="font-size:0.8em">(Return to text)</a></li>
+<li>Like Ortho, Azul says “tsumu” directly <code>自分たちを＂積む＂</code> (jibuntachi wo <strong>tsumu</strong>, lit. stack themselves)　<a href="#tiny4" class="returnup">(Return to text)</a></li>
 </ol>
 
     </div>
@@ -846,6 +874,10 @@
   
 
 
+
+
+  
+<script src="/js/local-search.js"></script>
 
 
 

@@ -17,7 +17,7 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"xnotyuki.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":30,"offset":10,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":false,"color":"#f17e39","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+    var CONFIG = {"hostname":"xnotyuki.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":30,"offset":10,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":false,"color":"#f17e39","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
   <meta name="description" content="Probably one of my first translations ever, so I did some tweaking before reuploading this. Title: The Laid-Back Genius Director Characters: Rui, Tsukasa Full story under the cut!">
@@ -27,13 +27,13 @@
 <meta property="og:site_name" content="yuki translates">
 <meta property="og:description" content="Probably one of my first translations ever, so I did some tweaking before reuploading this. Title: The Laid-Back Genius Director Characters: Rui, Tsukasa Full story under the cut!">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="https://xnotyuki.github.io/rui-1star/bg1.png">
-<meta property="og:image" content="https://xnotyuki.github.io/rui-1star/bg2.png">
-<meta property="og:image" content="https://xnotyuki.github.io/rui-1star/bg1.png">
-<meta property="og:image" content="https://xnotyuki.github.io/rui-1star/bg2.png">
-<meta property="og:image" content="https://xnotyuki.github.io/rui-1star/bg3.png">
+<meta property="og:image" content="https://xnotyuki.github.io/backgrounds/proseka/bg11.png">
+<meta property="og:image" content="https://xnotyuki.github.io/backgrounds/proseka/bg12.png">
+<meta property="og:image" content="https://xnotyuki.github.io/backgrounds/proseka/bg11.png">
+<meta property="og:image" content="https://xnotyuki.github.io/backgrounds/proseka/bg12.png">
+<meta property="og:image" content="https://xnotyuki.github.io/backgrounds/proseka/bg13.png">
 <meta property="article:published_time" content="2021-06-18T04:41:45.000Z">
-<meta property="article:modified_time" content="2023-03-01T16:49:59.844Z">
+<meta property="article:modified_time" content="2023-12-13T00:47:00.916Z">
 <meta property="article:author" content="xnotyuki">
 <meta property="article:tag" content="project sekai">
 <meta property="article:tag" content="side story">
@@ -41,7 +41,7 @@
 <meta property="article:tag" content="tenma tsukasa">
 <meta property="article:tag" content="1*">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://xnotyuki.github.io/rui-1star/bg1.png">
+<meta name="twitter:image" content="https://xnotyuki.github.io/backgrounds/proseka/bg11.png">
 
 <link rel="canonical" href="https://xnotyuki.github.io/rui-1star/">
 
@@ -115,6 +115,7 @@
 
   <div class="site-nav-right">
     <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
     </div>
   </div>
 </div>
@@ -159,11 +160,38 @@
     <a href="/archives/" rel="section"><i class="fa fa-bars fa-fw"></i>Archives</a>
 
   </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
+        </a>
+      </li>
   </ul>
 </nav>
 
 
 
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="Searching..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
 
 </div>
     </header>
@@ -214,7 +242,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2nd Mar 2023 (Thursday) 00:49" itemprop="dateModified" datetime="2023-03-02T00:49:59+08:00">2nd Mar 2023 (Thursday)</time>
+                <time title="Modified: 13th Dec 2023 (Wednesday) 08:47" itemprop="dateModified" datetime="2023-12-13T08:47:00+08:00">13th Dec 2023 (Wednesday)</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -252,8 +280,8 @@
 <span id="more"></span>
 <link href="/css/tl.css" rel="stylesheet">
 <h1 id="part-1" id="Part-1-9">Part 1</h1>
-<img src="/rui-1star/bg1.png" class="" title="Kamiyama High School 2-B Classroom">
-<p style="text-align:center; font-size:1.1em;">Kamiyama High School 2-B Classroom</p>
+<p><img src="/backgrounds/proseka/bg11.png" alt="Kamiyama High School 2-B Classroom (Day)" title="Kamiyama High School 2-B Classroom"></p>
+<p class="bg">Kamiyama High School 2-B Classroom</p>
 <div class="rui">
     <div class="icon"></div>
     <span class="name">Rui</span><div class="arrow"></div>
@@ -268,7 +296,7 @@
     <div class="icon"></div>
     <span class="name">Classmate A</span><div class="arrow"></div>
     <div class="bubble">
-        (...... Kamishiro isn’t taking any notes at all, and he’s either drawing or writing some formulas or something. I wonder why……)
+        (…… Kamishiro isn’t taking any notes at all, and he’s either drawing or writing some formulas or something. I wonder why……)
     </div>
 </div>
 <div class="rui">
@@ -286,7 +314,7 @@
     </div>
 </div>
 <hr>
-<img src="/rui-1star/bg2.png" class="" title="Kamiyama High School Corridor">
+<p><img src="/backgrounds/proseka/bg12.png" alt="Kamiyama High School Corridor (Day)" title="Kamiyama High School Corridor"></p>
 <div class="rui">
     <div class="icon"></div>
     <span class="name">Rui</span><div class="arrow"></div>
@@ -294,7 +322,7 @@
         Well then, Tsukasa would probably be in his classroom, right…… Hmm? <!--face4-->
     </div>
 </div>
-<p style="text-align:center;"><i>Tsukasa comes out of the classroom</i></p>
+<p class="sfx">Tsukasa comes out of the classroom</p>
 <div class="tsukasa">
     <div class="icon"></div>
     <span class="name">Tsukasa</span><div class="arrow"></div>
@@ -351,7 +379,7 @@
     <div class="icon"></div>
     <span class="name">Rui</span><div class="arrow"></div>
     <div class="bubble">
-        …...Well, that size does look easier to distribute. By the way, since you asked me to help it means you already have a sizable number of flyers on hand, right?<!--face7-->
+        ……Well, that size does look easier to distribute. By the way, since you asked me to help it means you already have a sizable number of flyers on hand, right?<!--face7-->
     </div>
 </div>
 <div class="tsukasa">
@@ -365,7 +393,7 @@
     <div class="icon"></div>
     <span class="name">Rui</span><div class="arrow"></div>
     <div class="bubble">
-        …...Hmm. Just like before, you prepared quite a lot. There’s probably hundreds of sheets in there.<!--face8-->
+        ……Hmm. Just like before, you prepared quite a lot. There’s probably hundreds of sheets in there.<!--face8-->
     </div>
 </div>
 <div class="tsukasa">
@@ -436,8 +464,8 @@
 </div>
 <hr>
 <p><em>School bell rings</em></p>
-<img src="/rui-1star/bg1.png" class="" title="Kamiyama High School 2-A Classroom">
-<p style="text-align:center; font-size:1.1em;">Kamiyama High School 2-A Classroom</p>
+<p><img src="/backgrounds/proseka/bg11.png" alt="Kamiyama High School 2-A Classroom (Day)" title="Kamiyama High School 2-A Classroom"></p>
+<p class="bg">Kamiyama High School 2-A Classroom</p>
 <div class="rui">
     <div class="icon"></div>
     <span class="name">Rui</span><div class="arrow"></div>
@@ -570,10 +598,10 @@
         There are times where I have a hard time dealing with his weird ideas, but there are also times like these when I can rely on him.<!--face11-->
     </div>
     <div class="bubble">
-        Now then, I should quickly set the paper…... <!--face1-->
+        Now then, I should quickly set the paper…… <!--face1-->
     </div>
     <div class="bubble">
-        …...Hmm? Wait a minute. Didn’t he say ‘leave it running throughout your classes’ or something? <!--face12-->
+        ……Hmm? Wait a minute. Didn’t he say ‘leave it running throughout your classes’ or something? <!--face12-->
     </div>
     <div class="bubble">
         Is it going to keep folding while it’s here? At my desk!? <!--face14-->
@@ -583,7 +611,7 @@
     </div>
 </div>
 <hr>
-<img src="/rui-1star/bg2.png" class="" title="Kamiyama High School Corridor">
+<p><img src="/backgrounds/proseka/bg12.png" alt="Kamiyama High School Corridor (Day)" title="Kamiyama High School Corridor"></p>
 <div class="tsukasa">
     <div class="icon"></div>
     <span class="name">Tsukasa (offscreen)</span><div class="arrow"></div>
@@ -599,8 +627,8 @@
     </div>
 </div>
 <h1 id="part-2" id="Part-2-9">Part 2</h1>
-<img src="/rui-1star/bg3.png" class="" title="Kamiyama High School Courtyard">
-<p style="text-align:center; font-size:1.1em;">Kamiyama High School Courtyard</p>
+<p><img src="/backgrounds/proseka/bg13.png" alt="Kamiyama High School Courtyard (Day)" title="Kamiyama High School Courtyard"></p>
+<p class="bg">Kamiyama High School Courtyard</p>
 <div class="rui">
     <div class="icon"></div>
     <span class="name">Rui</span><div class="arrow"></div>
@@ -612,7 +640,7 @@
     <div class="icon"></div>
     <span class="name">Tsukasa</span><div class="arrow"></div>
     <div class="bubble">
-        ...Hm? That Rui, what’s he doing at the flowerbe– Huh! <!--think face-->
+        …Hm? That Rui, what’s he doing at the flowerbe– Huh! <!--think face-->
     </div>
     <div class="bubble">
         Could it be that he’s thought of a bothersome performance to put up and is now beginning with preparations!? <!--shock face-->
@@ -649,17 +677,17 @@
         WHAT!? You, who would not only blow fire at me, but also launch me sky-high, are feeling sorry for flowers!? Did I get that right!? <!--disbelief face-->
     </div>
     <div class="bubble">
-        There’s no chance of you pulling off such human acts…...!<!--disbeliefx2 face-->
+        There’s no chance of you pulling off such human acts……!<!--disbeliefx2 face-->
     </div>
 </div>
 <div class="rui">
     <div class="icon"></div>
     <span class="name">Rui</span><div class="arrow"></div>
     <div class="bubble">
-        …...You’re kicking up such a huge fuss just because I was weeding?<!--surprise face-->
+        ……You’re kicking up such a huge fuss just because I was weeding?<!--surprise face-->
     </div>
 </div>
-<p style="text-align:center;"><i>*Tsukasa goes up to Rui*</i></p>
+<p class="sfx">*Tsukasa goes up to Rui*</p>
 <div class="tsukasa">
     <div class="icon"></div>
     <span class="name">Tsukasa</span><div class="arrow"></div>
@@ -667,7 +695,7 @@
         Huh! Are you having a fever!? You must be burning up a high fever, aren’t you!? <!--disbelief face-->
     </div>
 </div>
-<p style="text-align:center;"><i>*Rui backs off a little*</i></p>
+<p class="sfx">*Rui backs off a little*</p>
 <div class="rui">
     <div class="icon"></div>
     <span class="name">Rui</span><div class="arrow"></div>
@@ -751,7 +779,7 @@
         There you go!<!--sadist face-->
     </div>
 </div>
-<p style="text-align:center;"><i>*Tsukasa jumps back*</i></p>
+<p class="sfx">*Tsukasa jumps back*</p>
 <div class="tsukasa">
     <div class="icon"></div>
     <span class="name">Tsukasa</span><div class="arrow"></div>
@@ -766,12 +794,12 @@
         It’s just a caterpillar and you’re already…… Ah.<a href="#note3" id="tiny3"><sup><b>3</b></sup></a><!--lmao face-->
     </div>
 </div>
-<p style="text-align:center;"><i>*Tsukasa collapses*</i></p>
+<p class="sfx">*Tsukasa collapses*</p>
 <div class="tsukasa">
     <div class="icon"></div>
     <span class="name">Tsukasa</span><div class="arrow"></div>
     <div class="bubble">
-        Oof...!<!--dying face-->
+        Oof…!<!--dying face-->
     </div>
 </div>
 <div class="rui">
@@ -798,7 +826,7 @@
         Now then…… I think I have eaten into the time for planting the seeds. Don’t bloom all over there on your own<a href="#note4" id="tiny4"><sup><b>4</b></sup></a>,scoot over here instead.<!--hand up happy face-->
     </div>
 </div>
-<p style="text-align:center;"><i>*Rui shifts Tsukasa’s body*</i></p>
+<p class="sfx">*Rui shifts Tsukasa’s body*</p>
 <div class="rui">
     <div class="icon"></div>
     <span class="name">Rui</span><div class="arrow"></div>
@@ -806,7 +834,7 @@
         …… Here’s probably fine.<!--happy face-->
     </div>
 </div>
-<p style="text-align:center;"><i>*Tsukasa gets up*</i></p>
+<p class="sfx">*Tsukasa gets up*</p>
 <div class="tsukasa">
     <div class="icon"></div>
     <span class="name">Tsukasa</span><div class="arrow"></div>
@@ -842,7 +870,7 @@
         Arghh!? There’s mud all over my clothes now thanks to you! If I don’t get it off soon–!<!--shock face-->
     </div>
 </div>
-<p style="text-align:center;"><i>*Tsukasa runs off*</i></p>
+<p class="sfx">*Tsukasa runs off*</p>
 <div class="rui">
     <div class="icon"></div>
     <span class="name">Rui</span><div class="arrow"></div>
@@ -870,20 +898,20 @@
 <p><code>ふふ、市販されている紙折機を簡略化しただけの仕組みだけど、性能は折り紙つきさ。チラシ折り機だけにね。</code></p>
 <p>Here he talks about how even though its structure is a simplified version of a regular paper folding machine (紙折機), its abilities are 折り紙つき, as you would expect of a flyer folding machine (チラシ折り機).<br>
 折り紙つき translates to genuine, or authentic (i.e. its abilities are certified, trustworthy etc.) But uh I have no idea how to retain the pun so this note exists because of that. Press f to pay respects because i lost a solid 15-30min trying to figure out what this was supposed to mean<br>
-　<a href="#tiny1" style="font-size:0.8em">(Return to text)</a></p>
+　<a href="#tiny1" class="returnup">(Return to text)</a></p>
 </li>
 </ol>
 <p id="note2"></p>
 <ol start="2">
-<li>Rui says he’s a 緑化委員. Not completely sure how to translate this, I saw stuff like Planting Committee, Tree Planting Committee, Greening Committee etc., so I just went with what hopefully makes sense while being simple. The committee’s job is basically to take care of the plants in school and/or plant new ones if needed　<a href="#tiny2" style="font-size:0.8em">(Return to text)</a></li>
+<li>Rui says he’s a 緑化委員. Not completely sure how to translate this, I saw stuff like Planting Committee, Tree Planting Committee, Greening Committee etc., so I just went with what hopefully makes sense while being simple. The committee’s job is basically to take care of the plants in school and/or plant new ones if needed　<a href="#tiny2" class="returnup">(Return to text)</a></li>
 </ol>
 <p id="note3"></p>
 <ol start="3">
-<li>It’s not immediately clear here, especially with the dialogue and the limited animations, but Rui did indeed trip Tsukasa here. You can assume that Tsukasa was freaking out a lot after he saw the bug (even though his sprites dont even move a single inch here lol)　<a href="#tiny3" style="font-size:0.8em">(Return to text)</a></li>
+<li>It’s not immediately clear here, especially with the dialogue and the limited animations, but Rui did indeed trip Tsukasa here. You can assume that Tsukasa was freaking out a lot after he saw the bug (even though his sprites dont even move a single inch here lol)　<a href="#tiny3" class="returnup">(Return to text)</a></li>
 </ol>
 <p id="note4"></p>
 <ol start="4">
-<li>Weird expression, but Rui’s referring to what is presumably a spreadeagle Tsukasa on the path　<a href="#tiny4" style="font-size:0.8em">(Return to text)</a></li>
+<li>Weird expression, but Rui’s referring to what is presumably a spreadeagle Tsukasa on the path　<a href="#tiny4" class="returnup">(Return to text)</a></li>
 </ol>
 
     </div>
@@ -1057,6 +1085,10 @@
   
 
 
+
+
+  
+<script src="/js/local-search.js"></script>
 
 
 

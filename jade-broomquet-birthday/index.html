@@ -17,7 +17,7 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"xnotyuki.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":30,"offset":10,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":false,"color":"#f17e39","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+    var CONFIG = {"hostname":"xnotyuki.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":30,"offset":10,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":false,"color":"#f17e39","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
   <meta name="description" content="Title: Happy Birthday Characters: Jade, Kalim Tsum 2 is such a joy I can’t wait to get my grubby old hands all over it">
@@ -27,13 +27,13 @@
 <meta property="og:site_name" content="yuki translates">
 <meta property="og:description" content="Title: Happy Birthday Characters: Jade, Kalim Tsum 2 is such a joy I can’t wait to get my grubby old hands all over it">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="https://xnotyuki.github.io/jade-broomquet-birthday/bg1.png">
-<meta property="og:image" content="https://xnotyuki.github.io/jade-broomquet-birthday/bg1.png">
-<meta property="og:image" content="https://xnotyuki.github.io/jade-broomquet-birthday/bg1.png">
-<meta property="og:image" content="https://xnotyuki.github.io/jade-broomquet-birthday/bg2.png">
-<meta property="og:image" content="https://xnotyuki.github.io/jade-broomquet-birthday/groovy.png">
+<meta property="og:image" content="https://xnotyuki.github.io/backgrounds/13116.png">
+<meta property="og:image" content="https://xnotyuki.github.io/backgrounds/13116.png">
+<meta property="og:image" content="https://xnotyuki.github.io/backgrounds/13116.png">
+<meta property="og:image" content="https://xnotyuki.github.io/backgrounds/blackout.png">
+<meta property="og:image" content="https://xnotyuki.github.io/backgrounds/groovies/jadebroomquetgroovy.png">
 <meta property="article:published_time" content="2023-04-04T16:31:13.000Z">
-<meta property="article:modified_time" content="2023-04-04T17:54:25.712Z">
+<meta property="article:modified_time" content="2023-12-13T01:39:54.541Z">
 <meta property="article:author" content="xnotyuki">
 <meta property="article:tag" content="kalim al-asim">
 <meta property="article:tag" content="twisted wonderland">
@@ -41,7 +41,7 @@
 <meta property="article:tag" content="ssr">
 <meta property="article:tag" content="personal story">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://xnotyuki.github.io/jade-broomquet-birthday/bg1.png">
+<meta name="twitter:image" content="https://xnotyuki.github.io/backgrounds/13116.png">
 
 <link rel="canonical" href="https://xnotyuki.github.io/jade-broomquet-birthday/">
 
@@ -115,6 +115,7 @@
 
   <div class="site-nav-right">
     <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
     </div>
   </div>
 </div>
@@ -159,11 +160,38 @@
     <a href="/archives/" rel="section"><i class="fa fa-bars fa-fw"></i>Archives</a>
 
   </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
+        </a>
+      </li>
   </ul>
 </nav>
 
 
 
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="Searching..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
 
 </div>
     </header>
@@ -206,10 +234,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">Posted on</span>
-              
 
-              <time title="Created: 5th Apr 2023 (Wednesday) 00:31 / Modified: 01:54" itemprop="dateCreated datePublished" datetime="2023-04-05T00:31:13+08:00">5th Apr 2023 (Wednesday)</time>
+              <time title="Created: 5th Apr 2023 (Wednesday) 00:31" itemprop="dateCreated datePublished" datetime="2023-04-05T00:31:13+08:00">5th Apr 2023 (Wednesday)</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 13th Dec 2023 (Wednesday) 09:39" itemprop="dateModified" datetime="2023-12-13T09:39:54+08:00">13th Dec 2023 (Wednesday)</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -245,8 +279,8 @@
 <span id="more"></span>
 <link href="/css/tl.css" rel="stylesheet">
 <h1 id="part-1" id="Part-1">Part 1</h1>
-<img src="/jade-broomquet-birthday/bg1.png" class="" title="Octavinelle Dorm - Birthday Party Venue">
-<p style="text-align:center; font-size:1.1em;">Octavinelle Dorm - Birthday Party Venue</p>
+<p><img src="/backgrounds/13116.png" alt="Octavinelle Birthday Party Venue" title="Octavinelle Dorm - Birthday Party Venue"></p>
+<p class="bg">Octavinelle Dorm - Birthday Party Venue</p>
 <div class="jade broomquet-general">
     <div class="icon"></div>
     <span class="name">Jade</span><div class="arrow"></div>
@@ -261,7 +295,7 @@
     <div class="icon"></div>
     <span class="name">???</span><div class="arrow"></div>
     <div class="bubble">
-        Err… This should be the place I think? <p style="font-size:1.15em">HEEEEY, JADE! I'M HERE!!!</p>
+        Err… This should be the place I think? <p class="bigtext">HEEEEY, JADE! I'M HERE!!!</p>
     </div>
 </div>
 <div class="jade broomquet-general">
@@ -424,8 +458,8 @@
     </div>
 </div>
 <h1 id="part-2" id="Part-2">Part 2</h1>
-<img src="/jade-broomquet-birthday/bg1.png" class="" title="Octavinelle Dorm - Birthday Party Venue">
-<p style="text-align:center; font-size:1.1em;">Octavinelle Dorm - Birthday Party Venue</p>
+<p><img src="/backgrounds/13116.png" alt="Octavinelle Birthday Party Venue" title="Octavinelle Dorm - Birthday Party Venue"></p>
+<p class="bg">Octavinelle Dorm - Birthday Party Venue</p>
 <div class="kalim school-general">
     <div class="icon"></div>
     <span class="name">Kalim</span><div class="arrow"></div>
@@ -564,8 +598,8 @@
     </div>
 </div>
 <h1 id="part-3" id="Part-3">Part 3</h1>
-<img src="/jade-broomquet-birthday/bg1.png" class="" title="Octavinelle Dorm - Birthday Party Venue">
-<p style="text-align:center; font-size:1.1em;">Octavinelle Dorm - Birthday Party Venue</p>
+<p><img src="/backgrounds/13116.png" alt="Octavinelle Birthday Party Venue" title="Octavinelle Dorm - Birthday Party Venue"></p>
+<p class="bg">Octavinelle Dorm - Birthday Party Venue</p>
 <div class="kalim school-general">
     <div class="icon"></div>
     <span class="name">Kalim</span><div class="arrow"></div>
@@ -769,7 +803,7 @@
     </div>
 </div>
 <hr>
-<img src="/jade-broomquet-birthday/bg2.png" class="" title="Darkness or something">
+<p><img src="/backgrounds/blackout.png" alt="Darkness" title="Darkness or something"></p>
 <div class="jade broomquet-general">
     <div class="icon"></div>
     <span class="name">Jade</span><div class="arrow"></div>
@@ -777,68 +811,8 @@
         I am reluctant to fly in front of crowds…but I shall ensure that my responsibility as the birthday boy is duly fulfilled.
     </div>
 </div>
-<img src="/jade-broomquet-birthday/groovy.png" class="" title="Him try">
-<!-- FORMATTING UNSELECTABLE CHOICES
-<div class="buttonpains">
-  <button data-toggle="tab" data-target="#choice1" class="negabutton">
-  <b>Choice 1:</b> This is a text
-  </button>
-  <button data-toggle="tab" data-target="#choice2" class="negabutton">
-  <b>Choice 2:</b> Another dialogue they say. This is obnoxiously long for testing purposes because it is possible and I say so.
-  </button>
-</div>
--->
-<!-- FORMATTING CHOICE DIALOGUE - SCRIPT IS REQUIRED FOR EACH CALL OF CHOICE
+<p><img src="/backgrounds/groovies/jadebroomquetgroovy.png" alt="Jade Broomquet Birthday Groovy" title="Him try"></p>
 
-<p style="text-align:center; font-size:1.05em"><b>Select one of the choices to reveal the next dialogue</b></p>
-
-<button data-toggle="tab" data-target="#choice1" class="buttons">
-<b>Choice 1:</b> This is a text
-</button>
-<button data-toggle="tab" data-target="#choice2" class="buttons">
-<b>Choice 2:</b> Another dialogue they say. This is obnoxiously long for testing purposes because it is possible and I say so.
-</button>
-
-<script src="/js/tl.js"></script>
-<div class="tab-contents">
-  <div class="tab" id="choice1">
-    <div class="mc">
-        <div class="icon"></div>
-        <span class="name">MC/Yuu</span><div class="arrow"></div>
-        <div class="bubble">
-            ▶ Happy Birthday
-        </div>
-    </div>
-    <div class="jamil bd-1">
-        <div class="icon"></div>
-        <span class="name">Jamil</span><div class="arrow"></div>
-        <div class="bubble">
-            Ah… thanks.
-        </div>
-    </div>
-  </div>
-  <div class="tab" id="choice2">
-    <div class="jamil bd-1">
-        <div class="icon"></div>
-        <span class="name">Jamil</span><div class="arrow"></div>
-        <div class="bubble">
-            Ah… thanks.
-        </div>
-    </div>
-  </div>
-</div>
--->
-<!--FORMATTING FOOTNOTES-->
-<!--
-<a href="#note1" id="tiny1"><sup><b>1</b></sup></a>
-
-# Notes
-
-<p id="note1"></p>
-
-1. kusoge is quite literally "shit-tier game". It has a very specific definition actually based on what I see online, so kei and I agreed to keep it as is and leave a note.　<a href="#tiny1" style="font-size:0.8em">(Return to text)</a>
-
--->
     </div>
 
     
@@ -1010,6 +984,10 @@
   
 
 
+
+
+  
+<script src="/js/local-search.js"></script>
 
 
 

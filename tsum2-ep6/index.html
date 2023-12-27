@@ -17,20 +17,20 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"xnotyuki.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":30,"offset":10,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":false,"color":"#f17e39","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+    var CONFIG = {"hostname":"xnotyuki.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":30,"offset":10,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":false,"color":"#f17e39","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="Title: Interactions with Lilia Tsum I Node: Map 4-6 Characters: Silver, Sebek, Lilia Event Story Navigation         Map 1(The Tsums Invade!)     Episode 1 ・ Episode 2 ・ Episode 3           Maps 2-8(In">
+  <meta name="description" content="Title: Interactions with Lilia Tsum I Node: Map 4-5 Characters: Silver, Sebek, Lilia  Event Story Navigation         Map 1(The Tsums Invade!)     Episode 1 ・ Episode 2 ・ Episode 3           Maps 2-8(I">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Welcome to Tsumsted Wonderland! Part 2 - Episode 6">
 <meta property="og:url" content="https://xnotyuki.github.io/tsum2-ep6/index.html">
 <meta property="og:site_name" content="yuki translates">
-<meta property="og:description" content="Title: Interactions with Lilia Tsum I Node: Map 4-6 Characters: Silver, Sebek, Lilia Event Story Navigation         Map 1(The Tsums Invade!)     Episode 1 ・ Episode 2 ・ Episode 3           Maps 2-8(In">
+<meta property="og:description" content="Title: Interactions with Lilia Tsum I Node: Map 4-5 Characters: Silver, Sebek, Lilia  Event Story Navigation         Map 1(The Tsums Invade!)     Episode 1 ・ Episode 2 ・ Episode 3           Maps 2-8(I">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="https://xnotyuki.github.io/tsum2-ep6/bg1.png">
-<meta property="og:image" content="https://xnotyuki.github.io/tsum2-ep6/bg2.png">
+<meta property="og:image" content="https://xnotyuki.github.io/backgrounds/17111.png">
+<meta property="og:image" content="https://xnotyuki.github.io/backgrounds/61161.png">
 <meta property="article:published_time" content="2023-05-11T02:41:39.000Z">
-<meta property="article:modified_time" content="2023-07-06T02:38:23.781Z">
+<meta property="article:modified_time" content="2023-12-27T06:58:34.261Z">
 <meta property="article:author" content="xnotyuki">
 <meta property="article:tag" content="event story">
 <meta property="article:tag" content="twisted wonderland">
@@ -39,7 +39,7 @@
 <meta property="article:tag" content="silver">
 <meta property="article:tag" content="welcome to tsumsted wonderland part 2">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://xnotyuki.github.io/tsum2-ep6/bg1.png">
+<meta name="twitter:image" content="https://xnotyuki.github.io/backgrounds/17111.png">
 
 <link rel="canonical" href="https://xnotyuki.github.io/tsum2-ep6/">
 
@@ -113,6 +113,7 @@
 
   <div class="site-nav-right">
     <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
     </div>
   </div>
 </div>
@@ -157,11 +158,38 @@
     <a href="/archives/" rel="section"><i class="fa fa-bars fa-fw"></i>Archives</a>
 
   </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
+        </a>
+      </li>
   </ul>
 </nav>
 
 
 
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="Searching..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
 
 </div>
     </header>
@@ -212,7 +240,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 6th Jul 2023 (Thursday) 10:38" itemprop="dateModified" datetime="2023-07-06T10:38:23+08:00">6th Jul 2023 (Thursday)</time>
+                <time title="Modified: 27th Dec 2023 (Wednesday) 14:58" itemprop="dateModified" datetime="2023-12-27T14:58:34+08:00">27th Dec 2023 (Wednesday)</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -248,24 +276,24 @@
 
       
         <p><strong>Title:</strong> Interactions with Lilia Tsum I<br>
-<strong>Node:</strong> Map 4-6<br>
+<strong>Node:</strong> Map 4-5<br>
 <strong>Characters:</strong> Silver, Sebek, Lilia</p>
+<link href="/css/tl.css" rel="stylesheet">
 <h1 id="event-story-navigation" id="Event-Story-Navigation-84">Event Story Navigation</h1>
 <table>
   <tr>
-    <td style="text-align:center">Map 1<br/>(The Tsums Invade!)</td>
-    <td style="text-align:center"><a href="/tsum2-ep1/" title="Episode 1">Episode 1</a> ・ <a href="/tsum2-ep2/" title="Episode 2">Episode 2</a> ・ <a href="/tsum2-ep3/" title="Episode 3">Episode 3</a></td>
+    <td>Map 1<br/>(The Tsums Invade!)</td>
+    <td><a href="/tsum2-ep1/" title="Episode 1">Episode 1</a> ・ <a href="/tsum2-ep2/" title="Episode 2">Episode 2</a> ・ <a href="/tsum2-ep3/" title="Episode 3">Episode 3</a></td>
   </tr>
   <tr>
-    <td style="text-align:center">Maps 2-8<br/>(Interactions with Tsums)</td>
-    <td style="text-align:center"><a href="/tsum2-ep4/" title="Episode 4">Episode 4</a> ・ <a href="/tsum2-ep5/" title="Episode 5">Episode 5</a> ・ <a href="/tsum2-ep6/" title="Episode 6">Episode 6</a> ・ Episode 7 ・ Episode 8 ・ Episode 9 ・ Episode 10</td>
+    <td>Maps 2-8<br/>(Interactions with Tsums)</td>
+    <td><a href="/tsum2-ep4/" title="Episode 4">Episode 4</a> ・ <a href="/tsum2-ep5/" title="Episode 5">Episode 5</a> ・ <a href="/tsum2-ep6/" title="Episode 6">Episode 6</a> ・ <a href="/tsum2-ep7/" title="Episode 7">Episode 7</a> ・ <a href="/tsum2-ep8/" title="Episode 8">Episode 8</a> ・ <a href="/tsum2-ep9/" title="Episode 9">Episode 9</a> ・ Episode 10</td>
   </tr>
 </table>
 <span id="more"></span>
-<link href="/css/tl.css" rel="stylesheet">
 <h1 id="interactions-with-lilia-tsum-i" id="Interactions-with-Lilia-Tsum-I">Interactions with Lilia Tsum I</h1>
-<img src="/tsum2-ep6/bg1.png" class="" title="Diasomnia Dorm - Lounge">
-<p style="text-align:center; font-size:1.1em;">Diasomnia Dorm - Lounge</p>
+<p><img src="/backgrounds/17111.png" alt="Diasomnia Lounge (Day)" title="Diasomnia Dorm - Lounge"></p>
+<p class="bg">Diasomnia Dorm - Lounge</p>
 <div class="sebek dorm-general">
     <div class="icon"></div>
     <span class="name">Sebek</span><div class="arrow"></div>
@@ -287,22 +315,22 @@
         Sounds right. No ruckus in particular is happening in the dorm, and there's been no mention of them appearing eith-
     </div>
 </div>
-<p style="text-align:center; font-size:1.15em"><i>*Tsum Lilia appears*</i></p>
+<p class="sfx">*Tsum Lilia appears*</p>
 <div class="sebek dorm-general">
     <div class="icon"></div>
     <span class="name">Sebek</span><div class="arrow"></div>
     <div class="bubble">
-        <p style="font-size:1.15em">!!! Wh-What the?! Something fell onto my shoulder?!</p>
+        <p class="bigtext">!!! Wh-What the?! Something fell onto my shoulder?!</p>
     </div>
 </div>
 <div class="sebek voice">
     <div class="icon"></div>
     <span class="name">Sebek</span><div class="arrow"></div>
     <div class="bubble">
-        <p style="font-size:1.15em">You little…… You're a Tsum!!!!!!</p>
+        <p class="bigtext">You little…… You're a Tsum!!!!!!</p>
     </div>
 </div>
-<p style="text-align:center; font-size:1.15em"><i>*Happy Tsum*</i></p>
+<p class="sfx">*Happy Tsum*</p>
 <div class="lilia voice">
     <div class="icon"></div>
     <span class="name">???</span><div class="arrow"></div>
@@ -328,7 +356,7 @@
     <div class="icon"></div>
     <span class="name">Silver & Sebek</span><div class="arrow"></div>
     <div class="bubble">
-        <p style="font-size:1.15em">Dad! / Master Lilia!</p>
+        <p class="bigtext">Dad! / Master Lilia!</p>
     </div>
 </div>
 <div class="silver dorm-general">
@@ -351,7 +379,7 @@
         Now Tsum, where are your manners? Go on and greet Silver and Sebek.
     </div>
 </div>
-<p style="text-align:center; font-size:1.15em"><i>*Tsum greeting*</i></p>
+<p class="sfx">*Tsum greeting*</p>
 <div class="silver dorm-general">
     <div class="icon"></div>
     <span class="name">Silver</span><div class="arrow"></div>
@@ -362,7 +390,7 @@
         My name is Silver. Pleased to meet you, Tsum.
     </div>
 </div>
-<p style="text-align:center; font-size:1.15em"><i>*Tsum greeting*</i></p>
+<p class="sfx">*Tsum greeting*</p>
 <div class="sebek dorm-general">
     <div class="icon"></div>
     <span class="name">Sebek</span><div class="arrow"></div>
@@ -370,7 +398,7 @@
         I am Sebek Zigvolt. Although, it's not like you need to remember that anyway. More importantly, there's something I need to tell you.
     </div>
 </div>
-<p style="text-align:center; font-size:1.15em"><i>*Tsum greeting*</i></p>
+<p class="sfx">*Tsum greeting*</p>
 <div class="sebek dorm-general">
     <div class="icon"></div>
     <span class="name">Sebek</span><div class="arrow"></div>
@@ -423,15 +451,15 @@
         Ahh, about that-
     </div>
 </div>
-<p style="text-align:center; font-size:1.15em"><i>*Tsum falls*</i></p>
+<p class="sfx">*Tsum falls*</p>
 <div class="sebek dorm-general">
     <div class="icon"></div>
     <span class="name">Sebek</span><div class="arrow"></div>
     <div class="bubble">
-        <p style="font-size:1.15em">!! You little… I mean, you, Sir?! Again?!</p> Stop messing… <i>Please</i> stop playing on my head?
+        <p class="bigtext">!! You little… I mean, you, Sir?! Again?!</p> Stop messing… <i>Please</i> stop playing on my head?
     </div>
 </div>
-<p style="text-align:center; font-size:1.15em"><i>*Happy Tsum*</i></p>
+<p class="sfx">*Happy Tsum*</p>
 <div class="silver dorm-general">
     <div class="icon"></div>
     <span class="name">Silver</span><div class="arrow"></div>
@@ -458,7 +486,7 @@
         Now Tsum, onward! Let us spread the gift of bewilderment to everyone!
     </div>
 </div>
-<p style="text-align:center; font-size:1.15em"><i>*Happy Tsum*</i></p>
+<p class="sfx">*Happy Tsum*</p>
 <div class="silver dorm-general">
     <div class="icon"></div>
     <span class="name">Silver</span><div class="arrow"></div>
@@ -505,8 +533,8 @@
     </div>
 </div>
 <hr>
-<img src="/tsum2-ep6/bg2.png" class="" title="Exterior Hallway">
-<p style="text-align:center; font-size:1.1em;">Exterior Hallway</p>
+<p><img src="/backgrounds/61161.png" alt="Exterior Hallway (Day)" title="Exterior Hallway"></p>
+<p class="bg">Exterior Hallway</p>
 <div class="lilia school-general">
     <div class="icon"></div>
     <span class="name">Lilia</span><div class="arrow"></div>
@@ -517,7 +545,7 @@
         What do you think? Here, you can relish in all the fun you want to your heart's content, don't you agree?
     </div>
 </div>
-<p style="text-align:center; font-size:1.15em"><i>*Happy Tsum*</i></p>
+<p class="sfx">*Happy Tsum*</p>
 <div class="lilia school-general">
     <div class="icon"></div>
     <span class="name">Lilia</span><div class="arrow"></div>
@@ -528,7 +556,7 @@
         Now then… What will be your next move?
     </div>
 </div>
-<p style="text-align:center; font-size:1.15em"><i>*Tsum look*</i></p>
+<p class="sfx">*Tsum look*</p>
 <div class="lilia school-general">
     <div class="icon"></div>
     <span class="name">Lilia</span><div class="arrow"></div>
@@ -539,7 +567,7 @@
         Show me what you've got then, Tsum.
     </div>
 </div>
-<p style="text-align:center; font-size:1.15em"><i>*Happy Tsum*</i></p>
+<p class="sfx">*Happy Tsum*</p>
 
     </div>
 
@@ -566,7 +594,10 @@
     <a href="/tsum2-ep5/" rel="prev" title="Welcome to Tsumsted Wonderland! Part 2 - Episode 5">
       <i class="fa fa-chevron-left"></i> Welcome to Tsumsted Wonderland! Part 2 - Episode 5
     </a></div>
-      <div class="post-nav-item"></div>
+      <div class="post-nav-item">
+    <a href="/tsum2-ep7/" rel="next" title="Welcome to Tsumsted Wonderland! Part 2 - Episode 7">
+      Welcome to Tsumsted Wonderland! Part 2 - Episode 7 <i class="fa fa-chevron-right"></i>
+    </a></div>
     </div>
       </footer>
     
@@ -710,6 +741,10 @@
   
 
 
+
+
+  
+<script src="/js/local-search.js"></script>
 
 
 

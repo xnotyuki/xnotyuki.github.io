@@ -17,7 +17,7 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"xnotyuki.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":30,"offset":10,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":false,"color":"#f17e39","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+    var CONFIG = {"hostname":"xnotyuki.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":30,"offset":10,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":false,"color":"#f17e39","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
   <meta name="description" content="Title: Bountiful Market! - Isn’t Even Worth Killing Time With Characters: Jade, Epel, Idia, Sebek, Grim, Woodwork Store Owner, General Store Owner JP Proofreader: okaykei EN Proofreader: Jewishruggie">
@@ -27,11 +27,11 @@
 <meta property="og:site_name" content="yuki translates">
 <meta property="og:description" content="Title: Bountiful Market! - Isn’t Even Worth Killing Time With Characters: Jade, Epel, Idia, Sebek, Grim, Woodwork Store Owner, General Store Owner JP Proofreader: okaykei EN Proofreader: Jewishruggie">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="https://xnotyuki.github.io/harveston-ep3-7/bg1.png">
-<meta property="og:image" content="https://xnotyuki.github.io/harveston-ep3-7/birdwhistles.jpg">
-<meta property="og:image" content="https://xnotyuki.github.io/harveston-ep3-7/cushion.jpg">
+<meta property="og:image" content="https://xnotyuki.github.io/backgrounds/67111.png">
+<meta property="og:image" content="https://xnotyuki.github.io/backgrounds/67111birdwhistles.jpg">
+<meta property="og:image" content="https://xnotyuki.github.io/backgrounds/67111cushion.jpg">
 <meta property="article:published_time" content="2022-05-28T06:58:40.000Z">
-<meta property="article:modified_time" content="2023-03-13T10:14:05.275Z">
+<meta property="article:modified_time" content="2023-12-14T02:32:21.416Z">
 <meta property="article:author" content="xnotyuki">
 <meta property="article:tag" content="grim">
 <meta property="article:tag" content="event story">
@@ -45,7 +45,7 @@
 <meta property="article:tag" content="woodwork store owner">
 <meta property="article:tag" content="general store owner">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://xnotyuki.github.io/harveston-ep3-7/bg1.png">
+<meta name="twitter:image" content="https://xnotyuki.github.io/backgrounds/67111.png">
 
 <link rel="canonical" href="https://xnotyuki.github.io/harveston-ep3-7/">
 
@@ -119,6 +119,7 @@
 
   <div class="site-nav-right">
     <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
     </div>
   </div>
 </div>
@@ -163,11 +164,38 @@
     <a href="/archives/" rel="section"><i class="fa fa-bars fa-fw"></i>Archives</a>
 
   </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
+        </a>
+      </li>
   </ul>
 </nav>
 
 
 
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="Searching..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
 
 </div>
     </header>
@@ -218,7 +246,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 13th Mar 2023 (Monday) 18:14" itemprop="dateModified" datetime="2023-03-13T18:14:05+08:00">13th Mar 2023 (Monday)</time>
+                <time title="Modified: 14th Dec 2023 (Thursday) 10:32" itemprop="dateModified" datetime="2023-12-14T10:32:21+08:00">14th Dec 2023 (Thursday)</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -257,34 +285,34 @@
 <strong>Characters:</strong> Jade, Epel, Idia, Sebek, Grim, Woodwork Store Owner, General Store Owner</p>
 <p><strong>JP Proofreader:</strong> okaykei<br>
 <strong>EN Proofreader:</strong> Jewishruggie</p>
-<h1 id="event-story-navigation" id="Event-Story-Navigation-57">Event Story Navigation</h1>
+<link href="/css/tl.css" rel="stylesheet">
+<h1 id="event-story-navigation" id="Event-Story-Navigation-58">Event Story Navigation</h1>
 <table>
   <tr>
-    <td style="text-align:center">Episode 1</td>
-    <td style="text-align:center"><a href="/harveston-ep1-1" title="Episode 1-1">1-1</a> ・ <a href="/harveston-ep1-2/" title="Episode 1-2">1-2</a> ・ <a href="/harveston-ep1-3/" title="Episode 1-3">1-3</a> ・ <a href="/harveston-ep1-4/" title="Episode 1-4">1-4</a></td>
+    <td>Episode 1</td>
+    <td><a href="/harveston-ep1-1" title="Episode 1-1">1-1</a> ・ <a href="/harveston-ep1-2/" title="Episode 1-2">1-2</a> ・ <a href="/harveston-ep1-3/" title="Episode 1-3">1-3</a> ・ <a href="/harveston-ep1-4/" title="Episode 1-4">1-4</a></td>
   </tr>
   <tr>
-    <td style="text-align:center">Episode 2</td>
-    <td style="text-align:center"><a href="/harveston-ep2-1/" title="Episode 2-1">2-1</a> ・ <a href="/harveston-ep2-2/" title="Episode 2-2">2-2</a> ・ <a href="/harveston-ep2-3/" title="Episode 2-3">2-3</a> ・ <a href="/harveston-ep2-4/" title="Episode 2-4">2-4</a> ・ <a href="/harveston-ep2-5/" title="Episode 2-5">2-5</a> ・ <a href="/harveston-ep2-6/" title="Episode 2-6">2-6</a></td>
+    <td>Episode 2</td>
+    <td><a href="/harveston-ep2-1/" title="Episode 2-1">2-1</a> ・ <a href="/harveston-ep2-2/" title="Episode 2-2">2-2</a> ・ <a href="/harveston-ep2-3/" title="Episode 2-3">2-3</a> ・ <a href="/harveston-ep2-4/" title="Episode 2-4">2-4</a> ・ <a href="/harveston-ep2-5/" title="Episode 2-5">2-5</a> ・ <a href="/harveston-ep2-6/" title="Episode 2-6">2-6</a></td>
   </tr>
   <tr>
-    <td style="text-align:center">Episode 3</td>
-    <td style="text-align:center"><a href="/harveston-ep3-1/" title="Episode 3-1">3-1</a> ・ <a href="/harveston-ep3-2/" title="Episode 3-2">3-2</a> ・ <a href="/harveston-ep3-3/" title="Episode 3-3">3-3</a> ・ <a href="/harveston-ep3-4/" title="Episode 3-4">3-4</a> ・ <a href="/harveston-ep3-5/" title="Episode 3-5">3-5</a> ・ <a href="/harveston-ep3-6/" title="Episode 3-6">3-6</a> ・ <a href="/harveston-ep3-7/" title="Episode 3-7">3-7</a> ・ <a href="/harveston-ep3-8/" title="Episode 3-8">3-8</a> ・ <a href="/harveston-ep3-9/" title="Episode 3-9">3-9</a> ・ <a href="/harveston-ep3-10/" title="Episode 3-10">3-10</a> ・ <a href="/harveston-ep3-11/" title="Episode 3-11">3-11</a></td>
+    <td>Episode 3</td>
+    <td><a href="/harveston-ep3-1/" title="Episode 3-1">3-1</a> ・ <a href="/harveston-ep3-2/" title="Episode 3-2">3-2</a> ・ <a href="/harveston-ep3-3/" title="Episode 3-3">3-3</a> ・ <a href="/harveston-ep3-4/" title="Episode 3-4">3-4</a> ・ <a href="/harveston-ep3-5/" title="Episode 3-5">3-5</a> ・ <a href="/harveston-ep3-6/" title="Episode 3-6">3-6</a> ・ <a href="/harveston-ep3-7/" title="Episode 3-7">3-7</a> ・ <a href="/harveston-ep3-8/" title="Episode 3-8">3-8</a> ・ <a href="/harveston-ep3-9/" title="Episode 3-9">3-9</a> ・ <a href="/harveston-ep3-10/" title="Episode 3-10">3-10</a> ・ <a href="/harveston-ep3-11/" title="Episode 3-11">3-11</a></td>
   </tr>
   <tr>
-    <td style="text-align:center">Episode 4</td>
-    <td style="text-align:center"><a href="/harveston-ep4-1/" title="Episode 4-1">4-1</a> ・ <a href="/harveston-ep4-2/" title="Episode 4-2">4-2</a> ・ <a href="/harveston-ep4-3/" title="Episode 4-3">4-3</a> ・ <a href="/harveston-ep4-4/" title="Episode 4-4">4-4</a> ・ <a href="/harveston-ep4-5/" title="Episode 4-5">4-5</a> ・ <a href="/harveston-ep4-6/" title="Episode 4-6">4-6</a> ・ <a href="/harveston-ep4-7/" title="Episode 4-7">4-7</a> ・ <a href="/harveston-ep4-8/" title="Episode 4-8">4-8</a> ・ <a href="/harveston-ep4-9/" title="Episode 4-9">4-9</a></td>
+    <td>Episode 4</td>
+    <td><a href="/harveston-ep4-1/" title="Episode 4-1">4-1</a> ・ <a href="/harveston-ep4-2/" title="Episode 4-2">4-2</a> ・ <a href="/harveston-ep4-3/" title="Episode 4-3">4-3</a> ・ <a href="/harveston-ep4-4/" title="Episode 4-4">4-4</a> ・ <a href="/harveston-ep4-5/" title="Episode 4-5">4-5</a> ・ <a href="/harveston-ep4-6/" title="Episode 4-6">4-6</a> ・ <a href="/harveston-ep4-7/" title="Episode 4-7">4-7</a> ・ <a href="/harveston-ep4-8/" title="Episode 4-8">4-8</a> ・ <a href="/harveston-ep4-9/" title="Episode 4-9">4-9</a></td>
   </tr>
   <tr>
-    <td style="text-align:center">Episode 5</td>
-    <td style="text-align:center"><a href="/harveston-ep5-1/" title="Episode 5-1">5-1</a> ・ <a href="/harveston-ep5-2/" title="Episode 5-2">5-2</a> ・ <a href="/harveston-ep5-3/" title="Episode 5-3">5-3</a> ・ <a href="/harveston-ep5-4/" title="Episode 5-4">5-4</a> ・ <a href="/harveston-ep5-5/" title="Episode 5-5">5-5</a> ・ <a href="/harveston-ep5-6/" title="Episode 5-6">5-6</a> ・ <a href="/harveston-ep5-7/" title="Episode 5-7">5-7</a> ・ <a href="/harveston-ep5-8/" title="Episode 5-8">5-8</a> ・ <a href="/harveston-ep5-9/" title="Episode 5-9">5-9</a> ・ <a href="/harveston-ep5-10/" title="Episode 5-10">5-10</a></td>
+    <td>Episode 5</td>
+    <td><a href="/harveston-ep5-1/" title="Episode 5-1">5-1</a> ・ <a href="/harveston-ep5-2/" title="Episode 5-2">5-2</a> ・ <a href="/harveston-ep5-3/" title="Episode 5-3">5-3</a> ・ <a href="/harveston-ep5-4/" title="Episode 5-4">5-4</a> ・ <a href="/harveston-ep5-5/" title="Episode 5-5">5-5</a> ・ <a href="/harveston-ep5-6/" title="Episode 5-6">5-6</a> ・ <a href="/harveston-ep5-7/" title="Episode 5-7">5-7</a> ・ <a href="/harveston-ep5-8/" title="Episode 5-8">5-8</a> ・ <a href="/harveston-ep5-9/" title="Episode 5-9">5-9</a> ・ <a href="/harveston-ep5-10/" title="Episode 5-10">5-10</a></td>
   </tr>
 </table>
 <span id="more"></span>
-<link href="/css/tl.css" rel="stylesheet">
 <h1 id="isnt-even-worth-killing-time-with" id="Isn’t-Even-Worth-Killing-Time-With">Isn’t Even Worth Killing Time With</h1>
-<img src="/harveston-ep3-7/bg1.png" class="" title="Harveston - Apple Square">
-<p style="text-align:center; font-size:1.1em;">Harveston - Apple Square</p>
+<p><img src="/backgrounds/67111.png" alt="Harveston Apple Square (Day)" title="Harveston - Apple Square"></p>
+<p class="bg">Harveston - Apple Square</p>
 <div class="jade apple-general">
     <div class="icon"></div>
     <span class="name">Jade</span><div class="arrow"></div>
@@ -341,7 +369,7 @@
         …I have decided.
     </div>
 </div>
-<img src="/harveston-ep3-7/birdwhistles.jpg" class="" title="Bird Whistles">
+<p><img src="/backgrounds/67111birdwhistles.jpg" alt="Bird Whistles" title="Bird Whistles"></p>
 <div class="jade voice">
     <div class="icon"></div>
     <span class="name">Jade</span><div class="arrow"></div>
@@ -380,12 +408,12 @@
         Indeed, they will. I can imagine oh so perfectly how the two of them would play these in full earnest. I'm confident that they will be overcome with pure joy at these presents.
     </div>
 </div>
-<p style="text-align:center; font-size:1.15em"><i>*Jade walks away*</i></p>
+<p class="sfx">*Jade walks away*</p>
 <div class="sebek apple-general">
     <div class="icon"></div>
     <span class="name">Sebek</span><div class="arrow"></div>
     <div class="bubble">
-        ...Would those two really play such small and adorable whistles?
+        …Would those two really play such small and adorable whistles?
     </div>
 </div>
 <div class="epel apple-general">
@@ -450,7 +478,7 @@
         While it may be no board game, Ortho would probably enjoy problem-solving games like these as well…
     </div>
 </div>
-<p style="text-align:center; font-size:1.15em"><i>*Clack clack clack!*</i></p>
+<p class="sfx">*Clack clack clack!*</p>
 <div class="idia apple-general">
     <div class="icon"></div>
     <span class="name">Idia</span><div class="arrow"></div>
@@ -486,7 +514,7 @@
         Wh-What about this rabbit-shaped one then? It has about 10 times more pieces than that one, but…
     </div>
 </div>
-<p style="text-align:center; font-size:1.15em"><i>*Clack clack clack clack clack!*</i></p>
+<p class="sfx">*Clack clack clack clack clack!*</p>
 <div class="idia apple-general">
     <div class="icon"></div>
     <span class="name">Idia</span><div class="arrow"></div>
@@ -519,7 +547,7 @@
     <div class="icon"></div>
     <span class="name">Woodwork Store Owner</span><div class="arrow"></div>
     <div class="bubble">
-        Our most difficult one, eh? Hm... 'ow about this 'ere castle based on 't Fairest Queen's?
+        Our most difficult one, eh? Hm… 'ow about this 'ere castle based on 't Fairest Queen's?
     </div>
 </div>
 <div class="sebek apple-general">
@@ -536,10 +564,10 @@
         I've got it 'ere as a display piece, but even with 't instruction manual, the blinkin' thing still took me an 'ole year to put together all proper.
     </div>
     <div class="bubble">
-        For a regular ol' fella, well... I'd say even ten years wouldn't be enough 't finish it.
+        For a regular ol' fella, well… I'd say even ten years wouldn't be enough 't finish it.
     </div>
 </div>
-<p style="text-align:center; font-size:1.15em"><i>*Click clack click click clack clop… Clack clack clack clack clack clack clack clack clack!*</i></p>
+<p class="sfx">*Click clack click click clack clop… Clack clack clack clack clack clack clack clack clack!*</p>
 <div class="idia apple-general">
     <div class="icon"></div>
     <span class="name">Idia</span><div class="arrow"></div>
@@ -591,7 +619,7 @@
     <div class="icon"></div>
     <span class="name">Sebek</span><div class="arrow"></div>
     <div class="bubble">
-        For all his complaining, he sure did buy that without hesitation...
+        For all his complaining, he sure did buy that without hesitation…
     </div>
 </div>
 <div class="epel apple-general">
@@ -635,7 +663,7 @@
         Is there anything that catches your eye, Sebek?
     </div>
 </div>
-<img src="/harveston-ep3-7/cushion.jpg" class="" title="Cushion">
+<p><img src="/backgrounds/67111cushion.jpg" alt="Cushion image" title="Cushion"></p>
 <div class="sebek voice">
     <div class="icon"></div>
     <span class="name">Sebek</span><div class="arrow"></div>
@@ -955,6 +983,10 @@
   
 
 
+
+
+  
+<script src="/js/local-search.js"></script>
 
 
 

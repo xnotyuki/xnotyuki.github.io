@@ -50,7 +50,7 @@ span.b {
   padding: 14px;
   border-radius: 10px;
   background: var(--color, #f1f1f1);
-  box-shadow: 1px 1px 2px #373737;
+  box-shadow: 1px 1px 3px #757575;
 }
 
 .bubble:nth-of-type(n+4) {
@@ -123,6 +123,15 @@ span.b {
   transition-duration: 0.5s;
 }
 
+.buttons:hover {
+  background-color: #b8b8b8;
+  color: #000000;
+}
+
+.buttons:active {
+  background-color: #ffffff;
+}
+
 .negabutton {
   padding: 20px 20px;
   text-align: center;
@@ -133,15 +142,11 @@ span.b {
 }
 
 .buttonpains {
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
-  text-align:center;
-}
-
-.buttons:hover {
-  background-color: #b8b8b8;
-  color: #000000;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  cursor: not-allowed;
 }
 
 .highlight {
@@ -156,6 +161,68 @@ span.b {
   display: block;
 }
 
+td {
+  text-align: center;
+  padding: 0.8em;
+}
+
+td:first-of-type {
+  font-weight: bold;
+}
+
+::selection {
+  background: #5753ba;
+}
+
+::-moz-selection { /*firefox stop being hipster challenge */
+  background: #5753ba;
+}
+
+a:active {
+  color: #5f5aff;
+}
+
+
+/*
+
+text styles - small text, big text, return to footnote, sound effects, background title cards,
+non background title cards
+
+*/
+
+
+.smalltext {
+  font-size: 85%;
+}
+
+.bigtext, .rhythmic {
+  font-size: 115%;
+}
+
+.returnup {
+  font-size: 80%;
+}
+
+.prechoice {
+  font-size: 105%;
+}
+
+.sfx, .bg {
+  font-size: 110%;
+}
+
+.sfx {
+  font-style: italic;
+}
+
+.sfx, .bg, .notbg {
+  text-align: center;
+}
+
+.prechoice, .rhythmic {
+  text-align: center;
+  font-weight: bold;
+}
 
 /* GENERAL UNKNOWN CHARACTER PORTRAIT */
 
@@ -975,6 +1042,10 @@ span.b {
   --icon: url("/icons/broom birthday/jadegeneral.png");
 }
 
+.jade.dorm-general {
+  --icon: url("/icons/common/twst/dorm/jadegeneral.png");
+}
+
 /* ORTHO */
 
 .ortho.school-general {
@@ -1017,10 +1088,18 @@ span.b {
   --icon: url("/icons/common/twst/school/epelgeneral.png");
 }
 
+.epel.dorm-general {
+  --icon: url("/icons/common/twst/dorm/epelgeneral.png");
+}
+
 /* VIL */
 
 .vil.school-general {
   --icon: url("/icons/common/twst/school/vilgeneral.png");
+}
+
+.vil.dorm-general {
+  --icon: url("/icons/common/twst/dorm/vilgeneral.png");
 }
 
 .vil.scary-general {
@@ -1031,6 +1110,10 @@ span.b {
 
 .rook.school-general {
   --icon: url("/icons/common/twst/school/rookgeneral.png");
+}
+
+.rook.dorm-general {
+  --icon: url("/icons/common/twst/dorm/rookgeneral.png");
 }
 
 .rook.scary-general {
@@ -1140,6 +1223,10 @@ span.b {
 
 .floyd.outdoor-general {
   --icon: url("/icons/outdoor/floydgeneral.png");
+}
+
+.floyd.dorm-general {
+  --icon: url("/icons/common/twst/dorm/floydgeneral.png");
 }
 
 /* AZUL */
