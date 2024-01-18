@@ -168,6 +168,7 @@ td {
 
 td:first-of-type {
   font-weight: bold;
+  max-width: 25%;
 }
 
 ::selection {
@@ -344,7 +345,7 @@ non background title cards
 
 .kalimcater {
   --color: #f3c4ae;
-  --icon: url("/icons/common/twst/kalimdormcatersilk.png");
+  --icon: url("/icons/common/twst/mixed/kalimdormcatersilk.png");
 }
 
 .kalimjamiltreycater {
@@ -394,8 +395,17 @@ non background title cards
   --color: #e7e5ec;
 }
 
+.sam {
+  --color: #d7b7d1;
+}
+
+.sam.yeah {
+  --icon: url("/icons/common/twst/sam.png");
+}
+
 .trey {
   --color: #b2dfb7;
+
 }
 
 .sebek {
@@ -540,6 +550,10 @@ non background title cards
 
 .treycater {
   --color: #bec494;
+}
+
+.caterdeuce {
+  --color: #d2b9a4;
 }
 
 .liliamalleussilver {
@@ -880,6 +894,10 @@ non background title cards
   --icon: url("/icons/apple/epelidiasebekjade.png");
 }
 
+.caterdeuce.mixdormschool {
+  --icon: url("/icons/common/twst/mixed/caterdormdeuceschool.png");
+}
+
 /* CATER */
 
 .cater.school-general {
@@ -888,6 +906,10 @@ non background title cards
 
 .cater.silk-general {
   --icon: url("/icons/silk/catergeneral.png");
+}
+
+.cater.dorm-general {
+  --icon: url("/icons/common/twst/dorm/catergeneral.png");
 }
 
 /* TREY */
@@ -1329,6 +1351,10 @@ non background title cards
 
 .jamil.beans-general {
   --icon: url("/icons/beans/jamilgeneral.png");
+}
+
+.jamil.dorm-general {
+  --icon: url("/icons/common/twst/dorm/jamilgeneral.png");
 }
 
 /* birthday suitup */
