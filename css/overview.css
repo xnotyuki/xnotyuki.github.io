@@ -45,7 +45,7 @@ figure a:link {
 
 figure {
     max-width: 150px;
-    margin: auto;
+    margin: 0 auto auto auto;
 }
 
 figcaption {
