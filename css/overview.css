@@ -101,7 +101,7 @@ details[open] summary::-webkit-details-marker {
       width: 80%;
     }
     .display {
-        justify-content: space-evenly;
+        justify-content: space-evenly !important;
     }
     figure {
         min-width: 100px;
