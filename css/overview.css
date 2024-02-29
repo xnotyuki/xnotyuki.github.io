@@ -105,5 +105,6 @@ details[open] summary::-webkit-details-marker {
     }
     figure {
         min-width: 100px;
+        max-width: 120px;
     }
 }
