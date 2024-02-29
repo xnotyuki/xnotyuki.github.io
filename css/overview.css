@@ -45,6 +45,7 @@ figure a:link {
 
 figure {
     max-width: 150px;
+    margin: auto;
 }
 
 figcaption {
@@ -99,9 +100,6 @@ details[open] summary::-webkit-details-marker {
 @media only screen and (max-device-width: 650px) {
     img { /* kiv */
       width: 80%;
-    }
-    .display {
-        justify-content: space-evenly !important;
     }
     figure {
         min-width: 100px;
