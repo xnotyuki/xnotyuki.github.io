@@ -65,6 +65,12 @@ td {
   padding: 0.8em;
 }
 
+/* td a:focus {
+  background-color: #5753ba;
+  color: #ffffff;
+}
+*/
+
 td:first-of-type {
   font-weight: bold;
   max-width: 25%;
@@ -1184,6 +1190,10 @@ smalltext, bigtext, rhythmic, returnup, prechoice, sfx, bg, notbg
 
 .vil.scary-general {
   --icon: url("/icons/halloween/vilgeneral.png");
+}
+
+.vil.gym-general {
+  --icon: url("/icons/common/twst/gym/vilgeneral.png");
 }
 
 /*
