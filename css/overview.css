@@ -24,7 +24,18 @@
     opacity: 70%;
     transition-duration: 0.5s;
     min-width: 100px; /* for mobile consideration */
-    max-width: 150px; /* current image max size */
+    max-width: 150px; /* current image max size. can do fit-content? not sure yet */
+}
+
+/*fucking winter holiday lines i swear EITHER OR - .icon .others */
+
+.others {
+    margin: auto;
+    display: block;
+    opacity: 70%;
+    transition-duration: 0.5s;
+    max-width: 400px;
+    min-width: 300px;
 }
 
 figure a:link {
@@ -32,7 +43,7 @@ figure a:link {
     text-underline-position: under;
 }
 
-.icon:hover, figure a:hover > .icon {
+.icon:hover, .others:hover, figure a:hover > .icon, figure a:hover > .others {
     opacity: 100%;
 }
 
@@ -104,5 +115,9 @@ details[open] summary::-webkit-details-marker {
     figure {
         min-width: 100px;
         max-width: 120px;
+    }
+    .others {
+        min-width: 200px;
+        max-width: 300px;
     }
 }

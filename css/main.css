@@ -1172,7 +1172,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #909e5b;
+  background: #f458ff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2637,4 +2637,21 @@ ul.breadcrumb li + li:last-child {
   .pagination {
     margin: 8px 0 0;
   }
+}
+/********** custom css for whole site **********/
+
+a:link {
+    color: rgb(87, 87, 87);
+}
+
+a:hover {
+    color: black;
+}
+
+a:focus {
+    color: #3958f1;
+}
+
+a:active {
+    color: #3958f1;
 }

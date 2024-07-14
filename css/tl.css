@@ -84,9 +84,11 @@ td:first-of-type {
   background: #5753ba;
 }
 
+/*
 a:active {
   color: #5f5aff;
 }
+*/
 
 .tab-contents .tab {
   display: none;
