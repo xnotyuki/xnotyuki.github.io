@@ -90,13 +90,60 @@ a:active {
 }
 */
 
-.tab-contents .tab {
+.tab-contents .tab, .tab2 {
   display: none;
 }
 
-.tab-contents .tab.active {
+.tab-contents .tab.active, .tab2.active {
   display: block;
 }
+
+/* tile maps customisation */
+
+.ihatetiles {
+  fill: transparent;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+.ihatetiles:hover {
+	stroke: rgb(255, 162, 255);
+  stroke-width: 2;
+	fill: hsla(335, 91%, 58%, 0.445);
+}
+
+.ihatetiles:active {
+	stroke: hsla(296, 100%, 75%, 0.747);
+  stroke-width: 1.5;
+	fill: hsla(334, 100%, 73%, 0.466);
+}
+
+.tilehighlight {
+	stroke: rgb(255, 160, 200);
+  stroke-width: 1.5;
+	fill: hsla(335, 100%, 32%, 0.693);
+}
+
+.faketile {
+  fill: black;
+  cursor: not-allowed;
+}
+
+.nolinetile {
+  fill: white;
+  cursor: not-allowed;
+}
+
+/* allows svg to overlap on image for tiles */
+
+.merge {
+  position: relative;
+}
+
+.mergey {
+  position: absolute;
+}
+
 /*
 ////////////// MC DIALOGUE STYLING ////////////
 */
@@ -268,6 +315,10 @@ smalltext, bigtext, rhythmic, returnup, prechoice, sfx, bg, notbg
   --color: #bbc9f0;
 }
 
+.baul {
+  --color: #a8c39d;
+}
+
 /***** NAMED CHARACTER CLASSES IMAGE COLOURS *****/
 
 
@@ -428,6 +479,9 @@ smalltext, bigtext, rhythmic, returnup, prechoice, sfx, bg, notbg
   --color: #d7efe2;
 }
 
+.grimsebeksilver {
+  --color: #becbc4;
+}
 
 /* alaab nariya event */
 .caterjamilgrimtrey {
@@ -692,6 +746,14 @@ smalltext, bigtext, rhythmic, returnup, prechoice, sfx, bg, notbg
   --icon: url("/icons/common/twst/marja.png");
 }
 
+.baul.mask {
+  --icon: url("/icons/common/twst/baulmask.png");
+}
+
+.baul.unmask {
+  --icon: url("/icons/common/twst/baulunmask.png");
+}
+
 /*
 \\\\\\\\\\\\\\ CROWLEY /////////////////
 */
@@ -795,6 +857,10 @@ smalltext, bigtext, rhythmic, returnup, prechoice, sfx, bg, notbg
 
 .sebekliliasilver.school-general {
   --icon: url("/icons/common/twst/school/sebekliliasilver.png");
+}
+
+.grimsebeksilver.dorm-general {
+  --icon: url("/icons/common/twst/dorm/grimsebeksilvergeneral.png");
 }
 
 /* chef */
@@ -1054,6 +1120,13 @@ smalltext, bigtext, rhythmic, returnup, prechoice, sfx, bg, notbg
   --icon: url("/icons/common/twst/gym/liliageneral.png");
 }
 
+.lilia.book7-general {
+  --icon: url("/icons/book 7 ssr/liliageneral.png");
+}
+
+.lilia.book7-mask {
+  --icon: url("/icons/book 7 ssr/liliamask.png");
+}
 /*
 \\\\\\\\\\\\\\\\\\\ MALLEUS /////////////
 */
@@ -1104,6 +1177,14 @@ smalltext, bigtext, rhythmic, returnup, prechoice, sfx, bg, notbg
 
 .sebek.broomquet-general {
   --icon: url("/icons/broom birthday/sebekgeneral.png");
+}
+
+.sebek.book7-general {
+  --icon: url("/icons/book 7 ssr/sebekgeneral.png");
+}
+
+.sebek.book7-mask {
+  --icon: url("/icons/book 7 ssr/sebekmask.png");
 }
 
 /*
