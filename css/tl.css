@@ -319,6 +319,10 @@ smalltext, bigtext, rhythmic, returnup, prechoice, sfx, bg, notbg
   --color: #a8c39d;
 }
 
+.skully {
+  --color: #eeeeee;
+}
+
 /***** NAMED CHARACTER CLASSES IMAGE COLOURS *****/
 
 
@@ -754,6 +758,10 @@ smalltext, bigtext, rhythmic, returnup, prechoice, sfx, bg, notbg
   --icon: url("/icons/common/twst/baulunmask.png");
 }
 
+.skully.yeah {
+  --icon: url("/icons/common/twst/skully.png");
+}
+
 /*
 \\\\\\\\\\\\\\ CROWLEY /////////////////
 */
@@ -867,6 +875,8 @@ smalltext, bigtext, rhythmic, returnup, prechoice, sfx, bg, notbg
 .treykalim.chef-general {
   --icon: url("/icons/master chef spicy/kalimtreygeneral.png");
 }
+
+/* tnbc */
 
 /* alaab nariya */
 .treycatermalleus.silk {
@@ -1046,6 +1056,10 @@ smalltext, bigtext, rhythmic, returnup, prechoice, sfx, bg, notbg
   --icon: url("/icons/silk/treygeneral.png");
 }
 
+.trey.nightmare-general {
+  --icon: url("/icons/tnbc/treygeneral.png");
+}
+
 /* birthday suit up */
 .trey.bd-1 {
   --icon: url("/icons/birthday suit up/treyface1.png");
@@ -1139,6 +1153,10 @@ smalltext, bigtext, rhythmic, returnup, prechoice, sfx, bg, notbg
   --icon: url("/icons/silk/malleusgeneral.png");
 }
 
+.malleus.nightmare-general {
+  --icon: url("/icons/tnbc/malleusgeneral.png");
+}
+
 /*
 \\\\\\\\\\\\\\\\\ SEBEK ///////////////
 */
@@ -1179,6 +1197,10 @@ smalltext, bigtext, rhythmic, returnup, prechoice, sfx, bg, notbg
   --icon: url("/icons/broom birthday/sebekgeneral.png");
 }
 
+.sebek.nightmare-general {
+  --icon: url("/icons/tnbc/sebekgeneral.png");
+}
+
 .sebek.book7-general {
   --icon: url("/icons/book 7 ssr/sebekgeneral.png");
 }
@@ -1205,6 +1227,10 @@ smalltext, bigtext, rhythmic, returnup, prechoice, sfx, bg, notbg
 
 .jade.dorm-general {
   --icon: url("/icons/common/twst/dorm/jadegeneral.png");
+}
+
+.jade.nightmare-general {
+  --icon: url("/icons/tnbc/jadegeneral.png");
 }
 
 /*
@@ -1279,6 +1305,10 @@ smalltext, bigtext, rhythmic, returnup, prechoice, sfx, bg, notbg
   --icon: url("/icons/common/twst/gym/vilgeneral.png");
 }
 
+.vil.nightmare-general {
+  --icon: url("/icons/tnbc/vilgeneral.png");
+}
+
 /*
 \\\\\\\\\\\\\\\\\\\\ ROOK ////////////////////
 */
@@ -1311,6 +1341,14 @@ smalltext, bigtext, rhythmic, returnup, prechoice, sfx, bg, notbg
   --icon: url("/icons/halloween/riddlegeneral.png");
 }
 
+.riddle.nightmare-general {
+  --icon: url("/icons/tnbc/riddlegeneral.png");
+}
+
+.riddle.school-general {
+  --icon: url("/icons/common/twst/school/riddlegeneral.png");
+}
+
 /*
 \\\\\\\\\\\\\\\\ ACE ////////////////
 */
@@ -1337,6 +1375,10 @@ smalltext, bigtext, rhythmic, returnup, prechoice, sfx, bg, notbg
 
 .leona.school-general {
   --icon: url("/icons/common/twst/school/leonageneral.png");
+}
+
+.leona.nightmare-general {
+  --icon: url("/icons/tnbc/leonageneral.png");
 }
 
 /* outdoor */
@@ -1539,6 +1581,10 @@ smalltext, bigtext, rhythmic, returnup, prechoice, sfx, bg, notbg
 
 .jamil.dorm-general {
   --icon: url("/icons/common/twst/dorm/jamilgeneral.png");
+}
+
+.jamil.nightmare-general {
+  --icon: url("/icons/tnbc/jamilgeneral.png");
 }
 
 /* birthday suitup */
