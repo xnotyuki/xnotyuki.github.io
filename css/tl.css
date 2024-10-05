@@ -590,6 +590,32 @@ smalltext, bigtext, rhythmic, returnup, prechoice, sfx, bg, notbg
   --color: #f8bfe5;
 }
 
+/* halloween 2024 tnbc */
+
+.malleusleona {
+  --color: #c7d5a2;
+}
+
+.jamilleonasebek {
+  --color: #c7c287;
+}
+
+.riddleazulvil {
+  --color: #e3b1cc;
+}
+
+.jamilsebek {
+  --color: #e2c8ae;
+}
+
+.grimsebekepel {
+  --color: #b2dbde;
+}
+
+
+
+
+
 /*
 \\\\\\\\\\\\\\\ PROJECT SEKAI /////////////////
 */
@@ -871,12 +897,40 @@ smalltext, bigtext, rhythmic, returnup, prechoice, sfx, bg, notbg
   --icon: url("/icons/common/twst/dorm/grimsebeksilvergeneral.png");
 }
 
+.jamilleonasebek.school-general {
+  --icon: url("/icons/common/twst/school/jamilleonasebek.png");
+}
+
+.riddleazulvil.school-general {
+  --icon: url("/icons/common/twst/school/riddleazulvil.png");
+}
+
+.malleusleona.school-general {
+  --icon: url("/icons/common/twst/school/malleusleona.png");
+}
+
+
+
+
+
 /* chef */
 .treykalim.chef-general {
   --icon: url("/icons/master chef spicy/kalimtreygeneral.png");
 }
 
 /* tnbc */
+
+.jamilleonasebek.nightmare-general {
+  --icon: url("/icons/tnbc/jamilsebekleona.png");
+}
+
+.jamilsebek.nightmare-general {
+  --icon: url("/icons/tnbc/jamilsebek.png");
+}
+
+.grimsebekepel.nightmare-general {
+  --icon: url("/icons/tnbc/grimsebekepel.png");
+}
 
 /* alaab nariya */
 .treycatermalleus.silk {
@@ -1018,6 +1072,10 @@ smalltext, bigtext, rhythmic, returnup, prechoice, sfx, bg, notbg
 
 .grim.apple {
   --icon: url("/icons/apple/grim.png");
+}
+
+.grim.nightmare {
+  --icon: url("/icons/tnbc/grim.png");
 }
 
 /*
@@ -1269,6 +1327,10 @@ smalltext, bigtext, rhythmic, returnup, prechoice, sfx, bg, notbg
   --icon: url("/icons/common/twst/dorm/idiageneral.png");
 }
 
+.idia.nightmare-general {
+  --icon: url("/icons/tnbc/idiageneral.png");
+}
+
 /*
 \\\\\\\\\\\\\\\\\\\\\\\\\ EPEL ////////////////////////
 */
@@ -1283,6 +1345,10 @@ smalltext, bigtext, rhythmic, returnup, prechoice, sfx, bg, notbg
 
 .epel.dorm-general {
   --icon: url("/icons/common/twst/dorm/epelgeneral.png");
+}
+
+.epel.nightmare-general {
+  --icon: url("/icons/tnbc/epelgeneral.png");
 }
 
 /*
@@ -1479,6 +1545,9 @@ smalltext, bigtext, rhythmic, returnup, prechoice, sfx, bg, notbg
   --icon: url("/icons/common/twst/school/azulgeneral.png");
 }
 
+.azul.nightmare-general {
+  --icon: url("/icons/tnbc/azulgeneral.png");
+}
 
 /* 
 \\\\\\\\\\\ KALIM ///////////
