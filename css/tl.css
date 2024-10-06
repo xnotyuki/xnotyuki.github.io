@@ -323,6 +323,10 @@ smalltext, bigtext, rhythmic, returnup, prechoice, sfx, bg, notbg
   --color: #eeeeee;
 }
 
+.jacktnbc {
+  --color: #dddddd;
+}
+
 /***** NAMED CHARACTER CLASSES IMAGE COLOURS *****/
 
 
@@ -612,6 +616,9 @@ smalltext, bigtext, rhythmic, returnup, prechoice, sfx, bg, notbg
   --color: #b2dbde;
 }
 
+.epeljade {
+  --color: #b1fffe;
+}
 
 
 
@@ -788,6 +795,10 @@ smalltext, bigtext, rhythmic, returnup, prechoice, sfx, bg, notbg
   --icon: url("/icons/common/twst/skully.png");
 }
 
+.jacktnbc.yeah {
+  --icon: url("/icons/common/twst/skellington.png");
+}
+
 /*
 \\\\\\\\\\\\\\ CROWLEY /////////////////
 */
@@ -930,6 +941,14 @@ smalltext, bigtext, rhythmic, returnup, prechoice, sfx, bg, notbg
 
 .grimsebekepel.nightmare-general {
   --icon: url("/icons/tnbc/grimsebekepel.png");
+}
+
+.sebekepel.nightmare-general {
+  --icon: url("/icons/tnbc/epelsebek.png");
+}
+
+.epeljade.nightmare-general {
+  --icon: url("/icons/tnbc/epeljade.png");
 }
 
 /* alaab nariya */
