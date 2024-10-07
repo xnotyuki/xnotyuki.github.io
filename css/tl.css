@@ -935,6 +935,10 @@ smalltext, bigtext, rhythmic, returnup, prechoice, sfx, bg, notbg
   --icon: url("/icons/tnbc/jamilsebekleona.png");
 }
 
+.jamilleonasebek.nightmare-general-2 {
+  --icon: url("/icons/tnbc/leonasebekjamil.png");
+}
+
 .jamilsebek.nightmare-general {
   --icon: url("/icons/tnbc/jamilsebek.png");
 }
