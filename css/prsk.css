@@ -1,0 +1,588 @@
+/************** stylesheet for prsk stories. twst story stylesheet is tl.css *****************/
+
+.name {
+  position: relative;
+  left: 5px;
+  top: 0px;
+  text-transform: uppercase;
+  font-size: 91%;
+  font-weight: bold;
+}
+
+.bubble > p {
+  margin-top: .3em;
+  margin-bottom: .3em;
+}
+
+span.b {
+  display : inline-block;
+}
+
+.icon {
+  width: 95px;
+  height: 95px;
+  float: left;
+  clear: left;
+  margin: 0 !important;
+  border-radius: 50%;
+  background-image: var(--icon);
+  background-size: cover;
+}
+
+.arrow {
+  width: 0;
+  height: 0;
+  float: left;
+  margin: 60px 0 0 2px;
+  border-top: 10px solid transparent;
+  border-right: 20px solid var(--color, #f1f1f1);
+  border-bottom: 10px solid transparent;
+}
+/* Bubble background base is f7f1e4. Color based off the character's image color's HUE */
+
+.bubble {
+  margin-left: 115px;
+  margin-right: 8px;
+  margin-bottom: 0px;
+  padding: 14px;
+  border-radius: 10px;
+  background: var(--color, #f1f1f1);
+  box-shadow: 1px 1px 3px #757575;
+}
+
+.bubble:nth-of-type(n+4) {
+  margin-top: 8px;
+}
+
+.bubble:last-of-type {
+  margin-bottom: 25px;
+}
+
+td {
+  text-align: center;
+  padding: 0.8em;
+}
+
+/* td a:focus {
+  background-color: #5753ba;
+  color: #ffffff;
+}
+*/
+
+td:first-of-type {
+  font-weight: bold;
+  max-width: 25%;
+}
+
+::selection {
+  background: #5753ba;
+}
+
+::-moz-selection { /*firefox stop being hipster challenge */
+  background: #5753ba;
+}
+
+/*
+a:active {
+  color: #5f5aff;
+}
+*/
+
+.tab-contents .tab, .tab2 {
+  display: none;
+}
+
+.tab-contents .tab.active, .tab2.active {
+  display: block;
+}
+
+
+/*
+/////////// MOBILE COMPATIBILITY /////////////
+*/
+
+@media only screen and (max-device-width: 650px) {
+
+  details {
+    padding: 0 2.0em 1px 2.0em;
+  }
+  
+  .icon {
+    width: 55px !important;
+    height: 55px !important;
+  }
+
+  .arrow {
+    border-top: 3px solid transparent !important;
+    border-bottom: 8px solid transparent !important;
+    border-right: 15px solid var(--color, #f1f1f1) !important;
+    margin: 45px 0 0 2px !important;
+  }
+
+  .bubble {
+    padding: .75em !important;
+    margin-left: 70px !important;
+    margin-top: 0px !important;
+    box-shadow: 1px 1px 2px #373737;
+  }
+
+  .bubble:nth-of-type(n+4) {
+    margin-top: 5px !important; 
+  }
+
+  .bubble:last-of-type {
+    margin-bottom: 15px !important;
+  }
+}
+
+/*
+/////////// text styles - small text, big text, return to footnote, sound effects,
+background title cards, non background title cards//////////////
+
+smalltext, bigtext, returnup, sfx, bg, notbg
+*/
+
+.smalltext {
+  font-size: 85%;
+}
+
+.bigtext, {
+  font-size: 115%;
+}
+
+.returnup {
+  font-size: 80%;
+}
+
+.sfx, .bg {
+  font-size: 110%;
+}
+
+.sfx {
+  font-style: italic;
+}
+
+.sfx, .bg, .notbg {
+  text-align: center;
+}
+
+/* GENERAL UNKNOWN CHARACTER PORTRAIT */
+
+/* e.g. unknown character, no image character*/
+.mc {
+  --color: #bdbdbd;
+  --icon: url("/icons/common/mcdialogue.png");
+}
+
+/* i need to like. explain this to myself better*/
+.voice {
+  --icon: url("/icons/common/mcdialogue.png");
+}
+
+/* too many fucking colours */
+.toocolourful {
+  --color: #d0dedf;
+}
+
+
+/*
+\\\\\\\\\\\\\\\ PROJECT SEKAI /////////////////
+*/
+
+.rin {
+  --color: #fff4d4;
+}
+
+.riliane {
+  --icon: url("/icons/common/prsk/riliane.png");
+}
+
+.len {
+  --color: #ffe9d4;
+}
+
+.allen {
+  --icon: url("/icons/common/prsk/allen.png");
+}
+
+.kaito {
+  --color: #bdd6f3;
+}
+
+.luka {
+  --color: #eed9f0;
+}
+
+.miku {
+  --color: #c0f3e2;
+}
+
+.meiko {
+  --color: #f3bcb5;
+}
+
+.rui {
+  --color: #dbc7e7;
+}
+
+.tsukasa {
+  --color: #fff9e7;
+}
+
+.emu {
+  --color: #fce0fa;
+}
+
+.nene {
+  --color: #d6ebd9;
+}
+
+.ichika {
+  --color: #bbdaf7;
+}
+
+.honami {
+  --color: #f5c9c9;
+}
+
+.saki {
+  --color: #ffe8c6;
+}
+
+.shiho {
+  --color: #bfffd1;
+}
+
+.ichikasaki {
+  --color: #b7fcf8;
+}
+
+.leoneed {
+  --color: #dad5eb;
+}
+
+.touya {
+  --color: #d4d5f0;
+}
+
+.mizuki {
+  --color: #f3e5f0;
+}
+
+.minori {
+  --color: #f9e3d1;
+}
+
+.mafuyu {
+  --color: #dfd8e8;
+}
+
+.lenmeiko {
+  --color: #f5c7b6;
+}
+
+.kohane {
+  --color: #eee9df;
+}
+
+.kanade {
+  --color: #dfe6ee;
+}
+
+.ena {
+  --color: #dad1ce;
+}
+
+.an {
+  --color: #c4cdea;
+}
+
+.akito {
+  --color: #f8d2c7;
+}
+
+/* WANDAHOI */
+
+.nene.y1wonderhoi {
+--icon: url("/icons/prskhumans/preadv/unit/nene.png");
+}
+
+.nene.y1sch {
+--icon: url("/icons/prskhumans/preadv/school/nene.png");
+}
+
+.nene.y1casual {
+--icon: url("/icons/prskhumans/preadv/casual/nene.png");
+}
+
+.nene.y2wonderhoi {
+--icon: url("/icons/prskhumans/postadv/unit/nene.png");
+}
+
+.rui.y1wonderhoi {
+--icon: url("/icons/prskhumans/preadv/unit/rui.png");
+}
+
+.rui.y1sch {
+--icon: url("/icons/prskhumans/preadv/school/rui.png");
+}
+
+.rui.y1casual {
+--icon: url("/icons/prskhumans/preadv/casual/rui.png");
+}
+
+.rui.y2wonderhoi {
+--icon: url("/icons/prskhumans/postadv/unit/rui.png");
+}
+
+.rui.y2sch {
+--icon: url("/icons/prskhumans/postadv/school/rui.png");
+}
+
+.emu.y1wonderhoi {
+--icon: url("/icons/prskhumans/preadv/unit/emu.png");
+}
+
+.emu.y1sch {
+--icon: url("/icons/prskhumans/preadv/school/emu.png");
+}
+
+.emu.y1casual {
+--icon: url("/icons/prskhumans/preadv/casual/emu.png");
+}
+
+.emu.y2wonderhoi {
+--icon: url("/icons/prskhumans/postadv/unit/emu.png");
+}
+
+.tsukasa.y1wonderhoi {
+--icon: url("/icons/prskhumans/preadv/unit/tsukasa.png");
+}
+
+.tsukasa.y1sch {
+--icon: url("/icons/prskhumans/preadv/school/tsukasa.png");
+}
+
+.tsukasa.y1casual {
+--icon: url("/icons/prskhumans/preadv/casual/tsukasa.png");
+}
+
+.tsukasa.y2wonderhoi {
+--icon: url("/icons/prskhumans/postadv/unit/tsukasa.png");
+}
+
+/* MMJ */
+
+.minori.y1idol {
+--icon: url("/icons/prskhumans/preadv/unit/minori.png");
+}
+
+/* LEONEED */
+
+.ichika.y1band {
+--icon: url("/icons/prskhumans/preadv/unit/ichika.png");
+}
+
+.saki.y1band {
+--icon: url("/icons/prskhumans/preadv/unit/saki.png");
+}
+
+.honami.y1band {
+--icon: url("/icons/prskhumans/preadv/unit/honami.png");
+}
+
+.shiho.y1band {
+--icon: url("/icons/prskhumans/preadv/unit/shiho.png");
+}
+
+.ichikasaki.y1band {
+--icon: url("/icons/prskhumans/preadv/unit/ichikasaki.png");
+}
+
+.leoneed.y1band {
+--icon: url("/icons/prskhumans/preadv/unit/leoneed.png");
+}
+
+.ichika.y1casual {
+--icon: url("/icons/prskhumans/preadv/casual/ichika.png");
+}
+
+.ichika.y1sch {
+--icon: url("/icons/prskhumans/preadv/school/ichika.png");
+}
+
+.saki.y1casual {
+--icon: url("/icons/prskhumans/preadv/casual/saki.png");
+}
+
+.honami.y1casual {
+--icon: url("/icons/prskhumans/preadv/casual/honami.png");
+}
+
+.shiho.y1casual {
+--icon: url("/icons/prskhumans/preadv/casual/shiho.png");
+}
+
+.ichikasaki.y1casual {
+--icon: url("/icons/prskhumans/preadv/casual/ichikasaki.png");
+}
+
+.leoneed.y1casual {
+--icon: url("/icons/prskhumans/preadv/casual/leoneed.png");
+}
+
+/* VBS */
+
+.an.y1street {
+--icon: url("/icons/prskhumans/preadv/unit/an.png");
+}
+
+.akito.y1street {
+--icon: url("/icons/prskhumans/preadv/unit/akito.png");
+}
+
+.kohane.y1street {
+--icon: url("/icons/prskhumans/preadv/unit/kohane.png");
+}
+
+.touya.y1street {
+--icon: url("/icons/prskhumans/preadv/unit/touya.png");
+}
+
+/* 25JI */
+
+.mizuki.y1cord {
+--icon: url("/icons/prskhumans/preadv/unit/mizuki.png");
+}
+
+.mizuki.y2cord {
+--icon: url("/icons/prskhumans/postadv/unit/mizuki.png");
+}
+
+.mizuki.amia {
+--icon: url("/icons/prskhumans/nightcord/amia.png");
+}
+
+.mafuyu.y1cord {
+--icon: url("/icons/prskhumans/preadv/unit/mafuyu.png");
+}
+
+.mafuyu.y1sch {
+--icon: url("/icons/prskhumans/preadv/school/mafuyu.png");
+}
+
+.mafuyu.y1casual {
+--icon: url("/icons/prskhumans/preadv/casual/mafuyu.png");
+}
+
+.mafuyu.yuki {
+--icon: url("/icons/prskhumans/nightcord/yuki.png");
+}
+
+.ena.y1cord {
+--icon: url("/icons/prskhumans/preadv/unit/ena.png");
+}
+
+.ena.y1cord {
+--icon: url("/icons/prskhumans/nightcord/enanan.png");
+}
+
+.kanade.y1cord {
+--icon: url("/icons/prskhumans/preadv/unit/kanade.png");
+}
+
+.kanade.y1casual {
+--icon: url("/icons/prskhumans/preadv/casual/kanade.png");
+}
+
+.kanade.k {
+--icon: url("/icons/prskhumans/nightcord/k.png");
+}
+
+/* VIRTUAL SINGER VARIATIONS */
+
+.len.y1vbs {
+  --icon: url("/icons/common/prskvs/preadv/lenvbs.png");
+}
+
+.rin.y1wonderhoi {
+  --icon: url("/icons/common/prskvs/preadv/rinwxs.png");
+}
+
+.rin.y1vbs {
+  --icon: url("/icons/common/prskvs/preadv/rinvbs.png");
+}
+
+.rin.y1nightcord {
+  --icon: url("/icons/common/prskvs/preadv/rin25.png");
+}
+
+.kaito.gallerian {
+  --icon: url("/icons/common/prskvs/gallerian.png");
+}
+
+.kaito.y1vbs {
+  --icon: url("/icons/common/prskvs/preadv/kaitovbs.png");
+}
+
+.meiko.banica {
+  --icon: url("/icons/common/prskvs/banica.png");
+}
+
+.meiko.banica-glow {
+  --icon: url("/icons/common/prskvs/banica2.png");
+}
+
+.meiko.banica-eats {
+  --icon: url("/icons/common/prskvs/banica3.png");
+}
+
+.meiko.y1vbs {
+  --icon: url("/icons/common/prskvs/preadv/meikovbs.png");
+}
+
+.meiko.y1nightcord {
+  --icon: url("/icons/common/prskvs/preadv/meiko25.png");
+}
+
+.luka.kayo {
+  --icon: url("/icons/common/prskvs/kayo.png");
+}
+
+.luka.y1mmj {
+  --icon: url("/icons/common/prskvs/preadv/lukammj.png");
+}
+
+.luka.y1nightcord {
+  --icon: url("/icons/common/prskvs/preadv/luka25.png");
+}
+
+.miku.regular {
+  --icon: url("/icons/common/prskvs/miku.png");
+}
+
+.miku.y1vbs {
+  --icon: url("/icons/common/prskvs/preadv/mikuvbs.png");
+}
+
+.miku.y1nightcord {
+  --icon: url("/icons/common/prskvs/preadv/miku25.png");
+}
+
+.lenmeiko.y1vbs {
+  --icon: url("/icons/common/prskvs/preadv/lenmeikovbs.png");
+}
+
+/* GENERAL - PRSK */
+.nenerobo {
+  --color: #d6ddd8;
+}
+
+.nenerobo.y1 {
+  --icon: url("/icons/prskhumans/preadv/unit/nenerobo.png");
+}
+
+.mascot {
+  --color: #f3d2c5;
+  --icon: url("/icons/prskhumans/kigurumi.png");
+}

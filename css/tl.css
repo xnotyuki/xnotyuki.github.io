@@ -1,3 +1,5 @@
+/************** stylesheet for twst stories. prsk story stylesheet is prsk.css *****************/
+
 .name {
   position: relative;
   left: 5px;
@@ -5,10 +7,6 @@
   text-transform: uppercase;
   font-size: 91%;
   font-weight: bold;
-}
-
-.thought {
-  color: #3939a7;
 }
 
 .bubble > p {
@@ -327,8 +325,11 @@ smalltext, bigtext, rhythmic, returnup, prechoice, sfx, bg, notbg
   --color: #dddddd;
 }
 
-/***** NAMED CHARACTER CLASSES IMAGE COLOURS *****/
+.zerotnbc {
+  --color: #ddd6ce;
+}
 
+/***** NAMED CHARACTER CLASSES IMAGE COLOURS *****/
 
 .ghost {
   --color: #e7e5ec;
@@ -620,144 +621,7 @@ smalltext, bigtext, rhythmic, returnup, prechoice, sfx, bg, notbg
   --color: #b1fffe;
 }
 
-
-
-
-/*
-\\\\\\\\\\\\\\\ PROJECT SEKAI /////////////////
-*/
-
-.rin {
-  --color: #fff4d4;
-}
-
-.riliane {
-  --icon: url("/icons/common/prsk/riliane.png");
-}
-
-.len {
-  --color: #ffe9d4;
-}
-
-.allen {
-  --icon: url("/icons/common/prsk/allen.png");
-}
-
-.kaito {
-  --color: #bdd6f3;
-}
-
-.luka {
-  --color: #eed9f0;
-}
-
-.miku {
-  --color: #c0f3e2;
-}
-
-.meiko {
-  --color: #f3bcb5;
-}
-
-.rui {
-  --color: #dbc7e7;
-  --icon: url("/icons/common/prsk/rui.png");
-}
-
-.tsukasa {
-  --color: #fff9e7;
-  --icon: url("/icons/common/prsk/tsukasa.png");
-}
-
-.emu {
-  --color: #fce0fa;
-  --icon: url("/icons/common/prsk/emu.png");
-}
-
-.nene {
-  --color: #d6ebd9;
-}
-
-.ichika {
-  --color: #bbdaf7;
-  --icon: url("/icons/common/prsk/ichika.png");
-}
-
-.honami {
-  --color: #f5c9c9;
-  --icon: url("/icons/common/prsk/honami.png");
-}
-
-.saki {
-  --color: #ffe8c6;
-  --icon: url("/icons/common/prsk/saki.png");
-}
-
-.shiho {
-  --color: #bfffd1;
-  --icon: url("/icons/common/prsk/shiho.png");
-}
-
-.ichikasaki {
-  --color: #b7fcf8;
-  --icon: url("/icons/common/prsk/ichikasaki.png");
-}
-
-.leoneed {
-  --color: #dad5eb;
-  --icon: url("/icons/common/prsk/leoneed.png");
-}
-
-.touya {
-  --color: #d4d5f0;
-  --icon: url("/icons/common/prsk/touya.png");
-}
-
-.mizuki {
-  --color: #f3e5f0;
-  --icon: url("/icons/common/prsk/mizuki.png");
-}
-
-.minori {
-  --color: #f9e3d1;
-  --icon: url("/icons/common/prsk/minori.png");
-}
-
-.mafuyu {
-  --color: #dfd8e8;
-  --icon: url("/icons/common/prsk/minori.png");
-}
-
-.lenmeiko {
-  --color: #f5c7b6;
-}
-
-.kohane {
-  --color: #eee9df;
-  --icon: url("/icons/common/prsk/kohane.png");
-}
-
-.kanade {
-  --color: #dfe6ee;
-  --icon: url("/icons/common/prsk/kanade.png");
-}
-
-.ena {
-  --color: #dad1ce;
-  --icon: url("/icons/common/prsk/ena.png");
-}
-
-.an {
-  --color: #c4cdea;
-  --icon: url("/icons/common/prsk/an.png");
-}
-
-.akito {
-  --color: #f8dfd2;
-  --icon: url("/icons/common/prsk/akito.png");
-}
-
-/************ OUTFIT SUBCLASSES (TWST -> PRSK) **************/
+/************ OUTFIT SUBCLASSES **************/
 
 /* GHOSTS */
 
@@ -797,6 +661,10 @@ smalltext, bigtext, rhythmic, returnup, prechoice, sfx, bg, notbg
 
 .jacktnbc.yeah {
   --icon: url("/icons/common/twst/skellington.png");
+}
+
+.zerotnbc.yeah {
+  --icon: url("/icons/common/twst/zero.png");
 }
 
 /*
@@ -1833,95 +1701,4 @@ smalltext, bigtext, rhythmic, returnup, prechoice, sfx, bg, notbg
 
 .dwarvesminusdominic.harveston {
   --icon: url("/icons/apple/minusdominic.png");
-}
-
-/* GG WANDAHOI */
-
-.nene.wonderhoi {
---icon: url("/icons/common/prsk/nene.png");
-}
-
-/* VIRTUAL SINGER VARIATIONS */
-
-.len.vbs {
-  --icon: url("/icons/common/prsk/lenvbs.png");
-}
-
-.rin.wonderhoi {
-  --icon: url("/icons/common/prsk/rinwxs.png");
-}
-
-.rin.vbs {
-  --icon: url("/icons/common/prsk/rinvbs.png");
-}
-
-.rin.nightcord {
-  --icon: url("/icons/common/prsk/rin25.png");
-}
-
-.kaito.gallerian {
-  --icon: url("/icons/common/prsk/gallerian.png");
-}
-
-.kaito.vbs {
-  --icon: url("/icons/common/prsk/kaitovbs.png");
-}
-
-.meiko.banica {
-  --icon: url("/icons/common/prsk/banica.png");
-}
-
-.meiko.banica-glow {
-  --icon: url("/icons/common/prsk/banica2.png");
-}
-
-.meiko.banica-eats {
-  --icon: url("/icons/common/prsk/banica3.png");
-}
-
-.meiko.vbs {
-  --icon: url("/icons/common/prsk/meikovbs.png");
-}
-
-.meiko.nightcord {
-  --icon: url("/icons/common/prsk/meiko25.png");
-}
-
-.luka.kayo {
-  --icon: url("/icons/common/prsk/kayo.png");
-}
-
-.luka.mmj {
-  --icon: url("/icons/common/prsk/lukammj.png");
-}
-
-.luka.nightcord {
-  --icon: url("/icons/common/prsk/luka25.png");
-}
-
-.miku.regular {
-  --icon: url("/icons/common/prsk/miku.png");
-}
-
-.miku.vbs {
-  --icon: url("/icons/common/prsk/mikuvbs.png");
-}
-
-.miku.nightcord {
-  --icon: url("/icons/common/prsk/miku25.png");
-}
-
-.lenmeiko.vbs {
-  --icon: url("/icons/common/prsk/lenmeikovbs.png");
-}
-
-/* GENERAL - PRSK */
-.nenerobo {
-  --color: #d6ddd8;
-  --icon: url("/icons/common/prsk/nenerobo.png");
-}
-
-.mascot {
-  --color: #f3d2c5;
-  --icon: url("/icons/common/prsk/kigurumi.png");
 }
