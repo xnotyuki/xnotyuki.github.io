@@ -455,6 +455,10 @@ smalltext, bigtext, returnup, sfx, bg, notbg
 --icon: url("/icons/prskhumans/preadv/unit/mizuki.png");
 }
 
+.mizuki.y1casual {
+--icon: url("/icons/prskhumans/preadv/casual/mizuki.png");
+}
+
 .mizuki.y2cord {
 --icon: url("/icons/prskhumans/postadv/unit/mizuki.png");
 }
@@ -483,12 +487,12 @@ smalltext, bigtext, returnup, sfx, bg, notbg
 --icon: url("/icons/prskhumans/preadv/unit/ena.png");
 }
 
-.ena.y1cord {
---icon: url("/icons/prskhumans/nightcord/enanan.png");
+.ena.y1casual {
+--icon: url("/icons/prskhumans/preadv/casual/ena.png");
 }
 
-.kanade.y1cord {
---icon: url("/icons/prskhumans/preadv/unit/kanade.png");
+.ena.enanan {
+--icon: url("/icons/prskhumans/nightcord/enanan.png");
 }
 
 .kanade.y1casual {
@@ -585,4 +589,9 @@ smalltext, bigtext, returnup, sfx, bg, notbg
 .mascot {
   --color: #f3d2c5;
   --icon: url("/icons/prskhumans/kigurumi.png");
+}
+
+.kanadedad {
+  --color: #c2cdda;
+  --icon: url("/icons/prskhumans/kanadedad.png");
 }
