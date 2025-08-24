@@ -237,6 +237,14 @@ smalltext, bigtext, returnup, sfx, bg, notbg
   --color: #d6ebd9;
 }
 
+.emunene {
+  --color: #e9e6ea;
+}
+
+.emuruinene {
+  --color: #dfbae2;
+}
+
 .ichika {
   --color: #bbdaf7;
 }
@@ -301,6 +309,8 @@ smalltext, bigtext, returnup, sfx, bg, notbg
   --color: #f8d2c7;
 }
 
+
+
 /* WANDAHOI */
 
 .nene.y1wonderhoi {
@@ -317,6 +327,10 @@ smalltext, bigtext, returnup, sfx, bg, notbg
 
 .nene.y2wonderhoi {
 --icon: url("/icons/prskhumans/postadv/unit/nene.png");
+}
+
+.nene.y2casual {
+--icon: url("/icons/prskhumans/postadv/casual/nene.png");
 }
 
 .rui.y1wonderhoi {
@@ -339,6 +353,14 @@ smalltext, bigtext, returnup, sfx, bg, notbg
 --icon: url("/icons/prskhumans/postadv/school/rui.png");
 }
 
+.rui.y2casual {
+--icon: url("/icons/prskhumans/postadv/casual/rui.png");
+}
+
+.rui.baby {
+--icon: url("/icons/prskhumans/babies/rui.png");
+}
+
 .emu.y1wonderhoi {
 --icon: url("/icons/prskhumans/preadv/unit/emu.png");
 }
@@ -355,6 +377,14 @@ smalltext, bigtext, returnup, sfx, bg, notbg
 --icon: url("/icons/prskhumans/postadv/unit/emu.png");
 }
 
+.emu.y2casual {
+--icon: url("/icons/prskhumans/postadv/casual/emu.png");
+}
+
+.emunene.y2casual {
+--icon: url("/icons/prskhumans/postadv/casual/emunene.png");
+}
+
 .tsukasa.y1wonderhoi {
 --icon: url("/icons/prskhumans/preadv/unit/tsukasa.png");
 }
@@ -369,6 +399,14 @@ smalltext, bigtext, returnup, sfx, bg, notbg
 
 .tsukasa.y2wonderhoi {
 --icon: url("/icons/prskhumans/postadv/unit/tsukasa.png");
+}
+
+.tsukasa.y2casual {
+--icon: url("/icons/prskhumans/postadv/casual/tsukasa.png");
+}
+
+.emuruinene.y2unitcasual {
+--icon: url("/icons/prskhumans/postadv/unit/emuruinene.png");
 }
 
 /* MMJ */
@@ -594,4 +632,34 @@ smalltext, bigtext, returnup, sfx, bg, notbg
 .kanadedad {
   --color: #c2cdda;
   --icon: url("/icons/prskhumans/kanadedad.png");
+}
+
+.keisuke {
+  --color: #e4d5e2;
+  --icon: url("/icons/prskhumans/keisuke.png");
+}
+
+.shousuke {
+  --color: #e5bde5;
+  --icon: url("/icons/prskhumans/shousuke.png");
+}
+
+.asahi {
+  --color: #c2dad5;
+}
+
+.asahi.arc {
+  --icon: url("/icons/prskhumans/asahi.png");
+}
+
+.sakaki {
+  --color: #c8c2bb;
+}
+
+.sakaki.scruffy {
+  --icon: url("/icons/prskhumans/sakaki1.png");
+}
+
+.sakaki.stuffy {
+  --icon: url("/icons/prskhumans/sakaki2.png");
 }
