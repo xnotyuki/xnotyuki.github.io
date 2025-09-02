@@ -583,6 +583,10 @@ smalltext, bigtext, returnup, sfx, bg, notbg
   --icon: url("/icons/common/prskvs/preadv/meikovbs.png");
 }
 
+.meiko.y2wxs {
+  --icon: url("/icons/common/prskvs/postadv/meikowxs.png");
+}
+
 .meiko.y1nightcord {
   --icon: url("/icons/common/prskvs/preadv/meiko25.png");
 }
@@ -597,6 +601,10 @@ smalltext, bigtext, returnup, sfx, bg, notbg
 
 .luka.y1nightcord {
   --icon: url("/icons/common/prskvs/preadv/luka25.png");
+}
+
+.luka.y2wxs {
+  --icon: url("/icons/common/prskvs/postadv/lukawxs.png");
 }
 
 .miku.regular {
@@ -653,7 +661,7 @@ smalltext, bigtext, returnup, sfx, bg, notbg
 }
 
 .sakaki {
-  --color: #c8c2bb;
+  --color: #ebe2d9;
 }
 
 .sakaki.scruffy {
