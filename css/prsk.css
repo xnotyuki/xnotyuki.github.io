@@ -241,6 +241,10 @@ smalltext, bigtext, returnup, sfx, bg, notbg
   --color: #e9e6ea;
 }
 
+.tsukasaemu {
+  --color: #f7e5e5;
+}
+
 .emuruinene {
   --color: #dfbae2;
 }
@@ -403,6 +407,10 @@ smalltext, bigtext, returnup, sfx, bg, notbg
 
 .tsukasa.y2casual {
 --icon: url("/icons/prskhumans/postadv/casual/tsukasa.png");
+}
+
+.tsukasaemu.y2wonderhoi {
+--icon: url("/icons/prskhumans/postadv/unit/tsukasaemu.png");
 }
 
 .emuruinene.y2unitcasual {
