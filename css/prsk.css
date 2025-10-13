@@ -285,6 +285,10 @@ smalltext, bigtext, returnup, sfx, bg, notbg
   --color: #f9e3d1;
 }
 
+.minorikohane {
+  --color: #f7ebdd;
+}
+
 .mafuyu {
   --color: #dfd8e8;
 }
@@ -421,6 +425,14 @@ smalltext, bigtext, returnup, sfx, bg, notbg
 
 .minori.y1idol {
 --icon: url("/icons/prskhumans/preadv/unit/minori.png");
+}
+
+.minori.y1casual {
+--icon: url("/icons/prskhumans/preadv/casual/minori.png");
+}
+
+.minorikohane.y1casualunit {
+--icon: url("/icons/prskhumans/preadv/casual/minorikohane.png");
 }
 
 /* LEONEED */
