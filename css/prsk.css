@@ -184,6 +184,9 @@ smalltext, bigtext, returnup, sfx, bg, notbg
   --color: #d0dedf;
 }
 
+.toocolourful.emuneneruimikukaito {
+--icon: url("/icons/prskhumans/postadv/casual/emuneneruimikukaito.png");
+}
 
 /*
 \\\\\\\\\\\\\\\ PROJECT SEKAI /////////////////
@@ -217,6 +220,10 @@ smalltext, bigtext, returnup, sfx, bg, notbg
   --color: #c0f3e2;
 }
 
+.mikukaito {
+  --color: #bfe5eb;
+}
+
 .meiko {
   --color: #f3bcb5;
 }
@@ -243,6 +250,18 @@ smalltext, bigtext, returnup, sfx, bg, notbg
 
 .tsukasaemu {
   --color: #f7e5e5;
+}
+
+.tsukasaemurui {
+  --color: #f7e5e5;
+}
+
+.tsukasaemumiku {
+  --color: #dcece4;
+}
+
+.emumiku {
+  --color: #e6e7f1;
 }
 
 .emuruinene {
@@ -415,6 +434,18 @@ smalltext, bigtext, returnup, sfx, bg, notbg
 
 .tsukasaemu.y2wonderhoi {
 --icon: url("/icons/prskhumans/postadv/unit/tsukasaemu.png");
+}
+
+.tsukasaemumiku.y2casual {
+--icon: url("/icons/prskhumans/postadv/casual/tsukasaemumiku.png");
+}
+
+.tsukasaemurui.y2casual {
+--icon: url("/icons/prskhumans/postadv/casual/tsukasaemurui.png");
+}
+
+.emumiku.y2casual {
+--icon: url("/icons/prskhumans/postadv/casual/emumiku.png");
 }
 
 .emuruinene.y2unitcasual {
@@ -599,6 +630,10 @@ smalltext, bigtext, returnup, sfx, bg, notbg
   --icon: url("/icons/common/prskvs/kaito.png");
 }
 
+.kaito.y2wonderhoi {
+  --icon: url("/icons/common/prskvs/postadv/kaitowxs.png");
+}
+
 .meiko.banica {
   --icon: url("/icons/common/prskvs/banica.png");
 }
@@ -657,6 +692,14 @@ smalltext, bigtext, returnup, sfx, bg, notbg
 
 .miku.y1nightcord {
   --icon: url("/icons/common/prskvs/preadv/miku25.png");
+}
+
+.miku.y2wonderhoi {
+  --icon: url("/icons/common/prskvs/postadv/mikuwxs.png");
+}
+
+.mikukaito.y2wonderhoi {
+  --icon: url("/icons/common/prskvs/postadv/mikukaitowxs.png");
 }
 
 .lenmeiko.y1vbs {
@@ -718,6 +761,10 @@ smalltext, bigtext, returnup, sfx, bg, notbg
   --color: #fdf9c7;
 }
 
+.mametchimiku {
+  --color: #eef8ce;
+}
+
 .mametchi.tama {
   --icon: url("/icons/common/prsktamagotchis/mametchi.png");
 }
@@ -742,8 +789,32 @@ smalltext, bigtext, returnup, sfx, bg, notbg
   --color: #dbffd9;
 }
 
+.kuchipatchimiku {
+  --color: #caf8df;
+}
+
+.nenekuchipatchi {
+  --color: #d9f8d9;
+}
+
+.emukuchipatchi {
+  --color: #f0ecee;
+}
+
 .kuchipatchi.tama {
   --icon: url("/icons/common/prsktamagotchis/kuchipatchi.png");
+}
+
+.nenekuchipatchi.y2casual {
+  --icon: url("/icons/prskhumans/postadv/casual/nenekuchipatchi.png");
+}
+
+.emukuchipatchi.y2casual {
+  --icon: url("/icons/prskhumans/postadv/casual/emukuchipatchi.png");
+}
+
+.kuchipatchimiku.tama {
+  --icon: url("/icons/common/prsktamagotchis/kuchipatchimiku.png");
 }
 
 .mametchimimitchi {
