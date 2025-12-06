@@ -188,6 +188,9 @@ smalltext, bigtext, returnup, sfx, bg, notbg
 --icon: url("/icons/prskhumans/postadv/casual/emuneneruimikukaito.png");
 }
 
+.toocolourful.regularvsall {
+--icon: url("/icons/common/prskvs/rinmikulenkaitolukameiko.png");
+}
 /*
 \\\\\\\\\\\\\\\ PROJECT SEKAI /////////////////
 */
@@ -218,6 +221,10 @@ smalltext, bigtext, returnup, sfx, bg, notbg
 
 .miku {
   --color: #c0f3e2;
+}
+
+.rinlen {
+  --color: #ffedba;
 }
 
 .mikukaito {
@@ -618,6 +625,10 @@ smalltext, bigtext, returnup, sfx, bg, notbg
   --icon: url("/icons/common/prskvs/rin.png");
 }
 
+.rinlen.regular {
+  --icon: url("/icons/common/prskvs/rinlen.png");
+}
+
 .kaito.gallerian {
   --icon: url("/icons/common/prskvs/gallerian.png");
 }
@@ -767,6 +778,10 @@ smalltext, bigtext, returnup, sfx, bg, notbg
 
 .mametchi.tama {
   --icon: url("/icons/common/prsktamagotchis/mametchi.png");
+}
+
+.mametchimiku.tama {
+  --icon: url("/icons/common/prsktamagotchis/mametchimiku.png");
 }
 
 .mimitchi {
