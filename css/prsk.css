@@ -335,6 +335,10 @@ smalltext, bigtext, returnup, sfx, bg, notbg
   --color: #dad1ce;
 }
 
+.enaakito {
+  --color: #e5d1cb;
+}
+
 .an {
   --color: #c4cdea;
 }
@@ -555,6 +559,10 @@ smalltext, bigtext, returnup, sfx, bg, notbg
 --icon: url("/icons/prskhumans/preadv/casual/mizuki.png");
 }
 
+.mizuki.y1school {
+--icon: url("/icons/prskhumans/preadv/school/mizuki.png");
+}
+
 .mizuki.y2cord {
 --icon: url("/icons/prskhumans/postadv/unit/mizuki.png");
 }
@@ -583,8 +591,16 @@ smalltext, bigtext, returnup, sfx, bg, notbg
 --icon: url("/icons/prskhumans/preadv/unit/ena.png");
 }
 
+.ena.y1school {
+--icon: url("/icons/prskhumans/preadv/school/ena.png");
+}
+
 .ena.y1casual {
 --icon: url("/icons/prskhumans/preadv/casual/ena.png");
+}
+
+.enaakito.y1casualstreet {
+--icon: url("/icons/prskhumans/preadv/casual/enaakito.png");
 }
 
 .ena.enanan {
