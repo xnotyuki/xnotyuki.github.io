@@ -423,6 +423,10 @@ smalltext, bigtext, returnup, sfx, bg, notbg
 --icon: url("/icons/prskhumans/postadv/casual/emunene.png");
 }
 
+.emunene.y1wonderhoi {
+--icon: url("/icons/prskhumans/preadv/unit/emunene.png");
+}
+
 .tsukasa.y1wonderhoi {
 --icon: url("/icons/prskhumans/preadv/unit/tsukasa.png");
 }
@@ -461,6 +465,10 @@ smalltext, bigtext, returnup, sfx, bg, notbg
 
 .emuruinene.y2unitcasual {
 --icon: url("/icons/prskhumans/postadv/unit/emuruinene.png");
+}
+
+.emuruinene.y1unitcasual {
+--icon: url("/icons/prskhumans/preadv/unit/emunenerui.png");
 }
 
 /* MMJ */
@@ -655,6 +663,10 @@ smalltext, bigtext, returnup, sfx, bg, notbg
 
 .kaito.regular {
   --icon: url("/icons/common/prskvs/kaito.png");
+}
+
+.kaito.y1wonderhoi {
+  --icon: url("/icons/common/prskvs/preadv/kaitowxs.png");
 }
 
 .kaito.y2wonderhoi {
