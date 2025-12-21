@@ -754,6 +754,10 @@ smalltext, bigtext, returnup, sfx, bg, notbg
   --icon: url("/icons/prskhumans/preadv/unit/nenerobo.png");
 }
 
+.nenerobo.y2 {
+  --icon: url("/icons/prskhumans/postadv/unit/nenerobo.png");
+}
+
 .mascot {
   --color: #f3d2c5;
   --icon: url("/icons/prskhumans/kigurumi.png");
