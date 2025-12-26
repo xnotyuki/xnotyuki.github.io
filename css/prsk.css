@@ -583,6 +583,10 @@ smalltext, bigtext, returnup, sfx, bg, notbg
 --icon: url("/icons/prskhumans/preadv/unit/mafuyu.png");
 }
 
+.mafuyu.y2casual {
+--icon: url("/icons/prskhumans/postadv/casual/mafuyu.png");
+}
+
 .mafuyu.y1sch {
 --icon: url("/icons/prskhumans/preadv/school/mafuyu.png");
 }
@@ -629,6 +633,10 @@ smalltext, bigtext, returnup, sfx, bg, notbg
   --icon: url("/icons/common/prskvs/preadv/lenvbs.png");
 }
 
+.len.y2nightcord {
+  --icon: url("/icons/common/prskvs/postadv/len25.png");
+}
+
 .len.regular {
   --icon: url("/icons/common/prskvs/len.png");
 }
@@ -643,6 +651,10 @@ smalltext, bigtext, returnup, sfx, bg, notbg
 
 .rin.y1nightcord {
   --icon: url("/icons/common/prskvs/preadv/rin25.png");
+}
+
+.rin.y2nightcord {
+  --icon: url("/icons/common/prskvs/postadv/rin25.png");
 }
 
 .rin.regular {
@@ -697,6 +709,10 @@ smalltext, bigtext, returnup, sfx, bg, notbg
   --icon: url("/icons/common/prskvs/preadv/meiko25.png");
 }
 
+.meiko.y2nightcord {
+  --icon: url("/icons/common/prskvs/postadv/meiko25.png");
+}
+
 .meiko.regular {
   --icon: url("/icons/common/prskvs/meiko.png");
 }
@@ -717,6 +733,10 @@ smalltext, bigtext, returnup, sfx, bg, notbg
   --icon: url("/icons/common/prskvs/preadv/luka25.png");
 }
 
+.luka.y2nightcord {
+  --icon: url("/icons/common/prskvs/postadv/luka25.png");
+}
+
 .luka.y2wxs {
   --icon: url("/icons/common/prskvs/postadv/lukawxs.png");
 }
@@ -731,6 +751,10 @@ smalltext, bigtext, returnup, sfx, bg, notbg
 
 .miku.y1nightcord {
   --icon: url("/icons/common/prskvs/preadv/miku25.png");
+}
+
+.miku.y2nightcord {
+  --icon: url("/icons/common/prskvs/postadv/miku25.png");
 }
 
 .miku.y2wonderhoi {
