@@ -279,6 +279,10 @@ smalltext, bigtext, returnup, sfx, bg, notbg
   --color: #bbdaf7;
 }
 
+.ruitsukasa {
+  --color: #ede0e7;
+}
+
 .honami {
   --color: #f5c9c9;
 }
@@ -445,6 +449,10 @@ smalltext, bigtext, returnup, sfx, bg, notbg
 
 .tsukasa.y2casual {
 --icon: url("/icons/prskhumans/postadv/casual/tsukasa.png");
+}
+
+.ruitsukasa.y2casual {
+--icon: url("/icons/prskhumans/postadv/casual/ruitsukasa.png");
 }
 
 .tsukasaemu.y2wonderhoi {
@@ -637,6 +645,10 @@ smalltext, bigtext, returnup, sfx, bg, notbg
   --icon: url("/icons/common/prskvs/postadv/len25.png");
 }
 
+.len.y2wonderhoi {
+  --icon: url("/icons/common/prskvs/postadv/lenwxs.png");
+}
+
 .len.regular {
   --icon: url("/icons/common/prskvs/len.png");
 }
@@ -651,6 +663,10 @@ smalltext, bigtext, returnup, sfx, bg, notbg
 
 .rin.y1nightcord {
   --icon: url("/icons/common/prskvs/preadv/rin25.png");
+}
+
+.rin.y2wonderhoi {
+  --icon: url("/icons/common/prskvs/postadv/rinwxs.png");
 }
 
 .rin.y2nightcord {
