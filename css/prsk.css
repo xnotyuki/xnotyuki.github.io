@@ -275,6 +275,10 @@ smalltext, bigtext, returnup, sfx, bg, notbg
   --color: #dfbae2;
 }
 
+.nenerui {
+  --color: #d9d9e0;
+}
+
 .ichika {
   --color: #bbdaf7;
 }
@@ -293,6 +297,14 @@ smalltext, bigtext, returnup, sfx, bg, notbg
 
 .shiho {
   --color: #bfffd1;
+}
+
+.airi {
+  --color: #ffbbd8;
+}
+
+.shizuku {
+  --color: #bff9ff;
 }
 
 .ichikasaki {
@@ -431,6 +443,10 @@ smalltext, bigtext, returnup, sfx, bg, notbg
 --icon: url("/icons/prskhumans/preadv/unit/emunene.png");
 }
 
+.nenerui.y1casual {
+--icon: url("/icons/prskhumans/preadv/casual/nenerui.png");
+}
+
 .tsukasa.y1wonderhoi {
 --icon: url("/icons/prskhumans/preadv/unit/tsukasa.png");
 }
@@ -487,6 +503,14 @@ smalltext, bigtext, returnup, sfx, bg, notbg
 
 .minori.y1casual {
 --icon: url("/icons/prskhumans/preadv/casual/minori.png");
+}
+
+.shizuku.y1casual {
+--icon: url("/icons/prskhumans/preadv/casual/shizuku.png");
+}
+
+.airi.y1casual {
+--icon: url("/icons/prskhumans/preadv/casual/airi.png");
 }
 
 .minorikohane.y1casualunit {
